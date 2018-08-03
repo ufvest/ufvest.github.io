@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Long Haul
+title: Cronograma da Disciplina
 ---
 
 <div class="post">
