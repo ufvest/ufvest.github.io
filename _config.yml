@@ -12,12 +12,16 @@ gems: [jekyll-paginate]
 paginate: 5
 
 navigation:
- - title: Home
+ - title: Inicio
    url: /index.html
  - title: Cronograma
    url: /cronograma
  - title: Contato
    url: /contato
+ - title: Aulas
+   url: /aulas
+ - title: Exercícios
+   url: /exercicios
 
 social:
    github: maf105
