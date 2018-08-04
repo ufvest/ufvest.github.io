@@ -7,7 +7,7 @@ description: Página com as aulas da disciplina.
 
 <p class="intro"><span class="dropcap">S</span>egundo Semestre de 2018.</p>
 
-##
+---
 
 * [Aula 1][aula1] 
 * [Aula 2][aula2]
