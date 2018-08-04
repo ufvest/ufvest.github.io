@@ -5,13 +5,15 @@ date:   2018-08-07
 description: Página com as aulas da disciplina.
 ---
 
-<p class="intro"><span class="dropcap">C</span>Segundo Semestre de 2018.</p>
+<p class="intro"><span class="dropcap">S</span>egundo Semestre de 2018.</p>
 
-[Aula 1][aula1] 
-[Aula 2][aula2]
-[Aula 3][aula3]
-[Aula 4][aula4]
-[Aula 5][aula5]
+## Aulas 
+
+* [Aula 1][aula1] 
+* [Aula 2][aula2]
+* [Aula 3][aula3]
+* [Aula 4][aula4]
+* [Aula 5][aula5]
 
 [Repositório das aulas][maf105-gh].
 
