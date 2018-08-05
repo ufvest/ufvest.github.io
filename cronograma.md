@@ -20,11 +20,17 @@ title: Cronograma da Disciplina
 06-11/08
          </td>  
           <td valign="center" align="left">  Apresentação de objetivos e conteúdo da disciplina.
+          
 	Bibliografia. Avaliações.
+	
 	Conceitos introdutórios
+	
 	Conceitos de estatística, população e amostra.
+	
 	O estudo e o uso da estatística
+	
 	Somatório e Produtório.
+	
 	Estatística descritiva.
   </td>
   </tr>
