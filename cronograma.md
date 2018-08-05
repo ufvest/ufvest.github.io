@@ -3,15 +3,20 @@ layout: default
 title: Cronograma da Disciplina
 ---
 
-<h1 class="pageTitle">Cronograma do semestre 2 
-2018</h1>
+<h1 class="pageTitle">Iniciação à Estatística</h1>
 
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
+
+<tr>
+    <th colspan="2" align="center">Cronograma do Segundo Semestre de 2018 - MAF 105</th>
+</tr>
+
 <tr>
     <TH>Agosto</TH>
     <td valign="center" align="center">Não há feriados </td>
 </tr>
+
 <tr>
 <td valign="center" align="center"> 1ª Semana<BR>
 06-11/08<BR>
@@ -24,168 +29,190 @@ title: Cronograma da Disciplina
 	Somatório e Produtório.<BR>
 	Estatística descritiva.<BR>
   </td>
-  </tr>
- <tr>
-<td valign="center" align="center"> 2ª Semana<BR>
-13-18<BR>
-</td>  
-<td valign="center" align="left"> 	Apresentação gráfica e tabular.<BR>
+</tr>
+  
+<tr>
+ <td valign="center" align="center"> 2ª Semana<BR>
+ 13-18<BR>
+ </td>  
+ <td valign="center" align="left"> 	Apresentação gráfica e tabular.<BR>
 	Medidas de posição e de dispersão<BR>
   </td>
-  </tr>
-<tr>
-<td valign="center" align="center"> 3ª Semana<BR>
-20-25<BR>
-         </td>  
-          <td valign="center" align="left"> 	Introdução à teoria da probabilidade<BR>
-	Espaço amostral<BR>
-	Eventos<BR>
-	Conceitos de probabilidade<BR>
-	Teoremas do cálculo de probabilidade<BR>
-  </td>
-  </tr>
-<tr>
-    <TH>Setembro</TH> 
-    <td valign="center" align="center"> 7 de setembro - feriado </td>
 </tr>
- <tr>
-<td valign="center" align="center"> 4ª Semana<BR>
-03-08<BR>
-         </td>  
-          <td valign="center" align="left"> 	Probabilidade condicional e independência estocástica<BR>
-	Teorema de Bayes.<BR>
-	Aplicações<BR>
-  </td>
-  </tr>
+ 
 <tr>
-<td valign="center" align="center"> 5ª Semana<BR>
-10-15<BR>
-         </td>  
-          <td valign="center" align="left"> 	Exercícios<BR>
-	1ª Prova - Valor 100 pontos <BR>
-  </td>
-  </tr>
-<tr>
-<td valign="center" align="center"> 6ª Semana<BR>
-17-22<BR>
-         </td>  
-          <td valign="center" align="left"> Variáveis aleatórias discretas e contínuas<BR>
-Funções de variáveis aleatórias <BR>
-  </td>
-  </tr>
-<tr>
-<td valign="center" align="center"> 7ª Semana<BR>
-24-29<BR>
-         </td>  
-          <td valign="center" align="left"> Variáveis aleatórias discretas: funções de probabilidade.<BR>
-Variáveis aleatórias contínuas: funções densidade de probabilidade. <BR>
-  </td>
-  </tr>
-<tr>
-    <TH>Outubro</TH>
-    <td valign="center" align="center"> 12 de outubro - feriado<BR>
-	28 de outubro - feriado <BR>
+ <td valign="center" align="center"> 3ª Semana<BR>
+ 20-25<BR>
+ </td>  
+ <td valign="center" align="left"> 	Introdução à teoria da probabilidade<BR>
+ Espaço amostral<BR>
+ Eventos<BR>
+ Conceitos de probabilidade<BR>
+ Teoremas do cálculo de probabilidade<BR>
  </td>
 </tr>
+
 <tr>
-<td valign="center" align="center"> 8ª Semana<BR>
-01-06 <BR>
-         </td>  
-          <td valign="center" align="left">  Variáveis aleatórias bidimensionais.<BR>
-	Aplicações<BR>
-	Esperança matemática e propriedades, variância, covariância e propriedades.<BR>
-	Coeficiente de correlação populacional.<BR>
-  </td>
-  </tr>
+ <TH>Setembro</TH> 
+ <td valign="center" align="center"> 7 de setembro - feriado </td>
+</tr>
+
 <tr>
-<td valign="center" align="center"> 9ª Semana<BR>
-08 - 13 <BR>
-         </td>  
-          <td valign="center" align="left"> Recesso Escolar
-  </td>
-  </tr>
+ <td valign="center" align="center"> 4ª Semana<BR>
+ 03-08<BR>
+ </td>  
+ <td valign="center" align="left"> 	Probabilidade condicional e independência estocástica<BR>
+ Teorema de Bayes.<BR>
+ Aplicações<BR>
+ </td>
+</tr>
+
 <tr>
-<td valign="center" align="center"> 10ª Semana<BR>
-15 - 20<BR>
-         </td>  
-          <td valign="center" align="left"> 	Distribuições de variáveis aleatórias discretas e contínuas<BR>
-	Distribuições de variáveis aleatórias discretas: uniforme, binomial e Poisson <BR>
-  </td>
-  </tr>
+ <td valign="center" align="center"> 5ª Semana<BR>
+ 10-15<BR>
+ </td>  
+ <td valign="center" align="left"> 	Exercícios<BR>
+ 1ª Prova - Valor 100 pontos <BR>
+ </td>
+</tr>
+
 <tr>
-<td valign="center" align="center"> 11ª Semana<BR>
-22 - 27 <BR>
-         </td>  
-          <td valign="center" align="left"> 	Distribuição de variáveis aleatórias contínuas: uniforme e normal<BR>
-	Aplicações <BR>
-  </td>
-  </tr>
+ <td valign="center" align="center"> 6ª Semana<BR>
+ 17-22<BR>
+ </td>  
+ <td valign="center" align="left"> Variáveis aleatórias discretas e contínuas<BR>
+ Funções de variáveis aleatórias <BR>
+ </td>
+</tr>
+
 <tr>
-<td valign="center" align="center"> 12ª Semana<BR>
-29-03/10<BR>
-         </td>  
-          <td valign="center" align="left"> 	Exercícios;<BR>
-	2ª Prova - Valor 100 pontos <BR>
-  </td>
-  </tr>
+ <td valign="center" align="center"> 7ª Semana<BR>
+ 24-29<BR>
+ </td>  
+ <td valign="center" align="left"> Variáveis aleatórias discretas: funções de probabilidade.<BR>
+ Variáveis aleatórias contínuas: funções densidade de probabilidade. <BR>
+ </td>
+</tr>
+
+<tr>
+ <TH>Outubro</TH>
+ <td valign="center" align="center"> 12 de outubro - feriado<BR>
+ 28 de outubro - feriado <BR>
+ </td>
+</tr>
+
+<tr>
+ <td valign="center" align="center"> 8ª Semana<BR>
+ 01-06 <BR>
+ </td>  
+ <td valign="center" align="left">  Variáveis aleatórias bidimensionais.<BR>
+ Aplicações<BR>
+ Esperança matemática e propriedades, variância, covariância e propriedades.<BR>
+ Coeficiente de correlação populacional.<BR>
+ </td>
+</tr>
+
+<tr>
+ <td valign="center" align="center"> 9ª Semana<BR>
+ 08 - 13 <BR>
+ </td>  
+ <td valign="center" align="left"> Recesso Escolar
+ </td>
+</tr>
+
+<tr>
+ <td valign="center" align="center"> 10ª Semana<BR>
+ 15 - 20<BR>
+ </td>  
+ <td valign="center" align="left"> 	Distribuições de variáveis aleatórias discretas e contínuas<BR>
+ Distribuições de variáveis aleatórias discretas: uniforme, binomial e Poisson <BR>
+ </td>
+</tr>
+
+<tr>
+ <td valign="center" align="center"> 11ª Semana<BR>
+ 22 - 27 <BR>
+ </td>  
+ <td valign="center" align="left"> 	Distribuição de variáveis aleatórias contínuas: uniforme e normal<BR>
+ Aplicações <BR>
+ </td>
+</tr>
+
+<tr>
+ <td valign="center" align="center"> 12ª Semana<BR>
+ 29-03/10<BR>
+ </td>  
+ <td valign="center" align="left"> 	Exercícios;<BR>
+ 2ª Prova - Valor 100 pontos <BR>
+ </td>
+</tr>
+
+<tr>
     <TH>Novembro</TH>
     <td valign="center" align="center">2 de novembro - feriado<BR>
 	15 de novembro - feriado <BR>
  </td>
-</tr>    
-<tr>
-<td valign="center" align="center"> 13ª Semana<BR>
-05-10 <BR>
-         </td>  
-          <td valign="center" align="left"> 	Alguns conceitos sobre testes de hipóteses<BR>
-	Tipos de erros<BR>
-	Procedimento para se efetuar um teste de significância<BR>
-  </td>
-  </tr>    
-<tr>
-<td valign="center" align="center"> 14ª Semana<BR>
-12-17<BR>
-         </td>  
-          <td valign="center" align="left"> 	Os testes Z, F e t.<BR>
-	O teste de qui-quadrado. <BR>
-  </td>
-  </tr>    
-<tr>
-<td valign="center" align="center"> 15ª Semana<BR>
-19 - 24<BR>
-         </td>  
-          <td valign="center" align="left"> 	Correlação amostral.<BR>
-	Diagrama de dispersão.<BR>
-	Coeficiente de correlação.<BR>
-	Aplicações <BR>
-  </td>
-  </tr>    
-<tr>
-<td valign="center" align="center"> 16ª Semana<BR>
-26-01/12<BR>
-         </td>  
-          <td valign="center" align="left"> 	Regressão linear simples.<BR>
-	Aplicações.<BR>
-	Aula de exercícios e 3ª Prova - Valor 100 pontos<BR>
-  </td>
-  </tr>
-<tr>
-    <TH>Dezembro</TH>
-    <td valign="center" align="center"> - </td>
 </tr>
+
 <tr>
-<td valign="center" align="center"> 17ª Semana<BR>
-02-07<BR>
-         </td>  
-          <td valign="center" align="left"> 	Aula de exercícios com o monitor da disciplina<BR>
-  </td>
-  </tr>
+ <td valign="center" align="center"> 13ª Semana<BR>
+ 05-10 <BR>
+ </td>  
+ <td valign="center" align="left"> 	Alguns conceitos sobre testes de hipóteses<BR>
+ Tipos de erros<BR>
+ Procedimento para se efetuar um teste de significância<BR>
+ </td>
+</tr>    
+
 <tr>
-<td valign="center" align="center"> 18ª Semana<BR>
-12-15<BR>
-         </td>  
-          <td valign="center" align="left"> 	Exame Final
-  </td>
-  </tr>
+ <td valign="center" align="center"> 14ª Semana<BR>
+ 12-17<BR>
+ </td>  
+ <td valign="center" align="left"> 	Os testes Z, F e t.<BR>
+ O teste de qui-quadrado. <BR>
+ </td>
+</tr>    
+
+<tr>
+ <td valign="center" align="center"> 15ª Semana<BR>
+ 19 - 24<BR>
+ </td>  
+ <td valign="center" align="left"> 	Correlação amostral.<BR>
+ Diagrama de dispersão.<BR>
+ Coeficiente de correlação.<BR>
+ Aplicações <BR>
+ </td>
+</tr> 
+
+<tr>
+ <td valign="center" align="center"> 16ª Semana<BR>
+ 26-01/12<BR>
+ </td>  
+ <td valign="center" align="left"> 	Regressão linear simples.<BR>
+ Aplicações.<BR>
+ Aula de exercícios e 3ª Prova - Valor 100 pontos<BR>
+ </td>
+</tr>
+
+<tr>
+ <TH>Dezembro</TH>
+ <td valign="center" align="center"> - </td>
+</tr>
+
+<tr>
+ <td valign="center" align="center"> 17ª Semana<BR>
+ 02-07<BR>
+ </td>  
+ <td valign="center" align="left"> 	Aula de exercícios com o monitor da disciplina<BR>
+ </td>
+</tr>
+
+<tr>
+ <td valign="center" align="center"> 18ª Semana<BR>
+ 12-15<BR>
+ </td>  
+ <td valign="center" align="left"> 	Exame Final
+ </td>
+</tr>
 </TABLE>
 </CENTER></DIV>
