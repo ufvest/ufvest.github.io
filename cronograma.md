@@ -3,11 +3,10 @@ layout: default
 title: Cronograma da Disciplina
 ---
 
+#Cronograma do semestre 2 - 2018
+
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
-<tr>
-    <td colspan="2", align="center">Cronograma</td>
-</tr>
 <tr>
     <TH>Agosto</TH>
     <td valign="center" align="center">Não há feriados </td>
