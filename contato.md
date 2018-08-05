@@ -13,7 +13,7 @@ title: Página de Contatos
   <form action="http://formspree.io/ufv.florestal.maf105@gmail.com" method="POST">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
-    <label for="email">ufv.florestal.maf105@gmail.com</label>
+    <label for="email">Seu email</label>
     <input type="email" id="email" name="_replyto" class="full-width"><br>
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br>
