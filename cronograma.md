@@ -9,7 +9,7 @@ title: Cronograma da Disciplina
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
 <tr>
-    <th colspan="2", align="center">Cronograma</th>
+    <td colspan="2", align="center">Cronograma</td>
 </tr>
 <tr>
     <TH>Agosto</TH>
@@ -19,38 +19,32 @@ title: Cronograma da Disciplina
 <td valign="center" align="center"> 1ª Semana
 06-11/08
          </td>  
-          <td valign="center" align="left">  Apresentação de objetivos e conteúdo da disciplina.
-          
-	Bibliografia. Avaliações.
-	
-	Conceitos introdutórios
-	
-	Conceitos de estatística, população e amostra.
-	
-	O estudo e o uso da estatística
-	
-	Somatório e Produtório.
-	
-	Estatística descritiva.
+          <td valign="center" align="left">  Apresentação de objetivos e conteúdo da disciplina.<BR>
+  Bibliografia. Avaliações.<BR>
+	Conceitos introdutórios<BR>
+	Conceitos de estatística, população e amostra.<BR>
+	O estudo e o uso da estatística<BR>
+	Somatório e Produtório.<BR>
+	Estatística descritiva.<BR>
   </td>
   </tr>
  <tr>
 <td valign="center" align="center"> 2ª Semana
 13-18
 </td>  
-<td valign="center" align="left"> 	Apresentação gráfica e tabular.
-	Medidas de posição e de dispersão
+<td valign="center" align="left"> 	Apresentação gráfica e tabular.<BR>
+	Medidas de posição e de dispersão<BR>
   </td>
   </tr>
 <tr>
 <td valign="center" align="center"> 3ª Semana
 20-25
          </td>  
-          <td valign="center" align="left"> 	Introdução à teoria da probabilidade
-	Espaço amostral
-	Eventos
-	Conceitos de probabilidade
-	Teoremas do cálculo de probabilidade
+          <td valign="center" align="left"> 	Introdução à teoria da probabilidade<BR>
+	Espaço amostral<BR>
+	Eventos<BR>
+	Conceitos de probabilidade<BR>
+	Teoremas do cálculo de probabilidade<BR>
   </td>
   </tr>
 <tr>
@@ -61,9 +55,9 @@ title: Cronograma da Disciplina
 <td valign="center" align="center"> 4ª Semana
 03-08
          </td>  
-          <td valign="center" align="left"> 	Probabilidade condicional e independência estocástica
-	Teorema de Bayes.
-	Aplicações
+          <td valign="center" align="left"> 	Probabilidade condicional e independência estocástica<BR>
+	Teorema de Bayes.<BR>
+	Aplicações<BR>
   </td>
   </tr>
 <tr>
@@ -78,16 +72,16 @@ title: Cronograma da Disciplina
 <td valign="center" align="center"> 6ª Semana
 17-22
          </td>  
-          <td valign="center" align="left"> Variáveis aleatórias discretas e contínuas
-Funções de variáveis aleatórias 
+          <td valign="center" align="left"> Variáveis aleatórias discretas e contínuas<BR>
+Funções de variáveis aleatórias <BR>
   </td>
   </tr>
 <tr>
 <td valign="center" align="center"> 7ª Semana
 24-29
          </td>  
-          <td valign="center" align="left"> Variáveis aleatórias discretas: funções de probabilidade.
-Variáveis aleatórias contínuas: funções densidade de probabilidade. 
+          <td valign="center" align="left"> Variáveis aleatórias discretas: funções de probabilidade.<BR>
+Variáveis aleatórias contínuas: funções densidade de probabilidade. <BR>
   </td>
   </tr>
 <tr>
@@ -100,10 +94,10 @@ Variáveis aleatórias contínuas: funções densidade de probabilidade.
 <td valign="center" align="center"> 8ª Semana
 01-06 
          </td>  
-          <td valign="center" align="left">  Variáveis aleatórias bidimensionais.
-	Aplicações
-	Esperança matemática e propriedades, variância, covariância e propriedades.
-	Coeficiente de correlação populacional.
+          <td valign="center" align="left">  Variáveis aleatórias bidimensionais.<BR>
+	Aplicações<BR>
+	Esperança matemática e propriedades, variância, covariância e propriedades.<BR>
+	Coeficiente de correlação populacional.<BR>
   </td>
   </tr>
 <tr>
@@ -117,16 +111,16 @@ Variáveis aleatórias contínuas: funções densidade de probabilidade.
 <td valign="center" align="center"> 10ª Semana
 15 - 20
          </td>  
-          <td valign="center" align="left"> 	Distribuições de variáveis aleatórias discretas e contínuas
-	Distribuições de variáveis aleatórias discretas: uniforme, binomial e Poisson 
+          <td valign="center" align="left"> 	Distribuições de variáveis aleatórias discretas e contínuas<BR>
+	Distribuições de variáveis aleatórias discretas: uniforme, binomial e Poisson <BR>
   </td>
   </tr>
 <tr>
 <td valign="center" align="center"> 11ª Semana
 22 - 27 
          </td>  
-          <td valign="center" align="left"> 	Distribuição de variáveis aleatórias contínuas: uniforme e normal
-	Aplicações 
+          <td valign="center" align="left"> 	Distribuição de variáveis aleatórias contínuas: uniforme e normal<BR>
+	Aplicações <BR>
   </td>
   </tr>
 <tr>
@@ -146,36 +140,36 @@ Variáveis aleatórias contínuas: funções densidade de probabilidade.
 <td valign="center" align="center"> 13ª Semana
 05-10 
          </td>  
-          <td valign="center" align="left"> 	Alguns conceitos sobre testes de hipóteses
-	Tipos de erros
-	Procedimento para se efetuar um teste de significância
+          <td valign="center" align="left"> 	Alguns conceitos sobre testes de hipóteses<BR>
+	Tipos de erros<BR>
+	Procedimento para se efetuar um teste de significância<BR>
   </td>
   </tr>    
 <tr>
 <td valign="center" align="center"> 14ª Semana
 12-17
          </td>  
-          <td valign="center" align="left"> 	Os testes Z, F e t.
-	O teste de qui-quadrado. 
+          <td valign="center" align="left"> 	Os testes Z, F e t.<BR>
+	O teste de qui-quadrado. <BR>
   </td>
   </tr>    
 <tr>
 <td valign="center" align="center"> 15ª Semana
 19 - 24
          </td>  
-          <td valign="center" align="left"> 	Correlação amostral.
-	Diagrama de dispersão.
-	Coeficiente de correlação.
-	Aplicações 
+          <td valign="center" align="left"> 	Correlação amostral.<BR>
+	Diagrama de dispersão.<BR>
+	Coeficiente de correlação.<BR>
+	Aplicações <BR>
   </td>
   </tr>    
 <tr>
 <td valign="center" align="center"> 16ª Semana
 26-01/12
          </td>  
-          <td valign="center" align="left"> 	Regressão linear simples.
-	Aplicações.
-	Aula de exercícios e 3ª Prova - Valor 100 pontos
+          <td valign="center" align="left"> 	Regressão linear simples.<BR>
+	Aplicações.<BR>
+	Aula de exercícios e 3ª Prova - Valor 100 pontos<BR>
   </td>
   </tr>
 <tr>
@@ -186,7 +180,7 @@ Variáveis aleatórias contínuas: funções densidade de probabilidade.
 <td valign="center" align="center"> 17ª Semana
 02-07
          </td>  
-          <td valign="center" align="left"> 	Aula de exercícios com o monitor da disciplina
+          <td valign="center" align="left"> 	Aula de exercícios com o monitor da disciplina<BR>
   </td>
   </tr>
 <tr>
@@ -197,25 +191,4 @@ Variáveis aleatórias contínuas: funções densidade de probabilidade.
   </td>
   </tr>
 </TABLE>
-</CENTER></DIV>	
-
-|---------------------------------------------------------------------| 
-|                             Cronograma                              |
-|---------------------------------------------------------------------| 
-| Agosto        |                                                     |
-| ------------- |:---------------------------------------------------:|
-| 1ª Semana     | Apresentação de objetivos e conteúdo da disciplina. |
-| 06 - 11/08    | Bibliografia. Avaliações.                           |
-|               | Conceitos introdutórios                             |
-|               | Conceitos de estatística, população e amostra.      |
-|               | O estudo e o uso da estatística                     |
-|               | Somatório e Produtório.                             |
-|               | Estatística descritiva.                             |
-|---------------------------------------------------------------------| 
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
+</CENTER></DIV>
