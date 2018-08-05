@@ -4,12 +4,13 @@ title:  "Test Post"
 date:   2014-12-10
 ---
 
-<p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
+<h1 class="pageTitle">Cronograma do semestre 2 
+2018</h1>
 
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
 <tr>
-    <td colspan="2", align="center">Cronograma</td>
+    <td align="center">Cronograma</td>
 </tr>
 <tr>
     <TH>Agosto</TH>
