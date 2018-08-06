@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Aulas"
 date:   2018-08-07
 description: Página com as aulas da disciplina.

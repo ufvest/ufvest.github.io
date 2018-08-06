@@ -1,24 +1,31 @@
 ---
 layout: default
-title: Cronograma da Disciplina
+title:  "Exercicíos"
+date:   2018-08-07
+description: Página com listas de exercícios.
 ---
 
-<div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
-</div>
+
+<p class="intro">Página com listas de exercícios.</p>
+
+---
+
+* [Lista 1][Introducao] - Lista sobre tipo de variáveis, somatório e produtório.
+* [Lista 2][Medidas] - Lista sobre medidas de posição e dispersão, gráficos e assuntos introdutórios.
+* [Lista 3][Probabilidade] - Lista sobre probabilidade.
+* [Lista 4][Variaveis] - Lista sobre Variáveis aleatórias (discretas e continuas).
+* [Lista 5][Distribuicoes] - Lista sobre Distribuições (discretas e continuas).
+* [Lista 6][Regressao] - Lista sobre regressão linear.
+* [Lista 7][Testes] - Lista sobre Testes de hipóteses.
+
+# Bancos de dados utilizados na disciplina e na resolução dos exercícios
+
+* [dados 1][Introducao] - 
+* [dados 2][Medidas] - 
+* [dados 3][Probabilidade] - 
+* [dados 4][Variaveis] - 
+* [dados 5][Distribuicoes] - 
+* [dados 6][Regressao] - 
+* [dados 7][Testes] - 
+---
+   
