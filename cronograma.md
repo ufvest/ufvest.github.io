@@ -15,7 +15,7 @@ title: Cronograma da Disciplina
 <tr>
     <th>Provas</th>
     <th align="center">Data (Conteúdo) </th>
-    <th align="center">Valor </td>
+    <th align="center">Valor </th>
 </tr>
 
 <tr>
