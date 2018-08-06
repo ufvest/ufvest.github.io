@@ -3,18 +3,16 @@ layout: default
 title: Página de Contatos
 ---
 
-<div id="contato">
-  <h1 class="pageTitle">Página de Contatos da disciplina</h1>
-  <div class="contatoContent">
-    <p class="intro">Você pode enviar um e-mail ou contactar o professor através do Telegram</p>
-    <p>Link do Telegram:</p>
-</div>
-    
+<p class="intro">Página de Contatos da disciplina.</p>
+
 ---
+
+Você pode enviar um e-mail ou contactar o professor através do Telegram. Link do Telegram:
 
 [Telegram](https://t.me/joinchat/AAAAAEa_QXCd0Ws4Vslqrg)
 
 ---
+
 
 </div>
   <form method="POST" action="https://formspree.io/ufv.florestal.maf105@gmail.com">
