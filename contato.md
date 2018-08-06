@@ -11,7 +11,7 @@ title: Página de Contatos
     
 ---
 
-[Telegram][Telegram]
+[Telegram](https://t.me/joinchat/AAAAAEa_QXCd0Ws4Vslqrg)
 
 ---
   </div>
@@ -28,4 +28,4 @@ title: Página de Contatos
   </form>
 </div>
 
-[Telegram]:    https://t.me/joinchat/AAAAAEa_QXCd0Ws4Vslqrg
+
