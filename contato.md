@@ -7,7 +7,7 @@ title: Página de Contatos
 
 ---
 
-Há o grupo de discussão do Telegram, local para discussão de assuntos relacionados a disciplina, para a divulgação de projetos, para divulgação de links relacionados a disciplina, para divulgação sobre a atualização deste site, para críticas e sugestões. É extremamente importante que todos os alunos participem!
+Há o grupo de discussão do Telegram, local para discussão de assuntos relacionados a disciplina, para a divulgação de projetos, para divulgação de links relacionados a disciplina e para informações sobre a atualização deste site. É extremamente importante que todos os alunos participem!
 
 [Telegram](https://t.me/joinchat/AAAAAEa_QXCd0Ws4Vslqrg)
 
