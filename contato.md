@@ -8,13 +8,15 @@ title: Página de Contatos
   <div class="contatoContent">
     <p class="intro">Você pode enviar um e-mail ou contactar o professor através do Telegram</p>
     <p>Link do Telegram:</p>
+</div>
     
 ---
 
 [Telegram](https://t.me/joinchat/AAAAAEa_QXCd0Ws4Vslqrg)
 
 ---
-  </div>
+
+</div>
   <form method="POST" action="https://formspree.io/ufv.florestal.maf105@gmail.com">
     <label for="name">Name</label>
     <input type="text" id="name" name="Nome" class="full-width"><br>
