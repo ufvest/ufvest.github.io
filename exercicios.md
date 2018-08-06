@@ -6,7 +6,7 @@ description: Página com listas de exercícios.
 ---
 
 
-<p class="intro">Listas de exercícios e Bancos de Dados.</p>
+<p class="intro">Listas de exercícios.</p>
 
 ---
 
@@ -18,7 +18,7 @@ description: Página com listas de exercícios.
 * [Lista 6][Regressao] - Lista sobre regressão linear.
 * [Lista 7][Testes] - Lista sobre Testes de hipóteses.
 
-## Bancos de dados utilizados na disciplina e na resolução dos exercícios
+<p class="intro">Bancos de dados utilizados na disciplina e na resolução dos exercícios</p>
 
 * [dados 1][Introducao] - 
 * [dados 2][Medidas] - 
