@@ -3,7 +3,7 @@ layout: default
 title: Página de Contatos
 ---
 
-<p class="intro">Página de Contatos da disciplina.</p>
+# Página de Contatos da disciplina.
 
 ---
 
