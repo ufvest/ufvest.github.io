@@ -21,19 +21,19 @@ title: Cronograma da Disciplina
 <tr>
 <td valign="center" align="center"> 1ª Prova<BR></td>  
           <td valign="center" align="center">  Dia 15 de Setembro- Sábado - 10h00 ás 12h00.<BR> (Ver Cronograma)</td>
-<td>100 pontos</td>
+<td valign="center" align="center">100 pontos</td>
 </tr>
 
 <tr>
 <td valign="center" align="center"> 2ª Prova<BR></td>  
           <td valign="center" align="center">  Dia 03 de Outubro- Sábado - 10h00 ás 12h00.<BR> (Ver Cronograma)</td>
-<td>100 pontos</td>
+<td valign="center" align="center">100 pontos</td>
 </tr>
 
 <tr>
 <td valign="center" align="center"> 3ª Prova<BR></td>  
           <td valign="center" align="center">  Dia 01 de Dezembro- Sábado - 10h00 ás 12h00.<BR>(Ver Cronograma)</td>
-<td>100 pontos</td>
+<td valign="center" align="center">100 pontos</td>
 </tr>
 
 <tr>
@@ -43,7 +43,7 @@ title: Cronograma da Disciplina
 <tr>
 <td valign="center" align="center"> Exame Final<BR> e <BR> Substitutiva</td>  
           <td valign="center" align="center">  Dia 12 de Dezembro- Sábado - 10h00 ás 12h00.<BR>(Toda a Matéria)</td>
-<td>100 pontos</td>
+<td valign="center" align="center">100 pontos</td>
 </tr>
   
 </TABLE>
