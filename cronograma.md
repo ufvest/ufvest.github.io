@@ -56,208 +56,272 @@ title: Cronograma da Disciplina
     <th colspan="2" align="center">Cronograma do Segundo Semestre de 2018 - MAF 105</th>
 </tr>
 
-<tr>
-    <TH>Agosto</TH>
-    <td valign="center" align="center">Não há feriados </td>
-</tr>
+<DIV align="center"><CENTER>
+<TABLE border="1" cellpadding="5" cellspacing="0">
 
-<tr>
-<td valign="center" align="center"> 1ª Semana<BR>
-06-11/08<BR>
-         </td>  
-          <td valign="center" align="left">  Apresentação de objetivos e conteúdo da disciplina.<BR>
-  Bibliografia. Avaliações.<BR>
-	Conceitos introdutórios<BR>
-	Conceitos de estatística, população e amostra.<BR>
-	O estudo e o uso da estatística<BR>
-	Somatório e Produtório.<BR>
-	Estatística descritiva.<BR>
-  </td>
-</tr>
-  
-<tr>
- <td valign="center" align="center"> 2ª Semana<BR>
- 13-18<BR>
- </td>  
- <td valign="center" align="left"> 	Apresentação gráfica e tabular.<BR>
-	Medidas de posição e de dispersão<BR>
-  </td>
-</tr>
- 
-<tr>
- <td valign="center" align="center"> 3ª Semana<BR>
- 20-25<BR>
- </td>  
- <td valign="center" align="left"> 	Introdução à teoria da probabilidade<BR>
- Espaço amostral<BR>
- Eventos<BR>
- Conceitos de probabilidade<BR>
- Teoremas do cálculo de probabilidade<BR>
- </td>
-</tr>
+<tr>		
+<th valign="center" align="center">	Data	<BR></th>
+<th valign="center" align="center">	Dias da Semana	<BR></th>
+<th valign="center" align="center">	Conteúdo previsto	<BR></th>
+<th valign="center" align="center">	Aula	<BR></th>
+<th valign="center" align="center">	CH	<BR></th>
+</tr>		
+<tr>		
+<td valign="center" align="center">	07/08/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Apresentação do curso, critérios de avaliação, cronograma e alguns conceitos fundamentais.	<BR></td>
+<td valign="center" align="center">	1	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	09/08/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Apresentação gráfica e tabular, Medidas de posição e de dispersão.	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	14/08/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Aula prática: Excel, Latex, R	<BR></td>
+<td valign="center" align="center">	3	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	16/08/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Introdução à teoria da probabilidade	<BR></td>
+<td valign="center" align="center">	4	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	21/08/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Aula de exercícios	<BR></td>
+<td valign="center" align="center">	5	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	23/08/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	VI Semana Acadêmica de Matemática - Não haverá aula	<BR></td>
+<td valign="center" align="center">	6	<BR></td>
+<td valign="center" align="center">	0	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	28/08/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Teoremas do cálculo de probabilidade 	<BR></td>
+<td valign="center" align="center">	7	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	30/08/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Aula de exercícios	<BR></td>
+<td valign="center" align="center">	8	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	04/09/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Probabilidade condicional e independência estocástica	<BR></td>
+<td valign="center" align="center">	9	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	06/09/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Aula prática	<BR></td>
+<td valign="center" align="center">	10	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	11/09/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Teorema de Bayes	<BR></td>
+<td valign="center" align="center">	11	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	13/09/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Aplicações de probabilidade	<BR></td>
+<td valign="center" align="center">	12	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	18/09/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Aula de Exercícios	<BR></td>
+<td valign="center" align="center">	13	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	20/09/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Primeira Prova - Valor 100 pontos	<BR></td>
+<td valign="center" align="center">	14	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	25/09/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Correção da primeira prova	<BR></td>
+<td valign="center" align="center">	15	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	27/09/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Variáveis aleatórias discretas e contínuas, Funções de variáveis aleatórias	<BR></td>
+<td valign="center" align="center">	16	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	02/10/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Variáveis aleatórias discretas: funções de probabilidade, Variáveis aleatórias contínuas: funções densidade de probabilidade	<BR></td>
+<td valign="center" align="center">	17	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	04/10/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Variáveis aleatórias bidimensionais.	<BR></td>
+<td valign="center" align="center">	18	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	09/10/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Esperança matemática e propriedades, variância, covariância e propriedades.	<BR></td>
+<td valign="center" align="center">	19	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	11/10/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Não Haverá aula	<BR></td>
+<td valign="center" align="center">	20	<BR></td>
+<td valign="center" align="center">	0	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	16/10/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Simpósio de Integração Acadêmica - Não haverá aula	<BR></td>
+<td valign="center" align="center">	21	<BR></td>
+<td valign="center" align="center">	0	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	18/10/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Simpósio de Integração Acadêmica - Não haverá aula	<BR></td>
+<td valign="center" align="center">	22	<BR></td>
+<td valign="center" align="center">	0	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	23/10/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Distribuições de variáveis aleatórias discretas e contínuas, Distribuições de variáveis aleatórias discretas: uniforme, binomial e Poisson	<BR></td>
+<td valign="center" align="center">	23	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	25/10/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Distribuição de variáveis aleatórias contínuas: uniforme e normal	<BR></td>
+<td valign="center" align="center">	24	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	30/10/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Aula prática	<BR></td>
+<td valign="center" align="center">	25	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	01/11/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Aula de Exercícios	<BR></td>
+<td valign="center" align="center">	26	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	06/11/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Segunda Prova	<BR></td>
+<td valign="center" align="center">	27	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	08/11/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Não Haverá aula	<BR></td>
+<td valign="center" align="center">	28	<BR></td>
+<td valign="center" align="center">	0	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	13/11/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	testes de hipóteses	<BR></td>
+<td valign="center" align="center">	29	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	15/11/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Feriado - Proclamação da República	<BR></td>
+<td valign="center" align="center">	30	<BR></td>
+<td valign="center" align="center">	0	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	20/11/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Testes Z, F e t.	<BR></td>
+<td valign="center" align="center">	31	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	22/11/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Teste de qui-quadrado	<BR></td>
+<td valign="center" align="center">	32	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	27/11/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Regressão linear simples.	<BR></td>
+<td valign="center" align="center">	34	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	29/11/2018	<BR></td>
+<td valign="center" align="center">	Quinta	<BR></td>
+<td valign="center" align="center">	Aula de Exercícios	<BR></td>
+<td valign="center" align="center">	35	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	04/12/2018	<BR></td>
+<td valign="center" align="center">	Terça	<BR></td>
+<td valign="center" align="center">	Terceira Prova	<BR></td>
+<td valign="center" align="center">	36	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+<tr>		
+<td valign="center" align="center">	12/12/2018	<BR></td>
+<td valign="center" align="center">	Quarta	<BR></td>
+<td valign="center" align="center">	Exame Final/ Prova Substitutiva	<BR></td>
+<td valign="center" align="center">	37	<BR></td>
+<td valign="center" align="center">	2	<BR></td>
+</tr>		
+	
 
-<tr>
- <TH>Setembro</TH> 
- <td valign="center" align="center"> 7 de setembro - feriado </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 4ª Semana<BR>
- 03-08<BR>
- </td>  
- <td valign="center" align="left"> 	Probabilidade condicional e independência estocástica<BR>
- Teorema de Bayes.<BR>
- Aplicações<BR>
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 5ª Semana<BR>
- 10-15<BR>
- </td>  
- <td valign="center" align="left"> 	Exercícios<BR>
- 1ª Prova - Valor 100 pontos <BR>
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 6ª Semana<BR>
- 17-22<BR>
- </td>  
- <td valign="center" align="left"> Variáveis aleatórias discretas e contínuas<BR>
- Funções de variáveis aleatórias <BR>
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 7ª Semana<BR>
- 24-29<BR>
- </td>  
- <td valign="center" align="left"> Variáveis aleatórias discretas: funções de probabilidade.<BR>
- Variáveis aleatórias contínuas: funções densidade de probabilidade. <BR>
- </td>
-</tr>
-
-<tr>
- <TH>Outubro</TH>
- <td valign="center" align="center"> 12 de outubro - feriado<BR>
- 28 de outubro - feriado <BR>
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 8ª Semana<BR>
- 01-06 <BR>
- </td>  
- <td valign="center" align="left">  Variáveis aleatórias bidimensionais.<BR>
- Aplicações<BR>
- Esperança matemática e propriedades, variância, covariância e propriedades.<BR>
- Coeficiente de correlação populacional.<BR>
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 9ª Semana<BR>
- 08 - 13 <BR>
- </td>  
- <td valign="center" align="left"> Recesso Escolar
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 10ª Semana<BR>
- 15 - 20<BR>
- </td>  
- <td valign="center" align="left"> 	Distribuições de variáveis aleatórias discretas e contínuas<BR>
- Distribuições de variáveis aleatórias discretas: uniforme, binomial e Poisson <BR>
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 11ª Semana<BR>
- 22 - 27 <BR>
- </td>  
- <td valign="center" align="left"> 	Distribuição de variáveis aleatórias contínuas: uniforme e normal<BR>
- Aplicações <BR>
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 12ª Semana<BR>
- 29-03/10<BR>
- </td>  
- <td valign="center" align="left"> 	Exercícios;<BR>
- 2ª Prova - Valor 100 pontos <BR>
- </td>
-</tr>
-
-<tr>
-    <TH>Novembro</TH>
-    <td valign="center" align="center">2 de novembro - feriado<BR>
-	15 de novembro - feriado <BR>
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 13ª Semana<BR>
- 05-10 <BR>
- </td>  
- <td valign="center" align="left"> 	Alguns conceitos sobre testes de hipóteses<BR>
- Tipos de erros<BR>
- Procedimento para se efetuar um teste de significância<BR>
- </td>
-</tr>    
-
-<tr>
- <td valign="center" align="center"> 14ª Semana<BR>
- 12-17<BR>
- </td>  
- <td valign="center" align="left"> 	Os testes Z, F e t.<BR>
- O teste de qui-quadrado. <BR>
- </td>
-</tr>    
-
-<tr>
- <td valign="center" align="center"> 15ª Semana<BR>
- 19 - 24<BR>
- </td>  
- <td valign="center" align="left"> 	Correlação amostral.<BR>
- Diagrama de dispersão.<BR>
- Coeficiente de correlação.<BR>
- Aplicações <BR>
- </td>
-</tr> 
-
-<tr>
- <td valign="center" align="center"> 16ª Semana<BR>
- 26-01/12<BR>
- </td>  
- <td valign="center" align="left"> 	Regressão linear simples.<BR>
- Aplicações.<BR>
- Aula de exercícios e 3ª Prova - Valor 100 pontos<BR>
- </td>
-</tr>
-
-<tr>
- <TH>Dezembro</TH>
- <td valign="center" align="center"> - </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 17ª Semana<BR>
- 02-07<BR>
- </td>  
- <td valign="center" align="left"> 	Aula de exercícios com o monitor da disciplina<BR>
- </td>
-</tr>
-
-<tr>
- <td valign="center" align="center"> 18ª Semana<BR>
- 12-15<BR>
- </td>  
- <td valign="center" align="left"> 	Exame Final
- </td>
-</tr>
+</TABLE>
+</CENTER></DIV>
 </TABLE>
 </CENTER></DIV>
 
