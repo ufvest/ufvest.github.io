@@ -53,7 +53,7 @@ title: Cronograma da Disciplina
 <TABLE border="1" cellpadding="5" cellspacing="0">
 
 <tr>
-    <th colspan="2" align="center">Cronograma do Segundo Semestre de 2018 - MAF 105</th>
+    <th colspan="5" align="center">Cronograma do Segundo Semestre de 2018 - MAF 105</th>
 </tr>
 
 <tr>		
