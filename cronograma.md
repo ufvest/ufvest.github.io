@@ -56,9 +56,6 @@ title: Cronograma da Disciplina
     <th colspan="2" align="center">Cronograma do Segundo Semestre de 2018 - MAF 105</th>
 </tr>
 
-<DIV align="center"><CENTER>
-<TABLE border="1" cellpadding="5" cellspacing="0">
-
 <tr>		
 <th valign="center" align="center">	Data	<BR></th>
 <th valign="center" align="center">	Dias da Semana	<BR></th>
@@ -320,8 +317,6 @@ title: Cronograma da Disciplina
 </tr>		
 	
 
-</TABLE>
-</CENTER></DIV>
 </TABLE>
 </CENTER></DIV>
 
