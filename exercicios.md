@@ -20,13 +20,13 @@ description: Página com listas de exercícios.
 
 <p class="intro">Bancos de dados utilizados na disciplina e na resolução dos exercícios:</p>
 
-* [dados 1][Introducao] - 
-* [dados 2][Medidas] - 
-* [dados 3][Probabilidade] - 
-* [dados 4][Variaveis] - 
-* [dados 5][Distribuicoes] - 
-* [dados 6][Regressao] - 
-* [dados 7][Testes] - 
+* [dados 1][Introducao1] - 
+* [dados 2][Medidas1] - 
+* [dados 3][Probabilidade1] - 
+* [dados 4][Variaveis1] - 
+* [dados 5][Distribuicoes1] - 
+* [dados 6][Regressao1] - 
+* [dados 7][Testes1] - 
 
 ---
 
