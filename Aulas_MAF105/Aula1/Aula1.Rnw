@@ -134,7 +134,9 @@ com outros resultados, ou ainda para julgar sua adequação a alguma teoria.
 \frametitle{Introdução}
 \begin{block}{}
 \justifying
+\begin{center}
 \Large{\bf{Não Tem Como Escapar dos Dados!}}
+\end{center}
 \end{block}
 \end{frame}
 
@@ -145,7 +147,7 @@ com outros resultados, ou ainda para julgar sua adequação a alguma teoria.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{BigData}
-    %\caption{Legenda}
+    \caption{Revista Exame 2017 (\cite{exame17})}
     %\label{figRotulo}
   \end{figure}
 \end{block}
@@ -179,7 +181,7 @@ com outros resultados, ou ainda para julgar sua adequação a alguma teoria.
 \end{block}
 \begin{block}{}
 \justifying
-A IDC (empresa líder em inteligência de mercado e consultoria nas indústrias de tecnologia da informação, telecomunicações e mercados de consumo em massa de tecnologia) estima que, do total de dados no mundo, $22\%$ contêm informação útil. E apenas $5\%$ foram analisados e utilizados de alguma forma. [citar EXAME]
+A IDC (empresa líder em inteligência de mercado e consultoria nas indústrias de tecnologia da informação, telecomunicações e mercados de consumo em massa de tecnologia) estima que, do total de dados no mundo, $22\%$ contêm informação útil. E apenas $5\%$ foram analisados e utilizados de alguma forma. \cite{exame14}
 \end{block}
 \end{frame}
 
@@ -233,8 +235,9 @@ Ressalto que a Estatística é a ciência que ensina a ``ESCUTAR" os dados, não
 \begin{block}{}
 \justifying
 A estatística é a arte de torturar os números até que eles confessem!
-
 *Darrell Huff's - Como mentir com estatísticas (1954)
+
+Leiam também \cite{super16}.
 \end{block}
 \end{frame}
 
@@ -242,10 +245,14 @@ A estatística é a arte de torturar os números até que eles confessem!
 \frametitle{Introdução}
 \begin{block}{}
 \justifying
-Na primeira parte deste curso estaremos interessados na redução, análise e interpretação dos dados sob consideração, adotando um enfoque que chamaremos de análise
-exploratória de dados (AED). Nessa abordagem tentaremos obter dos dados a maior
-quantidade possível de informação, que indique modelos plausíveis a serem utilizados
-numa fase posterior, a análise confirmatória de dados (ou inferência estatística).
+Na primeira parte deste curso estaremos interessados em:
+\begin{itemize}
+\item Reduzir, Analisar e interpretar dados!
+\end{itemize}
+\pause
+Na Análise exploratória de dados (AED) queremos obter dos dados a maior
+quantidade possível de informação, para indicar modelos plausíveis a serem utilizados
+na inferência estatística.
 \end{block}
 \end{frame}
 
@@ -253,9 +260,7 @@ numa fase posterior, a análise confirmatória de dados (ou inferência estatís
 \frametitle{Introdução}
 \begin{block}{}
 \justifying
-Tradicionalmente, uma análise descritiva de dados limita-se a calcular algumas
-medidas de posição e variabilidade, como a média e variância, por exemplo. Contrária
-a essa tendência, uma corrente mais moderna, utiliza principalmente técnicas gráficas, em oposição a resumos numéricos. Isso não significa que sumários não devam ser obtidos, mas uma análise exploratória de dados não deve se limitar a calcular tais medidas.
+Vamos aprender e calcular algumas medidas de posição e de variabilidade. E aprender técnicas gráficas para a análise exploratória de dados. 
 \end{block}
 \end{frame}
 
@@ -263,8 +268,7 @@ a essa tendência, uma corrente mais moderna, utiliza principalmente técnicas g
 \frametitle{Modelos}
 \begin{block}{}
 \justifying
-Fundamentalmente, quando se procede a uma análise de dados, busca-se alguma
-forma de regularidade ou padrão ou, ainda, um modelo, presente nas observações.
+Fundamentalmente, quando se procede a uma análise de dados, busca-se alguma forma de regularidade ou padrão ou, ainda, um modelo, presente nas observações.
 \end{block}
 \end{frame}
 
@@ -272,9 +276,10 @@ forma de regularidade ou padrão ou, ainda, um modelo, presente nas observaçõe
 \frametitle{Modelos}
 \begin{block}{Exemplo}
 \justifying
-Imagine que estejamos estudando a relação entre rendimentos e gastos
-de consumo de um conjunto de indivíduos. Podemos obter um gráfico como o da
-Figura \ref{fig_ex1}. O que se espera, intuitivamente, é que os gastos de um indivíduo estejam diretamente relacionados com os seus rendimentos, de modo que é razoável supor uma “relação linear” entre essas duas quantidades. Os pontos da Figura \ref{fig_ex1} não estão todos, evidentemente, sobre uma reta; essa seria o nosso padrão ou modelo. A diferença entre os dados e o modelo constitui os resíduos.
+Imagine que estejamos estudando a relação entre rendimentos e gastos de consumo de um conjunto de indivíduos. Podemos obter um gráfico como o da Figura 
+\ref{fig_ex1}. O que se espera, intuitivamente, é que os gastos de um indivíduo estejam diretamente relacionados com os seus rendimentos, de modo que é razoável 
+supor uma “relação linear” entre essas duas quantidades. Os pontos da Figura \ref{fig_ex1} não estão todos, evidentemente, sobre uma reta, essa seria o nosso padrão 
+ou modelo. A diferença entre os dados e o modelo constitui os resíduos.
 \end{block}
 \end{frame}
 
@@ -283,7 +288,7 @@ Figura \ref{fig_ex1}. O que se espera, intuitivamente, é que os gastos de um in
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Fig1}
-    \caption{Relação entre consumo e rendimento.}
+    \caption{Relação entre consumo e rendimento (\cite{Morettin09}).}
     \label{fig_ex1}
   \end{figure}
 \end{frame}
@@ -302,8 +307,13 @@ D=M+R
 \pause
 \begin{block}{}
 \justifying
-A parte M é também chamada parte suave (ou regular ou, ainda, previsível) dos
-dados, enquanto R é a parte aleatória. A parte R é tão importante quanto M, e a análise dos resíduos constitui uma parte fundamental de todo trabalho estatístico. Basicamente, são os resíduos que nos dizem se o modelo é adequado ou não para representar os dados. De modo coloquial, o que se deseja é que a parte R não contenha nenhuma “suavidade”, caso contrário mais “suavização” é necessária.
+A parte M é também chamada parte suave (ou regular ou, ainda, previsível) dos dados, enquanto R é a parte aleatória. 
+\end{block}
+\pause
+\begin{block}{}
+\justifying
+A parte R é tão importante quanto M, e a análise dos resíduos constitui uma parte fundamental de todo trabalho estatístico. Basicamente, são os resíduos que nos 
+dizem se o modelo é adequado ou não para representar os dados.
 \end{block}
 \end{frame}
 
@@ -320,8 +330,8 @@ para estabelecer (\ref{eq1}).
 \frametitle{Técnicas Computacionais}
 \begin{block}{}
 \justifying
-O desenvolvimento rápido e constante na área de computação foi acompanhado pela
-introdução de novas técnicas de análise de dados, notadamente de métodos gráficos e de métodos chamados de computação intensiva.
+O desenvolvimento rápido e constante na área de computação foi acompanhado pela introdução de novas técnicas de análise de dados, notadamente de métodos 
+gráficos e de métodos chamados de computação intensiva.
 \end{block}
 \end{frame}
 
@@ -329,7 +339,28 @@ introdução de novas técnicas de análise de dados, notadamente de métodos gr
 \frametitle{Técnicas Computacionais}
 \begin{block}{}
 \justifying
-Para a implementação dessas técnicas, foram desenvolvidos programas estatísticos, atualmente usados em larga escala tanto no meio acadêmico como em indústrias, bancos, órgãos de governo etc. Esses programas podem ser genéricos ou específicos. Os programas genéricos (como o R, Minitab, Splus, SPSS, SAS etc.) são adequados para realizar uma gama variada de análises estatísticas. Os pacotes específicos são planejados para realizar análises particulares de uma determinada área. O Excel não é considerado um software estatístico mas pode utilizado em diversas ocasiões para análise estatística.
+Para a implementação dessas técnicas, foram desenvolvidos programas estatísticos, atualmente usados em larga escala tanto no meio acadêmico como em indústrias, 
+bancos, órgãos de governo etc. Um dos mais utilizados na atualidade é o software R.
+\end{block}
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.3\textwidth, width=0.8\textwidth]{download}
+    %\caption{Logo R.}
+    %\label{fig_ex1}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Técnicas Computacionais}
+\begin{block}{}
+\justifying
+Por outro lado, os programas podem exigir maior ou menor experiência computacional dos usuários. Alguns operam com menus, e seu uso é mais simples. Outros 
+requerem maior familiaridade com o computador e são baseados em linguagens próprias. 
+\end{block}
+\begin{block}{}
+\textbf{Fiquem atentos}, \textbf{procurem aprender programação}, não tenha medo do computador! Estamos a bordo de uma revolução tecnológica que já está transformando 
+a forma como vivemos, trabalhamos e nos relacionamos e à medida que todas as empresas se tornam digitais, a demanda por profissionais de tecnologia aumenta 
+mais rápido do que a disponibilidade de mão de obra qualificada!
 \end{block}
 \end{frame}
 
@@ -337,18 +368,9 @@ Para a implementação dessas técnicas, foram desenvolvidos programas estatíst
 \frametitle{Técnicas Computacionais}
 \begin{block}{}
 \justifying
-Por outro lado, os programas podem exigir maior ou menor experiência computacional
-dos usuários. Alguns operam com menus, e seu uso é mais simples. Outros requerem
-maior familiaridade com o computador e são baseados em linguagens próprias.
-\end{block}
-\end{frame}
-
-\begin{frame}{}
-\frametitle{Técnicas Computacionais}
-\begin{block}{}
-\justifying
-Além dos pacotes estatísticos, há outros pacotes de grande utilidade para realizar tarefas matemáticas. Dentre estes, mencionamos o Mathematica, o Maple, o Gauss e o 
-MatLab. Existe também o Wolfram Alpha que é um mecanismo de conhecimento computacional que funciona on-line. Além disso, nesse curso, iremos utilizar o Latex como editor de texto.
+Além dos pacotes estatísticos, há outros pacotes de grande utilidade para realizar tarefas matemáticas. Dentre estes, mencionamos o Mathematica, o Maple, o Gauss 
+e o MatLab. Existe também o Wolfram Alpha e o Symbolab que é um mecanismo de conhecimento computacional que funciona on-line. Além disso, nesse curso, iremos 
+utilizar o Latex como editor de texto.
 \end{block}
 \end{frame}
 
@@ -356,7 +378,8 @@ MatLab. Existe também o Wolfram Alpha que é um mecanismo de conhecimento compu
 \frametitle{Métodos Gráficos}
 \begin{block}{}
 \justifying
-Os métodos gráficos têm encontrado um uso cada vez maior devido ao seu forte apelo visual. Normalmente, é mais fácil para qualquer pessoa entender a mensagem de um gráfico do que aquela embutida em tabelas ou sumários numéricos.
+Os métodos gráficos têm encontrado um uso cada vez maior devido ao seu forte apelo visual. Normalmente, é mais fácil para qualquer pessoa entender a mensagem 
+de um gráfico do que aquela embutida em tabelas ou sumários numéricos.
 \end{block}
 \end{frame}
 
@@ -414,9 +437,10 @@ em cada conjunto e depois explicitadas nas referências. usaremos para as análi
 \frametitle{Tipo de Variáveis}
 \begin{block}{}
 \justifying
-Conhecer o tipo da variável é importante porque os métodos estatísticos que você pode utilizar em sua análise variam de acordo com o tipo. A natureza dos valores correspondentes aos dados associados à variável determina o seu respectivo tipo. Existem dois tipos principais para variáveis:
+Conhecer o tipo da variável é importante porque os métodos estatísticos que você pode utilizar em sua análise variam de acordo com o tipo de variável. Existem dois 
+tipos principais para variáveis:
 \begin{itemize}
-\item {\bf Variáveis categóricas} (ou {\bf Variáveis qualitativas}) apresentam valores que podem somente ser posicionados em categorias tais como sim e não. “Você tem um perfil no Facebook?” (sim ou não) e que ano está cursando na faculdade (Primeiro Ano, Segundo Ano, Terceiro Ano ou Quarto Ano) são exemplos de variáveis categóricas.\pause
+\item {\bf Variáveis categóricas} (ou {\bf Variáveis qualitativas}) apresentam valores que podem somente ser posicionados em categorias tais como sim e não. \pause
 \item {\bf Variáveis numéricas} (ou {\bf Variáveis quantitativas}) apresentam valores que representam quantidades.
 \end{itemize}
 \end{block}
@@ -426,10 +450,8 @@ Conhecer o tipo da variável é importante porque os métodos estatísticos que 
 \frametitle{Tipo de Variáveis}
 \begin{block}{}
 \justifying
-Dentre as variáveis qualitativas, ainda podemos fazer uma distinção entre dois
-tipos: variável qualitativa nominal, para a qual não existe nenhuma ordenação nas
-possíveis realizações, e variável qualitativa ordinal, para a qual existe uma ordem
-nos seus resultados.
+Dentre as variáveis qualitativas, ainda podemos fazer uma distinção entre dois tipos: \textbf{variável qualitativa nominal}, para a qual não existe nenhuma ordenação nas
+possíveis realizações, e \textbf{variável qualitativa ordinal}, para a qual existe uma ordem nos seus resultados.
 \end{block}
 \end{frame}
 
@@ -437,12 +459,13 @@ nos seus resultados.
 \frametitle{}
 \begin{block}{}
 \justifying
-Variáveis numéricas podem ser, ainda, identificadas como variáveis discretas ou variáveis contínuas.
+Variáveis numéricas podem ser, ainda, identificadas como \textbf{variáveis discretas} ou \textbf{variáveis contínuas}.
 \end{block}
 \pause
 \begin{block}{}
 \justifying
-Variáveis discretas apresentam valores numéricos que surgem a partir de um processo de contagem. “A quantidade de canais de TV a Cabo Premium que você assina” é um exemplo de uma variável numérica discreta, uma vez que a resposta corresponde a um entre uma quantidade finita de números inteiros. Você assina zero, um, dois ou mais canais. “A quantidade de itens que um consumidor adquire” também corresponde a uma variável numérica discreta, uma vez que você está contando o número de itens comprados.
+\textbf{Variáveis discretas} apresentam valores numéricos que surgem a partir de um processo de contagem. ``A quantidade de canais de TV a Cabo Premium que você 
+assina'' é um exemplo de uma variável numérica discreta, uma vez que a resposta corresponde a um entre uma quantidade finita de números inteiros.
 \end{block}
 \end{frame}
 
@@ -450,7 +473,8 @@ Variáveis discretas apresentam valores numéricos que surgem a partir de um pro
 \frametitle{}
 \begin{block}{}
 \justifying
-Variáveis contínuas produzem respostas numéricas que surgem a partir de um processo de medição. O tempo que você espera pelo atendimento de um caixa no banco é um exemplo de variável numérica contínua, uma vez que a resposta pode assumir qualquer valor dentro dos limites de um continuum, ou de um intervalo, dependendo da precisão do instrumento de medição. Por exemplo, o seu tempo de espera poderia ser 1 minuto 1,1 minuto, 1,11 minuto ou 1,113 minuto, dependendo da precisão do dispositivo de medição utilizado. (Teoricamente, dois valores contínuos jamais poderiam ser absolutamente idênticos. No entanto, uma vez que nenhum dispositivo de medição é perfeitamente preciso, podem ocorrer valores contínuos idênticos para dois ou mais itens ou indivíduos.)
+Variáveis contínuas produzem respostas numéricas que surgem a partir de um processo de medição. O tempo que você espera pelo atendimento de um caixa no banco 
+é um exemplo de variável numérica contínua, uma vez que a resposta pode assumir qualquer valor dentro dos limites de um continuum, ou de um intervalo.
 \end{block}
 \end{frame}
 
@@ -458,7 +482,10 @@ Variáveis contínuas produzem respostas numéricas que surgem a partir de um pr
 \frametitle{}
 \begin{block}{}
 \justifying
-Em uma primeira análise, identificar o tipo da variável pode parecer fácil, embora algumas variáveis que você poderia desejar estudar possam ser categóricas ou numéricas, dependendo do modo como você as define. Por exemplo, “idade” aparentaria ser uma variável numérica evidente, mas o que acontece se você estiver interessado em comparar os hábitos de compra de crianças, adolescentes, pessoas de meia-idade e pessoas com idade para aposentadoria? Nesse caso, definir “idade” como uma variável categórica faria mais sentido. Mais uma vez, isso ilustra o ponto anterior de que, sem definições operacionais, as variáveis não têm nenhum significado.
+Em uma primeira análise, identificar o tipo da variável pode parecer fácil, embora algumas variáveis que você poderia desejar estudar possam ser categóricas ou numéricas, 
+dependendo do modo como você as define. Por exemplo, ``idade'' aparentaria ser uma variável numérica evidente, mas o que acontece se você estiver interessado em 
+comparar os hábitos de compra de crianças, adolescentes, pessoas de meia-idade e pessoas com idade para aposentadoria? Nesse caso, definir ``idade'' como uma 
+variável categórica faria mais sentido. 
 \end{block}
 \end{frame}
 
@@ -469,7 +496,7 @@ Em uma primeira análise, identificar o tipo da variável pode parecer fácil, e
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Fig2}
-    \caption{Classificação de uma variável.}
+    \caption{Classificação de uma variável (\cite{Morettin09}).}
     \label{Fig2_ex}
   \end{figure}
 \end{block}
@@ -504,8 +531,8 @@ Região de Procedência&$V$\\
 \frametitle{Distribuições de Freqüências}
 \begin{block}{}
 \justifying
-Quando se estuda uma variável, o maior interesse do pesquisador é conhecer o comportamento dessa variável, analisando a ocorrência de suas possíveis realizações. Vejamos uma maneira de se dispor um conjunto de realizações, para se ter uma idéia global
-sobre elas, ou seja, de sua distribuição.
+Quando se estuda uma variável, o maior interesse do pesquisador é conhecer o comportamento dessa variável, analisando a ocorrência de suas possíveis realizações. 
+Vejamos uma maneira de se dispor um conjunto de realizações, para se ter uma idéia global sobre elas, ou seja, de sua distribuição.
 \end{block}
 \end{frame}
 
@@ -545,7 +572,8 @@ resultados de duas pesquisas distintas.
 \pause
 \begin{block}{}
 \justifying
-Por exemplo, suponhamos que se queira comparar a variável grau de instrução para empregados da seção de orçamentos com a mesma variável para todos os empregados da Companhia MB. Digamos que a empresa tenha 2.000 empregados e que a distribuição de freqüências seja a da próxima Tabela.
+Por exemplo, suponhamos que se queira comparar a variável grau de instrução para empregados da seção de orçamentos com a mesma variável para todos os 
+empregados da Companhia MB. Digamos que a empresa tenha 2.000 empregados e que a distribuição de frequências seja a da próxima Tabela.
 \end{block}
 \end{frame}
 
@@ -554,7 +582,7 @@ Por exemplo, suponhamos que se queira comparar a variável grau de instrução p
 \begin{block}{}
 \justifying
 \begin{table}[H]
-\caption{Freqüências e porcentagens dos dos 2.000 empregados da seção de orçamentos da Companhia MB segundo o grau de instrução.}
+\caption{Freqüências e porcentagens dos dos 2.000 empregados da Companhia MB segundo o grau de instrução.}
 \label{tab3}
 \begin{tabular}{c|c|c|c}
 \hline
@@ -569,7 +597,8 @@ Total      &2.000    &1,0000   &100.00     \\
 \hline
 \end{tabular}
 \end{table}
-Não podemos comparar diretamente as colunas das freqüências das Tabelas \ref{tab2} e \ref{tab3}, pois os totais de empregados são diferentes nos dois casos. Mas as colunas das porcentagens são comparáveis, pois reduzimos as freqüências a um mesmo total (no caso 100).
+Não podemos comparar diretamente as colunas das frequências das Tabelas \ref{tab2} e \ref{tab3}, pois os totais de empregados são diferentes nos dois casos. Mas 
+as colunas das porcentagens são comparáveis, pois reduzimos as frequências a um mesmo total (no caso 100).
 \end{block}
 \end{frame}
 
@@ -577,9 +606,9 @@ Não podemos comparar diretamente as colunas das freqüências das Tabelas \ref{
 \frametitle{}
 \begin{block}{}
 \justifying
-A construção de tabelas de freqüências para variáveis contínuas necessita de certo
-cuidado. Por exemplo, a construção da tabela de freqüências para a variável salário,
-usando o mesmo procedimento acima, não resumirá as 36 observações num grupo
+A construção de tabelas de frequências para variáveis contínuas necessita de certo
+cuidado. Por exemplo, a construção da tabela de frequências para a variável salário,
+usando o mesmo procedimento acima, \textbf{não resumirá as 36 observações} num grupo
 menor, pois não existem observações iguais. A solução empregada é agrupar os dados
 por faixas de salário.
 \end{block}
@@ -590,7 +619,7 @@ por faixas de salário.
 \begin{block}{}
 \justifying
 \begin{table}[H]
-\caption{Freqüências e porcentagens dos dos 2.000 empregados da seção de orçamentos da Companhia MB por faixa de salário.}
+\caption{Frequências e porcentagens dos dos 2.000 empregados da seção de orçamentos da Companhia MB por faixa de salário.}
 \label{tab4}
 \begin{tabular}{c|c|c}
 \hline
@@ -635,9 +664,9 @@ Note que estamos usando a notação $a|-b$ para o intervalo de números contendo
 A escolha dos intervalos é arbitrária e a familiaridade do pesquisador com os dados é
 que lhe indicará quantas e quais classes (intervalos) devem ser usadas.
 \begin{itemize}
-\item Número pequeno de classes $\rightarrow$ perda de informação;
+\item Número pequeno de classes $\rightarrow$ perda de informação;\pause
 \item Número grande de classes $\rightarrow$ perda da visão geral dos dados
-como um conjunto;
+como um conjunto;\pause
 \item A sugestão é usar de 5 a 15 classes com a mesma amplitude;
 \end{itemize}
 \end{block}
@@ -649,9 +678,8 @@ como um conjunto;
 \justifying
 Para construir uma distribuição de frequências separando por classes uma determinada variável podemos utilizar:
 \begin{itemize}
-\item número de classes($n_{c}$)$\approx \sqrt{n}$ ou usamos a regra de Sturges 
-$n_{c}=\ln{(n)};$
-\item Amplitude da classe $=\dfrac{AT}{n_{c}}$
+\item número de classes($n_{c}$)$\approx \sqrt{n}$ ou usamos a regra de Sturges $n_{c}=\ln{(n)};$\pause
+\item Amplitude da classe $=\dfrac{AT}{n_{c}}$ 
 \end{itemize}
 em que $AT=\textrm{Maior valor} - \textrm{Menor valor}.$
 \end{block}
@@ -770,7 +798,7 @@ em que uma das dimensões é proporcional à magnitude a ser representada $(n_{i
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Fig3}
-    \caption{Gráfico em barras para a variável $Y:$ grau de instrução.}
+    \caption{Gráfico em barras para a variável $Y:$ grau de instrução (\cite{Morettin09}).}
     \label{Fig3_ex}
   \end{figure}
 \end{block}
@@ -794,7 +822,7 @@ correspondem às partes de maneira proporcional. A próxima Figura mostra esse t
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Fig4}
-    \caption{Gráfico em setores para a variável $Y:$ grau de instrução.}
+    \caption{Gráfico em setores para a variável $Y:$ grau de instrução (\cite{Morettin09}).}
     \label{Fig4_ex}
   \end{figure}
 \end{block}
@@ -828,7 +856,7 @@ usar tanto a frequência absoluta, $f_{i},$ como a relativa, $f_{ri}.$
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Fig5}
-    \caption{Histograma da variável $S:$ Salários.}
+    \caption{Histograma da variável $S:$ Salários (\cite{Morettin09}).}
     \label{Fig5_ex}
   \end{figure}
 \end{block}
@@ -863,7 +891,7 @@ variável $Z,$ número de filhos dos empregados casados.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Fig6}
-    \caption{Histograma da variável $Z:$ número de filhos.}
+    \caption{Histograma da variável $Z:$ número de filhos (\cite{Morettin09}).}
     \label{Fig6_ex}
   \end{figure}
 \end{block}
@@ -883,11 +911,15 @@ Caso utilizemos as frequências acumuladas ou frequências acumuladas relativas 
 \frametitle{}
 \begin{block}{}
 \justifying
-Vimos que o resumo de dados por meio de tabelas de freqüências e ramo-e-folhas fornece
+Vimos que o resumo de dados por meio de tabelas de frequências e ramo-e-folhas fornece
 muito mais informações sobre o comportamento de uma variável do que a própria tabela
-original de dados. Muitas vezes, queremos resumir ainda mais estes dados, apresentando
-um ou alguns valores que sejam representativos da série toda. Quando usamos um só 
-valor, obtemos uma redução drástica dos dados. Usualmente, emprega-se uma das seguintes medidas de posição (ou localização) central: média, mediana ou moda.
+original de dados. 
+\end{block}
+\pause
+\begin{block}{}
+\justifying
+Muitas vezes, queremos resumir ainda mais estes dados, apresentando um ou alguns valores que sejam representativos da série toda. \textbf{Quando usamos um só 
+valor, obtemos uma redução drástica dos dados.} Usualmente, emprega-se uma das seguintes medidas de posição (ou localização) central: média, mediana ou moda.
 \end{block}
 \end{frame}
 
@@ -895,8 +927,9 @@ valor, obtemos uma redução drástica dos dados. Usualmente, emprega-se uma das
 \frametitle{}
 \begin{block}{}
 \justifying
-A moda é definida como a realização mais freqüente do conjunto de valores observados.
-Por exemplo, considere a variável Z, número de filhos de cada funcionário casado,  resumida na Tabela de dados da companhia MB. Vemos que a moda é 2, correspondente à realização com maior freqüência, 7. Em alguns casos, pode haver mais de uma moda, ou seja, a distribuição dos valores pode ser bimodal, trimodal etc.
+A moda é definida como a realização mais frequente do conjunto de valores observados. Por exemplo, considere a variável $Z,$ número de filhos de cada funcionário 
+casado, resumida na Tabela de dados da companhia MB. Vemos que a moda é 2, correspondente à realização com maior frequência, 7. Em alguns casos, pode haver 
+mais de uma moda, ou seja, a distribuição dos valores pode ser bimodal, trimodal etc.
 \end{block}
 \end{frame}
 
@@ -918,16 +951,16 @@ Finalmente, a média aritmética, conceito familiar ao leitor, é a soma das obs
 \end{block}
 \end{frame}
 
-\begin{frame}{}
-\frametitle{}
-\begin{block}{}
-\justifying
-Neste exemplo, as três medidas têm valores próximos e qualquer uma delas pode ser
-usada como representativa da série toda. A média aritmética é, talvez, a medida mais usada.
-Contudo, ela pode conduzir a erros de interpretação. Em muitas situações, a mediana é uma
-medida mais adequada. Veremos algumas situações que ilustram tal afirmação.
-\end{block}
-\end{frame}
+%\begin{frame}{}
+%\frametitle{}
+%\begin{block}{}
+%\justifying
+%Neste exemplo, as três medidas têm valores próximos e qualquer uma delas pode ser
+%usada como representativa da série toda. A média aritmética é, talvez, a medida mais usada.
+%Contudo, ela pode conduzir a erros de interpretação. Em muitas situações, a mediana é uma
+%medida mais adequada. Veremos algumas situações que ilustram tal afirmação.
+%\end{block}
+%\end{frame}
 
 \begin{frame}{}
 \frametitle{}
@@ -935,12 +968,12 @@ medida mais adequada. Veremos algumas situações que ilustram tal afirmação.
 \justifying
 Se $x_{1},\cdots,x_{n}$ são os $n$ valores (distintos ou não) da variável $X,$ a média aritmética, ou simplesmente média, de $X$ pode ser escrita como:
 \begin{equation}
-\bx=\dfrac{x_{1}+\cdots+x_{n}}{n}=\dfrac{\displaystyle \sum_{i=1}^{n}}{x_{i}}
+\bx=\dfrac{x_{1}+\cdots+x_{n}}{n}=\dfrac{\displaystyle \sum_{i=1}^{n}{x_{i}}}{n}
 \end{equation}
 Agora, se tivermos $n$ observações da variável $X,$ das quais $n_{1}$ são iguais a $x_{1},$ $n_{2}$ são iguais
 a $x_{2},$ $n_{k}$ iguais a $x_{k},$ então a média de $X$ pode ser escrita como:
 \begin{equation}
-\bx=\dfrac{n_{1}x_{1}+\cdots+n_{k}x_{k}}{n}=\dfrac{\displaystyle \sum_{i=1}^{k}}{n_{i}x_{i}}
+\bx=\dfrac{n_{1}x_{1}+\cdots+n_{k}x_{k}}{n}=\dfrac{\displaystyle \sum_{i=1}^{k}n_{i}x_{i}}{n}
 \end{equation}
 \end{block}
 \end{frame}
@@ -1004,22 +1037,22 @@ média (5, em todos os casos) nada informa sobre suas diferentes variabilidades.
 \end{block}
 \end{frame}
 
-\begin{frame}{}
-\frametitle{}
-\begin{block}{}
-\justifying
-Um critério freqüentemente usado para tal fim é aquele que mede a dispersão dos
-dados em torno de sua média, e duas medidas são as mais usadas: desvio médio e variância.
-O princípio básico é analisar os desvios das observações em relação à média dessas
-observações.
-\end{block}
-\end{frame}
+%\begin{frame}{}
+%\frametitle{}
+%\begin{block}{}
+%\justifying
+%Um critério freqüentemente usado para tal fim é aquele que mede a dispersão dos
+%dados em torno de sua média, e duas medidas são as mais usadas: desvio médio e variância.
+%O princípio básico é analisar os desvios das observações em relação à média dessas
+%observações.
+%\end{block}
+%\end{frame}
 
 \begin{frame}{}
 \frametitle{}
 \begin{block}{}
 \justifying
-Um critério freqüentemente usado para tal fim é aquele que mede a dispersão dos
+Um critério frequentemente usado para tal fim é aquele que mede a dispersão dos
 dados em torno de sua média, e duas medidas são as mais usadas: desvio médio e variância.
 \begin{align}
 Dm(X) &=\displaystyle \dfrac{\sum_{i=1}^{n}|x_{i}-\bar{x}|}{n}\\
@@ -1033,13 +1066,13 @@ O princípio básico é analisar os desvios das observações em relação à m�
 \frametitle{}
 \begin{block}{}
 \justifying
-Sendo a variância uma medida de dimensão igual ao quadrado da dimensão dos dados (por exemplo, se os dados são expressos em $cm,$ a variância será expressa em $cm^{2}$), pode causar problemas de interpretação. Costuma-se usar, então, o desvio padrão, que é definido como a raiz quadrada positiva da variância.
+Sendo a variância uma medida de dimensão igual ao quadrado da dimensão dos dados (por exemplo, se os dados são expressos em $cm,$ a variância será expressa 
+em $cm^{2}$), ela pode causar problemas de interpretação. Costuma-se usar, então, o desvio padrão, que é definido como a raiz quadrada positiva da variância.
 \begin{equation}
 dp(X)=\sqrt{Var(X)}
 \end{equation}
-Ambas as medidas de dispersão ($Dm$ e $dp$) indicam em média qual será o “erro” (desvio)
-cometido ao tentar substituir cada observação pela medida resumo do conjunto de dados
-(no caso, a média).
+Ambas as medidas de dispersão ($Dm$ e $dp$) indicam em média qual será o ``erro'' (desvio) cometido ao tentar substituir cada observação pela medida resumo do 
+conjunto de dados (no caso, a média).
 \end{block}
 \end{frame}
 
@@ -1072,7 +1105,15 @@ heterogênio.
 \end{itemize}
 \item Intervalo Interquartil (pode ser considerada uma medida robusta de dispersão).
 \end{itemize}
+\end{block}
+\end{frame}
 
+\begin{frame}{}
+\frametitle{Distância Interquartil}
+\begin{block}{}
+\justifying
+Uma medida de dispersão alternativa ao desvio padrão é a distância interquartil, definida como a diferença entre o terceiro e primeiro quartis, ou seja:
+$$d_{q}=q_{3}-q_{1}$$
 \end{block}
 \end{frame}
 
@@ -1080,9 +1121,8 @@ heterogênio.
 \frametitle{}
 \begin{block}{}
 \justifying
-Os cinco valores, $x(1), q1, q2, q3 e x(n)$ são importantes para se ter uma boa idéia da
-assimetria da distribuição dos dados. Para uma distribuição simétrica ou aproximadamente
-simétrica, deveríamos ter:
+Os cinco valores, $x(1), q_{1}, q_{2}, q_{3} e x(n)$ são importantes para se ter uma boa ideia da assimetria da distribuição dos dados. Para uma distribuição simétrica 
+ou aproximadamente simétrica, deveríamos ter:
 \begin{enumerate}
 \item[(a)] $q_{2}-x_{(1)}\approx x_{(n)}-q_{2};$
 \item[(b)] $q_{2}-q_{(1)}\approx q_{(3)}-q_{2};$
@@ -1109,7 +1149,7 @@ aproximadamente simétrica. A próxima Figura ilustra estes fatos para a chamada
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Fig7}
-    \caption{Uma distribuição simétrica: normal ou gaussiana.}
+    \caption{Uma distribuição simétrica: normal ou gaussiana (\cite{Morettin09}).}
     \label{Fig7_ex}
   \end{figure}
 \end{block}
@@ -1119,11 +1159,12 @@ aproximadamente simétrica. A próxima Figura ilustra estes fatos para a chamada
 \frametitle{}
 \begin{block}{}
 \justifying
-As cinco estatísticas de ordem consideradas acima podem ser representadas esquematicamente como na próxima Figura, onde também incorporamos o número de observações, $n.$ Representamos a mediana por $md,$ os quartis por $q$ e os extremos por $E.$
+As cinco estatísticas de ordem consideradas acima podem ser representadas esquematicamente como na próxima Figura, onde também incorporamos o número de 
+observações, $n.$ Representamos a mediana por $md,$ os quartis por $q$ e os extremos por $E.$
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Fig8}
-    \caption{Esquema dos cinco números.}
+    \caption{Esquema dos cinco números (\cite{Morettin09}).}
     \label{Fig8_ex}
   \end{figure}
 \end{block}
@@ -1175,7 +1216,7 @@ As cinco estatísticas de ordem consideradas acima podem ser representadas esque
 \begin{figure}[H]
     \centering
     \includegraphics[height=0.4\textwidth]{Fig9}
-    \caption{Esquema de um BoxPlot.}
+    \caption{Esquema de um BoxPlot (\cite{Morettin09}).}
     \label{Fig9_ex}
   \end{figure}
 \end{block}
@@ -1216,7 +1257,7 @@ linhas que vão do retângulo aos valores remotos e pelos valores atípicos.
 \begin{figure}[H]
     \centering
     \includegraphics[height=0.4\textwidth,width=15cm]{Fig10}
-    \caption{Distribuições assimétricas.}
+    \caption{Distribuições assimétricas (\cite{Morettin09}).}
     \label{Fig10_ex}
   \end{figure}
 \end{frame}
@@ -1272,9 +1313,14 @@ $0 < p < 1$ é apropriada, pois valores grandes de $x$ decrescem mais, relativam
 \begin{figure}[H]
     \centering
     \includegraphics[height=0.4\textwidth,width=15cm]{Fig11}
-    \caption{Exemplo de Histogramas para dados transformados.}
+    \caption{Exemplo de Histogramas para dados transformados (\cite{Morettin09}).}
     \label{Fig101_ex}
   \end{figure}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Referências Bibliográficas}
+\bibliography{bibliografia}
 \end{frame}
 
 \end{document} 
