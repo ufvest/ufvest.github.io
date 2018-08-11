@@ -1,0 +1,3 @@
+\babel@toc {brazil}{}
+\beamer@sectionintoc {1}{Somat\IeC {\'o}rios}{3}{0}{1}
+\beamer@sectionintoc {2}{Produt\IeC {\'o}rio}{14}{0}{2}
