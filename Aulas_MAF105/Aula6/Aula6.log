@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  14 AUG 2018 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  13 AUG 2018 22:28
 entering extended mode
-**./Aula1.tex
-(Aula1.tex
+**./Aula6.tex
+(Aula6.tex
 LaTeX2e <2018-04-01> patch level 5
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamer.cls"
 Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
@@ -1650,15 +1650,13 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 53.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemeorchid.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerinnerthemerounded.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerouterthemeinfolines.sty"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemestructure.sty")
 \c@Teorema=\count393
 \c@Proposicao=\count394
 \c@Definicao=\count395
 \c@Corolario=\count396
 \c@Demonstracao=\count397
-
-(Aula1.aux)
-\openout1 = `Aula1.aux'.
+(Aula6.aux)
+\openout1 = `Aula6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
 LaTeX Font Info:    ... okay on input line 111.
@@ -1880,464 +1878,45 @@ LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
 (Font)              Font shape `T1/aess/m/sl' tried instead on input line 111.
 Package xypdf Info: Line width: 0.57597pt on input line 111.
- (Aula1.nav)
-(Aula1-concordance.tex) [1
+ (Aula6.nav)
+(Aula6-concordance.tex) [1
 
-{C:/Users/fsbma/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Aula1.toc)
+{C:/Users/fsbma/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Aula6.toc)
  [2
 
 ] [3
 
-] [4
-
-]
-<BigData.jpg, id=60, 963.6pt x 487.8225pt>
-File: BigData.jpg Graphic file (type jpg)
-<use BigData.jpg>
-Package pdftex.def Info: BigData.jpg  used on input line 154.
-(pdftex.def)             Requested size: 481.79883pt x 243.91064pt.
- [5
-
- <./BigData.jpg>] [6
-
-] [7
-
-] [8
-
-] [9
-
-]
-[10
-
-] [11
-
-] [12
-
-] [13
-
-] [14
-
-] [15
-
-] [16
-
-]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 208.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-Underfull \hbox (badness 4096) in paragraph at lines 208--208
-\T1/aess/bx/n/14.4 Fonte: [][]$\T1/aett/m/n/14.4 https : / / epocanegocios . gl
-obo . com / Carreira / noticia /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
-\T1/aett/m/n/14.4 2017 / 12 / profissoes-[]que-[]estarao-[]em-[]alta-[]no-[]bra
-sil-[]em-[]2018 .
- []
-
-[17
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-[]\T1/aess/bx/n/14.4 Fonte: [][]$\T1/aett/m/n/14.4 http : / / datascienceacadem
-y . com . br / blog /
- []
-
-[18
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-[]\T1/aess/bx/n/14.4 Fonte: [][]$\T1/aett/m/n/14.4 http : / / datascienceacadem
-y . com . br / blog /
- []
-
-[19
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-[]\T1/aess/bx/n/14.4 Fonte: [][]$\T1/aett/m/n/14.4 http : / / datascienceacadem
-y . com . br / blog /
- []
-
-[20
-
-] [21
-
-] [22
-
-] [23
-
-] [24
-
-] [25
-
-] [26
-
-] [27
-
-] [28
-
-]
-<Fig1.jpg, id=215, 682.80093pt x 306.39468pt>
-File: Fig1.jpg Graphic file (type jpg)
-<use Fig1.jpg>
-Package pdftex.def Info: Fig1.jpg  used on input line 294.
-(pdftex.def)             Requested size: 341.39963pt x 153.19696pt.
- [29
-
- <./Fig1.jpg>] [30
-
-] [31
-
-]
-[32
-
-] [33
-
-] [34
-
-]
-<download.jpg, id=253, 255.95625pt x 198.7425pt>
-File: download.jpg Graphic file (type jpg)
-<use download.jpg>
-Package pdftex.def Info: download.jpg  used on input line 351.
-(pdftex.def)             Requested size: 341.66339pt x 128.11969pt.
- [35
-
- <./download.jpg>] [36
-
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-] [41
-
-] [42
-
-]
-[43
-
-] [44
-
-] [45
-
-] [46
-
-] [47
-
-] [48
-
-] [49
-
-] [50
-
-] [51
-
-] [52
-
-] [53
-
-] [54
-
-]
-<Fig2.jpg, id=359, 712.16063pt x 402.75468pt>
-File: Fig2.jpg Graphic file (type jpg)
-<use Fig2.jpg>
-Package pdftex.def Info: Fig2.jpg  used on input line 503.
-(pdftex.def)             Requested size: 356.07944pt x 201.37685pt.
-
-Overfull \vbox (2.63889pt too high) detected at line 503
- []
-
-[55
-
- <./Fig2.jpg>] [56
-
-] [57
-
-] [58
-
-] [59
-
-] [60
-
-] [61
-
-] [62
-
-] [63
-
-] [64
-
-] [65
-
-] [66
-
-]
-[67
-
-] [68
-
-] [69
-
-] [70
-
-] [71
-
-] [72
-
-]
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 748.
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <8> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 748.
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <6> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 748.
-
-Overfull \vbox (4.60231pt too high) detected at line 748
- []
-
-[73
-
-] [74
-
-] [75
-
-] [76
-
-] [77
-
-] [78
-
-] [79
-
-] [80
-
-]
-<Fig3.jpg, id=508, 633.86812pt x 405.01312pt>
-File: Fig3.jpg Graphic file (type jpg)
-<use Fig3.jpg>
-Package pdftex.def Info: Fig3.jpg  used on input line 805.
-(pdftex.def)             Requested size: 316.93329pt x 202.50606pt.
-
-Overfull \vbox (6.47153pt too high) detected at line 805
- []
-
-[81
-
- <./Fig3.jpg>] [82
-
-]
-<Fig4.jpg, id=523, 438.13687pt x 256.70906pt>
-File: Fig4.jpg Graphic file (type jpg)
-<use Fig4.jpg>
-Package pdftex.def Info: Fig4.jpg  used on input line 829.
-(pdftex.def)             Requested size: 219.06789pt x 128.3542pt.
- [83
-
- <./Fig4.jpg>] [84
-
-] [85
-
-]
-<Fig5.jpg, id=544, 785.93625pt x 452.4403pt>
-File: Fig5.jpg Graphic file (type jpg)
-<use Fig5.jpg>
-Package pdftex.def Info: Fig5.jpg  used on input line 863.
-(pdftex.def)             Requested size: 392.96716pt x 226.2196pt.
- [86
-
- <./Fig5.jpg>] [87
-
-]
-[88
-
-]
-<Fig6.jpg, id=563, 673.76718pt x 264.23718pt>
-File: Fig6.jpg Graphic file (type jpg)
-<use Fig6.jpg>
-Package pdftex.def Info: Fig6.jpg  used on input line 898.
-(pdftex.def)             Requested size: 336.88277pt x 132.11826pt.
- [89
-
- <./Fig6.jpg>] [90
-
-] [91
-
-] [92
-
-] [93
-
-] [94
-
-] [95
-
-] [96
-
-] [97
-
-] [98
-
-] [99
-
-]
-[100
-
-] [101
-
-] [102
-
-] [103
-
-] [104
-
-] [105
-
-] [106
-
-] [107
-
-]
-<Fig7.jpg, id=672, 802.49812pt x 342.5297pt>
-File: Fig7.jpg Graphic file (type jpg)
-<use Fig7.jpg>
-Package pdftex.def Info: Fig7.jpg  used on input line 1156.
-(pdftex.def)             Requested size: 401.24808pt x 171.26442pt.
- [108
-
- <./Fig7.jpg>]
-<Fig8.jpg, id=681, 380.17032pt x 202.50656pt>
-File: Fig8.jpg Graphic file (type jpg)
-<use Fig8.jpg>
-Package pdftex.def Info: Fig8.jpg  used on input line 1171.
-(pdftex.def)             Requested size: 190.08469pt x 101.25302pt.
-
-Overfull \vbox (36.8142pt too high) detected at line 1171
- []
-
-[109
-
- <./Fig8.jpg>] [110
-
-]
-<Fig9.jpg, id=696, 420.06938pt x 431.36156pt>
-File: Fig9.jpg Graphic file (type jpg)
-<use Fig9.jpg>
-Package pdftex.def Info: Fig9.jpg  used on input line 1223.
-(pdftex.def)             Requested size: 341.64525pt x 170.81706pt.
- [111
-
- <./Fig9.jpg>] [112
-
-] [113
-
-] [114
-
-]
-<Fig10.jpg, id=720, 919.18407pt x 180.675pt>
-File: Fig10.jpg Graphic file (type jpg)
-<use Fig10.jpg>
-Package pdftex.def Info: Fig10.jpg  used on input line 1263.
-(pdftex.def)             Requested size: 426.79904pt x 170.81871pt.
- [115
-
- <./Fig10.jpg>] [116
-
-] [117
-
-] [118
-
-]
-<Fig11.jpg, id=745, 691.08188pt x 472.01344pt>
-File: Fig11.jpg Graphic file (type jpg)
-<use Fig11.jpg>
-Package pdftex.def Info: Fig11.jpg  used on input line 1319.
-(pdftex.def)             Requested size: 426.80022pt x 170.8178pt.
- [119
-
- <./Fig11.jpg>] (Aula1.bbl
-Underfull \hbox (badness 7047) in paragraph at lines 9--13
-[]\T1/aess/m/n/14.4 M. Grego.  Con-teúdo di-gi-tal do-bra a cada dois anos no
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-[]\T1/aess/m/n/14.4 M. Oli-veira.  Cha-mam de big data, mas de-ve-ria ser
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-\T1/aess/m/n/14.4 best data., 2017.  URL [][]$\T1/aett/m/n/14.4 https : / / exa
-me . abril .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-\T1/aett/m/n/14.4 com . br / blog / relacionamento-[]antes-[]do-[]marketing /
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 26--31
-[]\T1/aess/m/n/14.4 P. Vi-eira.  6 ra-zões para acre-di-tar que es-ta-tís-tica 
-é a pro-fis-são
- []
-
-
-Overfull \hbox (69.64993pt too wide) in paragraph at lines 26--31
-\T1/aett/m/n/14.4 6-[]razoes-[]para-[]acreditar-[]que-[]estatistica-[]e-[]a-[]p
-rofissao-[]do-[]futuro/$[][]\T1/aess/m/n/14.4 . 
- []
-
-) [120
-
 ]
 \tf@nav=\write7
-\openout7 = `Aula1.nav'.
+\openout7 = `Aula6.nav'.
 
 \tf@toc=\write8
-\openout8 = `Aula1.toc'.
+\openout8 = `Aula6.toc'.
 
 \tf@snm=\write9
-\openout9 = `Aula1.snm'.
+\openout9 = `Aula6.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1326.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1326.
- (Aula1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1326.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1326.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+ (Aula6.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 130.
  ) 
 Here is how much of TeX's memory you used:
- 49818 strings out of 492973
- 1062040 string characters out of 3135932
- 1389218 words of memory out of 12000000
- 52473 multiletter control sequences out of 15000+200000
- 585400 words of font info for 133 fonts, out of 3000000 for 9000
+ 48487 strings out of 492973
+ 1040186 string characters out of 3135932
+ 1362106 words of memory out of 12000000
+ 51464 multiletter control sequences out of 15000+200000
+ 562038 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,15n,98p,3248b,1061s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-ssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Aula1.pdf (120 pages, 1202805 bytes).
+ 64i,15n,98p,3248b,692s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on Aula6.pdf (3 pages, 52103 bytes).
 PDF statistics:
- 898 PDF objects out of 1000 (max. 8388607)
- 270 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
 

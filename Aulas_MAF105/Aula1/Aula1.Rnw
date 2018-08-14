@@ -507,7 +507,7 @@ variável categórica faria mais sentido.
 \begin{block}{}
 \justifying
 Um pesquisador está interessado em fazer um levantamento sobre alguns
-aspectos socioeconômicos dos empregados da seção de orçamentos da \href{run:E:/Documentos/GitHub/MAF261/Aulas_MAF105}{Companhia MB}. Usando informações obtidas do departamento pessoal, ele elaborou a Tabela abaixo.
+aspectos socioeconômicos dos empregados da seção de orçamentos da \href{run:E:/Documentos/GitHub/MAF105/maf105.github.io/Aulas_MAF105/Aula1}{Companhia MB}. Usando informações obtidas do departamento pessoal, ele elaborou a Tabela abaixo.
 \begin{table}[H]
 %\caption{My caption}
 \label{tab1}

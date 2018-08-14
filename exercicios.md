@@ -20,7 +20,7 @@ description: Página com listas de exercícios.
 
 <p class="intro">Bancos de dados utilizados na disciplina e na resolução dos exercícios:</p>
 
-* [dados 1][Introducao1] - 
+* [Companhia MB][descritiva1] - Banco de dados para aula de distribuição de frequência, histograma e outros.
 * [dados 2][Medidas1] - 
 * [dados 3][Probabilidade1] - 
 * [dados 4][Variaveis1] - 
@@ -31,3 +31,4 @@ description: Página com listas de exercícios.
 ---
 
 [Introducao]:https://rawgit.com/maf105/Lista1/master/Lista1.pdf   
+[descritiva1]:https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula1/CompanhiaMB.xlsx
