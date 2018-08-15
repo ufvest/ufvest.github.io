@@ -20,6 +20,6 @@ title: Materiais
 
 ---
 
-[formulario]:
-[tabelas]:
-[normas]: 
+[formulario]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/formulario.pdf
+[tabelas]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/tabelasEST.pdf
+[normas]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/normas_tabelasgraficoS.PDF
