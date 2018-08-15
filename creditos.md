@@ -3,7 +3,7 @@ layout: default
 title: Créditos
 ---
 
-### Se cheguei até aqui foi porque me apoiei no ombro dos gigantes.
+    Se cheguei até aqui foi porque me apoiei no ombro dos gigantes.
                                                       Isaac Newton
 
 * [Formulário][formulario]: Fórmulas que serão úteis para a disciplina.
