@@ -43,6 +43,7 @@ title: Materiais
 * [Monte Carlo](http://videolectures.net/mlss08au_freitas_asm/)
 * [Tipos de Erros](http://rpsychologist.com/d3/NHST/)
 * [R Tutorial](http://www.cyclismo.org/tutorial/R/index.html)
+* [SticiGui](https://www.stat.berkeley.edu/users/stark/SticiGui/)
 * [Dados aleatórios](https://www.dadosaleatorios.com.br/)
 * [ftp DataSus](ftp://ftp.datasus.gov.br/dissemin/publicos/SIHSUS/)
 * [tabnet](http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/ext10mg.def)
@@ -53,7 +54,10 @@ title: Materiais
 * [Como faz no R](http://dfalbel.github.io/)
 * [Teorema Central do Limite](https://gallery.shinyapps.io/CLT_mean/)
 * [Wiki R](https://www.ufrgs.br/wiki-r/index.php?title=Bem-vindo_%C3%A0_Wiki_R)
+* [Khan Academy](https://www.khanacademy.org/)
 * [Latex](https://en.wikibooks.org/wiki/LaTeX)
+* [onlinestatbook](http://onlinestatbook.com/)
+
 
 ### Outras páginas de interesse
 
