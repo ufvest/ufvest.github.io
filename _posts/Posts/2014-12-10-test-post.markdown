@@ -1,6 +1,0 @@
----
-layout: post
-title:  "Iniciação à Estatística"
-date:   2014-12-10
----
-
