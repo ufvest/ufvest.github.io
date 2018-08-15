@@ -5,9 +5,9 @@ title: Materiais
 
 ## Alguns materiais em pdf
 
-[Formulário][formulario] Fórmulas que serão úteis para a disciplina.
-[Tabelas][tabelas] Tabelas de distribuições.
-[Normas][normas] Normas adotadas pela IBGE para construção de Tabelas e Gráficos. 
+* [Formulário][formulario] Fórmulas que serão úteis para a disciplina.
+* [Tabelas][tabelas] Tabelas de distribuições.
+* [Normas][normas] Normas adotadas pela IBGE para construção de Tabelas e Gráficos. 
 
 ## Indicações de Leitura
  
