@@ -1118,6 +1118,22 @@ $$d_{q}=q_{3}-q_{1}$$
 \end{frame}
 
 \begin{frame}{}
+\frametitle{Cálculo dos Quartis}
+\begin{block}{}
+\justifying
+Seja $n$ o número total de elementos da amostra e calcule $\dfrac{j(n+1)}{4},$ para $j=1,2$ e $3$. Desta forma $q_{j}$ será um elemento entre $X_{k}$ e $X_{k+1},$ onde $k$ é o maior inteiro menor ou igual a 
+$\dfrac{j(n+1)}{4}$ e será calculado da seguinte forma:
+\begin{equation}
+q_{j}=X_{k}+\Biggl(\dfrac{j(n-1)}{4}-k\Biggl)(X_{k+1}-X_{k})
+\end{equation}
+
+Podemos observar que quando $k$ é um valor inteiro, o quantil será o próprio $X_{k}$, isto é, $q_{j}=X_{k}$, onde 
+$k=\dfrac{j(n+1)}{4}, j=1,2,3$.
+
+\end{block}
+\end{frame}
+
+\begin{frame}{}
 \frametitle{}
 \begin{block}{}
 \justifying
