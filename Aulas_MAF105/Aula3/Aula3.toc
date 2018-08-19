@@ -1,2 +1,6 @@
 \babel@toc {brazil}{}
-\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o \IeC {\`a} Teoria da Probabilidade}{3}{0}{1}
+\beamer@sectionintoc {1}{An\IeC {\'a}lise Bidimensional}{3}{0}{1}
+\beamer@sectionintoc {2}{Vari\IeC {\'a}veis Qualitativas}{9}{0}{2}
+\beamer@sectionintoc {3}{Associa\IeC {\c c}\IeC {\~a}o entre Vari\IeC {\'a}veis Qualitativas}{27}{0}{3}
+\beamer@sectionintoc {4}{Associa\IeC {\c c}\IeC {\~a}o entre Vari\IeC {\'a}veis Quantitativas}{39}{0}{4}
+\beamer@sectionintoc {5}{Associa\IeC {\c c}\IeC {\~a}o entre Vari\IeC {\'a}veis Qualitativas e Quantitativas}{52}{0}{5}

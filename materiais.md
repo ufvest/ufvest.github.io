@@ -35,6 +35,12 @@ title: Materiais
 * [Ricardo Cappra](https://www.youtube.com/channel/UCog5skJem3L_roiqDjZ2_2Q)
 * [Curso Excel](https://www.youtube.com/watch?v=ZVURQLXZtIc&list=PLHz_AreHm4dkRZoc0-i4sQeot_62qKi4a)
 * [Power BI](https://www.youtube.com/channel/UCsx_ZsgsX6BIFueejCDBLkg)
+* [Hans Rosling](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
+* [Ken Robinson](https://www.youtube.com/watch?v=iG9CE55wbtY&list=LPPSfezl33bKA&index=2&feature=plcp)
+* [Ken Robinson](https://www.youtube.com/watch?v=I1A4OGiVK30&feature=related)
+* [RSA Animate](https://www.youtube.com/watch?v=zDZFcDGpL4U)
+* [Gapminder](https://www.youtube.com/watch?v=ax7yGMuH1iE&feature=related)
+* [Peter Donelly](https://www.ted.com/talks/peter_donnelly_shows_how_stats_fool_juries?language=pt-br)
 
 ### Páginas com assuntos relacionados a disciplina
 
@@ -57,6 +63,9 @@ title: Materiais
 * [Khan Academy](https://www.khanacademy.org/)
 * [Latex](https://en.wikibooks.org/wiki/LaTeX)
 * [onlinestatbook](http://onlinestatbook.com/)
+* [Gesem](https://stats4good.github.io/gesem/)
+* [Veraz](https://stats4good.github.io/veraz/)
+* [Stats4Good](https://stats4good.github.io/)
 
 
 ### Outras páginas de interesse
@@ -64,6 +73,7 @@ title: Materiais
 * [Symbolab](https://www.symbolab.com/)
 * [Wolfram Alpha](www.wolframalpha.com)
 * [Duolingo](https://www.duolingo.com/)
+* [Planilhas Google](https://www.google.com/sheets/about/)
 
 ---
 

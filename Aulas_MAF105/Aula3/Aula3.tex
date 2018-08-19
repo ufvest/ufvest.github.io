@@ -27,6 +27,7 @@
 \usepackage{longtable}
 \usepackage{mathtools}
 \usepackage{listings}%Inserir codigo do R no latex
+\usepackage{slashbox}
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{natbib}
@@ -69,14 +70,13 @@
 \newcommand{\Ho}{\ensuremath{H_{0}}}
 \newcommand{\Hi}{\ensuremath{H_{1}}}
 
-
 \apptocmd{\frame}{}{\justifying}{} % Allow optional arguments after frame.
 
 \title{MAF 105 - Iniciação à Estatística}
 \author{Prof. Fernando de Souza Bastos}
 \institute{Instituto de Ciências Exatas e Tecnológicas\texorpdfstring{\\ Universidade Federal de Viçosa}{}\texorpdfstring{\\ Campus UFV - Florestal}{}}
 \date{2018}
-\newcommand\mytext{Aula 1}
+\newcommand\mytext{Análise Bidimensional}
 \newcommand\mytextt{Fernando de Souza Bastos}
 \makeatletter
 \setbeamertemplate{footline}
@@ -118,13 +118,641 @@
 \tableofcontents
 \end{frame}
 
-\section{Introdução à Teoria da Probabilidade}
+\section{Análise Bidimensional}
+\begin{frame}{}
+\frametitle{Introdução}
+\begin{block}{}
+\justifying
+Até agora vimos como organizar e resumir informações pertinentes a uma única
+variável (ou a um conjunto de dados), mas freqüentemente estamos interessados em
+analisar o comportamento conjunto de duas ou mais variáveis aleatórias.
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Introdução}
+\begin{block}{}
+\justifying
+Os dados aparecem na forma de uma matriz, usualmente com as colunas indicando as variáveis e as linhas os indivíduos (ou elementos).
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Introdução}
+\begin{block}{}
+\justifying
+\begin{table}[htp]
+\begin{tabular}{c|c|c|c|c|c|c}
+\hline
+\multirow{2}{*}{Indivíduo}&\multicolumn{6}{c}{Variável}\\
+\cline{2-7}
+      &$X_{1}$&$X_{2}$&$\cdots$&$X_{j}$&$\cdots$&$X_{p}$\\
+\hline
+1       &$X_{11}$&$X_{12}$&$\cdots$&$X_{1j}$&$\cdots$&$X_{1p}$\\
+2       &$X_{21}$&$X_{22}$&$\cdots$&$X_{2j}$&$\cdots$&$X_{2p}$\\
+$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
+i       &$X_{i1}$&$X_{i2}$&$\cdots$&$X_{ij}$&$\cdots$&$X_{ip}$\\
+$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
+n       &$X_{n1}$&$X_{n2}$&$\cdots$&$X_{nj}$&$\cdots$&$X_{np}$\\
+\hline
+\end{tabular}
+\end{table}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Introdução}
+\begin{block}{}
+\justifying
+\begin{table}[htp]
+\begin{tabular}{c|c|c|c|c|c|c}
+\hline
+\multirow{2}{*}{Indivíduo}&\multicolumn{6}{c}{Variável}\\
+\cline{2-7}
+      &$X_{1}$&$X_{2}$&$\cdots$&$X_{j}$&$\cdots$&$X_{p}$\\
+\hline
+1       &$X_{11}$&$X_{12}$&$\cdots$&$X_{1j}$&$\cdots$&$X_{1p}$\\
+2       &$X_{21}$&$X_{22}$&$\cdots$&$X_{2j}$&$\cdots$&$X_{2p}$\\
+$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
+i       &$X_{i1}$&$X_{i2}$&$\cdots$&$X_{ij}$&$\cdots$&$X_{ip}$\\
+$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
+n       &$X_{n1}$&$X_{n2}$&$\cdots$&$X_{nj}$&$\cdots$&$X_{np}$\\
+\hline
+\end{tabular}
+\end{table}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+% latex table generated in R 3.4.0 by xtable 1.8-2 package
+% Mon Jun 05 18:03:42 2017
+\newcolumntype{g}{>{\columncolor{Gray}}c}
+\begin{table}[ht]
+\centering
+\caption{Tabela de dados MEPS 2001} 
+\resizebox*{0.8\textwidth}{!}{%
+\begin{tabular}{cgcgcgcgcgcgcgcgcgcgcgcg}
+  \hline
+ Obs.& Damb&  Ind & lDamb & Idade & Sexo & Educ & Blhisp & Totcr & Ins & Renda  \\ 
+\hline
+  50 & 0    &  0   & 0.000 & 4.5   & 1    & 12   & 0      & 2     & 0   & 24.480  \\ 
+  51 & 996  &  1   & 6.904 & 6.4   & 1    & 9    & 0      & 2     & 0   & 30.000  \\ 
+  52 & 2765 &  1   & 7.925 & 3.7   & 0    & 16   & 0      & 1     & 0   & 47.000  \\ 
+  53 & 89   &  1   & 4.489 & 6.3   & 0    & 14   & 0      & 0     & 0   & 50.013  \\ 
+  54 & 568  &  1   & 6.342 & 5.7   & 1    & 16   & 0      & 0     & 0   & 50.013  \\ 
+  55 & 0    &  0   & 0.000 & 3.9   & 0    & 16   & 0      & 0     & 1   & 14.424  \\ 
+  56 & 204  &  1   & 5.318 & 4.0   & 1    & 16   & 0      & 1     & 1   & 28.849  \\ 
+  57 & 0    &  0   & 0.000 & 2.7   & 0    & 12   & 0      & 0     & 0   & 39.000  \\ 
+  58 & 108  &  1   & 4.682 & 2.5   & 1    & 12   & 0      & 0     & 0   & 18.700  \\ 
+  59 & 1293 &  1   & 7.165 & 3.0   & 1    & 12   & 0      & 0     & 0   & 5.667   \\ 
+  60 & 133  &  1   & 4.890 & 5.0   & 1    & 14   & 0      & 0     & 1   & 1.370   \\ 
+   \hline
+\end{tabular}
+}
+\end{table}
+\end{frame}
+
 \begin{frame}{}
 \frametitle{}
 \begin{block}{}
 \justifying
+Quando consideramos duas variáveis (ou dois conjuntos de dados), podemos ter
+três situações:
+\begin{enumerate}
+\item as duas variáveis são qualitativas;
+\item as duas variáveis são quantitativas; e
+\item uma variável é qualitativa e outra é quantitativa.
+\end{enumerate}
+As técnicas de análise de dados nas três situações são diferentes.
 
 \end{block}
+\end{frame}
+
+\section{Variáveis Qualitativas}
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Suponha que queiramos analisar o comportamento conjunto das variáveis
+$X:$ grau de instrução e $Y:$ região de procedência, cujas observações estão contidas
+na Tabela abaixo:
+\begin{table}[htp]
+\caption{Distribuição Conjunta das frequências das variáveis $Y$ e $X.$}
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\multirow{2}{*}{\backslashbox{Y}{X}}&Ensino     &Ensino&Ensino&\multirow{2}{*}{Total}\\
+                                    &Fundamental&Médio &Superior&\\
+                                    \hline
+Capital &4&5&2&11\\
+Interior&3&7&2&12\\
+Outra   &5&6&2&13\\
+\hline
+Total   &12&18&6&36\\
+\hline
+\end{tabular}
+\end{table}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+\begin{itemize}
+\item 4 indivíduos procedem da capital e possuem o ensino fundamental;\pause
+\item Na última coluna, está representada a frequência absoluta da
+variável $Y;$\pause
+\item Na última linha está representada a frequência absoluta da variável $X;$\pause
+\item As frequências absolutas (parte interna da tabela) são chamadas de
+frequências absolutas conjuntas entre $X$ e $Y.$
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Em vez de trabalharmos com as freqüências absolutas, podemos construir tabelas
+com as freqüências relativas (proporções), como foi feito no caso unidimensional.
+Mas aqui existem três possibilidades de expressarmos a proporção de cada casela:
+\begin{itemize}
+\item em relação ao total geral;\pause
+\item em relação ao total de cada linha;\pause
+\item ou em relação ao total de cada coluna.
+\end{itemize}
+De acordo com o objetivo do problema em estudo, uma delas será a mais conveniente.
+
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+\begin{table}[htp]
+\caption{Distribuição conjunta das proporções (em porcentagem) em relação ao 
+total geral das variáveis  $Y$ e $X$.}
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\multirow{2}{*}{\backslashbox{Y}{X}}&Ensino     &Ensino&Ensino&\multirow{2}{*}{Total}\\
+                                    &Fundamental&Médio &Superior&\\
+                                    \hline
+Capital &$11\%$&$14\%$&$6\%$&$31\%$\\
+Interior&$ 8\%$&$19\%$&$6\%$&$33\%$\\
+Outra   &$14\%$&$17\%$&$5\%$&$36\%$\\
+\hline
+Total   &$33\%$&$50\%$&$17\%$&$100\%$\\
+\hline
+\end{tabular}
+\end{table}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Podemos, então, afirmar que $11\%$ dos empregados vêm da capital e têm o ensino fundamental. Os totais nas margens fornecem as distribuições unidimensionais de cada 
+uma das variáveis. Por exemplo, $31\%$ dos indivíduos vêm da capital, $33\%$ do interior e $36\%$ de outras regiões.
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+\begin{table}[htp]
+\caption{Distribuição conjunta das proporções (em porcentagem) em relação aos 
+totais de cada coluna.}
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\multirow{2}{*}{\backslashbox{Y}{X}}&Ensino     &Ensino&Ensino&\multirow{2}{*}{Total}\\
+                                    &Fundamental&Médio &Superior&\\
+                                    \hline
+Capital &$33\%$&$28\%$&$33\%$&$31\%$\\
+Interior&$25\%$&$39\%$&$33\%$&$33\%$\\
+Outra   &$42\%$&$33\%$&$34\%$&$36\%$\\
+\hline
+Total   &$100\%$&$100\%$&$100\%$&$100\%$\\
+\hline
+\end{tabular}
+\end{table}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Entre os empregados com ensino médio:
+\begin{itemize}
+\item $28\%$ vêm da capital;\pause
+\item $39\%$ vêm do interior;\pause
+\item $33\%$ vêm de outros locais.
+\end{itemize}
+Esse tipo de tabela serve para comparar a distribuição da procedência dos
+indivíduos conforme o grau de instrução.
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+\begin{table}[htp]
+\caption{Distribuição conjunta das proporções (em porcentagem) em relação aos 
+totais de cada linha.}
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\multirow{2}{*}{\backslashbox{Y}{X}}&Ensino     &Ensino&Ensino&\multirow{2}{*}{Total}\\
+                                    &Fundamental&Médio &Superior&\\
+                                    \hline
+Capital &$36.4\%$&$45.4\%$&$18.2\%$&$100\%$\\
+Interior&$ 25 \%$&$58.3\%$&$16.7\%$&$100\%$\\
+Outra   &$38.5\%$&$46.1\%$&$15.4\%$&$100\%$\\
+\hline
+Total   &$33\%$&$50\%$&$17\%$&$100\%$\\
+\hline
+\end{tabular}
+\end{table}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Entre os empregados do interior:
+\begin{itemize}
+\item $25\%$ têm Ensino Fundamental;\pause
+\item $58.3\%$ têm Ensino médio;\pause
+\item $16.7\%$ têm ensino superior.
+\end{itemize}
+Esse tipo de tabela serve para comparar a distribuição do grau de instrução dos
+indivíduos conforme a procedência.
+\end{block}
+\end{frame}
+
+\section{Associação entre Variáveis Qualitativas}
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Um dos principais objetivos de se construir uma distribuição conjunta de duas
+variáveis qualitativas é descrever a associação entre elas, isto é, queremos conhecer o
+grau de dependência entre elas, de modo que possamos prever melhor o resultado de
+uma delas quando conhecermos a realização da outra.
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Por exemplo, se quisermos estimar qual a renda média de uma família moradora
+da cidade de São Paulo, a informação adicional sobre a classe social a que ela pertence
+nos permite estimar com maior precisão essa renda, pois sabemos que existe uma
+dependência entre as duas variáveis: renda familiar e classe social.
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+\begin{itemize}
+\item Suponhamos que uma pessoa seja sorteada ao acaso e devamos adivinhar o sexo dessa pessoa. Existe sexo mais provável?\pause
+\item E se a mesma pergunta fosse feita, porém fosse dito que a pessoa sorteada trabalha na indústria siderúrgica, qual a resposta mais provável?\pause
+\end{itemize}
+Ou seja, há um grau de dependência grande entre as variáveis sexo e ramo de atividade.
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Queremos verificar se existe ou não associação entre o sexo e a carreira escolhida por 200 alunos de Economia e Administração.
+\begin{table}[htb]
+\caption{Distribuição conjunta de alunos segundo o sexo $(X)$ e o curso escolhido 
+$(Y).$}
+\begin{tabular}{c|c|c|c}
+\backslashbox{Y}{X}&Masculino&Feminino&Total\\
+\hline
+Economia     &85&35&120\\
+Administração&55&25&80\\
+\hline
+Total&140&60&200\\
+\hline
+\end{tabular}
+
+{\raggedright \footnotesize{Fonte: \cite{Morettin09}.}}\pause
+\end{table}
+Inicialmente, verificamos que fica muito difícil tirar alguma conclusão, devido à diferença entre os totais marginais.
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\vspace{-0.5cm}
+\begin{block}{}
+\justifying
+Devemos, pois, construir as proporções segundo as linhas ou as colunas para podermos fazer comparações. \vspace{-0.7cm}
+\begin{table}[htb]
+\caption{Distribuição conjunta das proporções de alunos segundo o sexo $(X)$ e o curso escolhido 
+$(Y).$}
+\begin{tabular}{c|c|c|c}
+\backslashbox{Y}{X}&Masculino&Feminino&Total\\
+\hline
+Economia     &$61\%$&$58\%$&$60\%$\\
+Administração&$39\%$&$42\%$&$40\%$\\
+\hline
+Total&$100\%$&$100\%$&$100\%$\\
+\hline
+\end{tabular}
+\pause
+\end{table}
+\vspace{-0.5cm}
+observar que, independentemente do sexo, $60\%$ preferem Economia e $40\%$ preferem Administração. Não havendo dependência entre as variáveis, esperaríamos essas mesmas proporções para cada sexo.
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Outro exemplo:}
+\begin{block}{}
+\justifying
+\begin{table}[htb]
+\caption{Distribuição conjunta das proporções de alunos segundo o sexo $(X)$ e o curso escolhido 
+$(Y).$}
+\begin{tabular}{c|c|c|c}
+\backslashbox{Y}{X}&Masculino&Feminino&Total\\
+\hline
+Física          &$100(71\%)$&$20(33\%)$&$120(60\%)$\\
+Ciências Sociais&$40(29\%)$&$40(67\%)$&$80(40\%)$\\
+\hline
+Total&$140(100\%)$&$60(100\%)$&$200(100\%)$\\
+\hline
+\end{tabular}
+
+{\raggedright \footnotesize{Fonte: \cite{Morettin09}.}}
+\end{table}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+Verifique se a criação de determinado tipo de cooperativa está associada com algum fator regional:
+\begin{table}[h!]
+\parbox{10cm}{\caption{Cooperativas autorizadas a funcionar por tipo e estado, junho de 1974.}}
+\resizebox*{0.8\textwidth}{!}{%
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\multirow{2}{*}{Estado}&\multicolumn{4}{c|}{Tipos de Cooperativa}       &\multirow{2}{*}{Total}\\
+\cline{2-5}
+                                      &Consumidor  &Produtor   &    Escola&Outras  &                      \\
+\hline                       
+São Paulo              &$214(33\%)$&$237(37\%)$&$78(12\%) $&$119(18\%)$&$648(100\%)$\\
+Paraná                 &$51 (17\%)$&$102(34\%)$&$126(42\%)$&$22 ( 7\%)$&$301(100\%)$\\
+Rio G. do Sul          &$111(18\%)$&$304(51\%)$&$139(23\%) $&$48(8\%)$&$602(100\%)$\\
+\hline
+Total          &$376(24\%)$&$643(42\%)$&$343(22\%) $&$189(12\%)$&$1.551(100\%)$\\
+\hline
+\end{tabular}
+}
+\end{table}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+\begin{table}[h!]
+\parbox{10cm}{\caption{Valores esperados ao assumir independência entre as variáveis.}}
+\resizebox*{0.8\textwidth}{!}{%
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\multirow{2}{*}{Estado}&\multicolumn{4}{c|}{Tipos de Cooperativa}       &\multirow{2}{*}{Total}\\
+\cline{2-5}
+                                      &Consumidor  &Produtor   &    Escola&Outras  &                      \\
+\hline                       
+São Paulo              &$157(24\%)$&$269(42\%)$&$143(22\%) $&$79(12\%)$&$648(100\%)$\\
+Paraná                 &$73 (24\%)$&$124(42\%)$&$67(22\%)$&$37 ( 12\%)$&$301(100\%)$\\
+Rio G. do Sul          &$146(24\%)$&$250(42\%)$&$133(22\%) $&$73(12\%)$&$602(100\%)$\\
+\hline
+Total          &$376(24\%)$&$643(42\%)$&$343(22\%) $&$189(12\%)$&$1.551(100\%)$\\
+\hline
+\end{tabular}
+}
+\end{table}
+\end{block}
+\end{frame}
+
+\section{Associação entre Variáveis Quantitativas}
+\begin{frame}[fragile]{}
+\frametitle{}
+\vspace{-0.5cm}
+\begin{tabular}{cl}  
+        \begin{tabular}{c}
+          \parbox{0.5\linewidth}{
+          \begin{table}[h!]
+  \caption{Anos de Serviço $(X)$ versus\\ Nº de Clientes $(Y)$}
+  \begin{tabular}{ccc}
+  \hline
+  Agente&X&Y\\
+  \hline
+  A&2&48\\
+  B&4&56\\
+  C&5&64\\
+  D&6&60\\
+  E&6&65\\
+  F&6&63\\
+  G&7&67\\
+  H&8&70\\
+  I&8&71\\
+  J&10&72\\
+  \hline
+  \hline
+  \end{tabular}
+  \end{table}
+          }
+        \end{tabular}
+           & 
+        \begin{tabular}{l}
+          \setkeys{Gin}{width=0.4\linewidth}
+\includegraphics{Aula3-001}
+         \end{tabular}  \\
+\end{tabular}
+\end{frame}
+
+\begin{frame}[fragile]{}
+\frametitle{}
+\vspace{-0.5cm}
+\begin{tabular}{cl}  
+        \begin{tabular}{c}
+          \parbox{0.5\linewidth}{
+          \begin{table}[h!]
+  \caption{Anos de Serviço $(X)$ versus\\ Nº de Clientes $(Y)$}
+  \begin{tabular}{ccc}
+  \hline
+  Família&X&Y\\
+  \hline
+  A&12&7.2\\
+  B&16&7.4\\
+  C&18&7.0\\
+  D&20&6.5\\
+  E&28&6.6\\
+  F&30&6.7\\
+  G&40&6.0\\
+  H&48&5.6\\
+  I&50&6.0\\
+  J&54&5.5\\
+  \hline
+  \hline
+  \end{tabular}
+  \end{table}
+          }
+        \end{tabular}
+           & 
+        \begin{tabular}{l}
+          \setkeys{Gin}{width=0.4\linewidth}
+\includegraphics{Aula3-002}
+         \end{tabular}  \\
+\end{tabular}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{Figuras/correlacao}
+    \caption{\cite{Morettin09}}
+    %\label{figRotulo}
+  \end{figure}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{}
+\begin{center}
+\setkeys{Gin}{width=0.6\linewidth}
+\includegraphics{Aula3-003}
+\end{center}
+\end{frame}
+
+\begin{frame}[fragile]{}
+\begin{center}
+\setkeys{Gin}{width=0.6\linewidth}
+\includegraphics{Aula3-004}
+\end{center}
+\end{frame}
+
+\begin{frame}[fragile]{}
+\begin{center}
+\setkeys{Gin}{width=0.6\linewidth}
+\includegraphics{Aula3-005}
+\end{center}
+\end{frame}
+
+\begin{frame}[fragile]{}
+\begin{center}
+\setkeys{Gin}{width=0.6\linewidth}
+\includegraphics{Aula3-006}
+\end{center}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\vspace{-0.5cm}
+% Table generated by Excel2LaTeX from sheet 'Plan1'
+\begin{table}[htbp]
+  \centering
+  \caption{Cálculo do coeficiente de correlação.}
+  \resizebox*{0.8\textwidth}{!}{%
+    \begin{tabular}{c|c|c|c|c|c|c|c}
+    \hline
+    Agente & Anos  & Clientes & $x-\bar{x}$ & $y-\bar{y}$ & $\dfrac{x-\bar{x}}{dp(x)}=z_{x}$ & $\dfrac{y-\bar{y}}{dp(y)}=z_{y}$ & $z_{x}.z_{y}$ \\
+    \hline
+    A     & 2     & 48    & -3.7  & -8.5  & -1.54 & -1.05 & 1.617 \\
+    B     & 3     & 50    & -2.7  & -6.5  & -1.12 & -0.8  & 0.896 \\
+    C     & 4     & 56    & -1.7  & -0.5  & -0.71 & -0.06 & 0.043 \\
+    D     & 5     & 52    & -0.7  & -4.5  & -0.29 & -0.55 & 0.160 \\
+    E     & 4     & 43    & -1.7  & -13.5 & -0.71 & -1.66 & 1.179 \\
+    F     & 6     & 60    & 0.3   & 3.5   & 0.12  & 0.43  & 0.052 \\
+    G     & 7     & 62    & 1.3   & 5.5   & 0.54  & 0.68  & 0.367 \\
+    H     & 8     & 58    & 2.3   & 1.5   & 0.95  & 0.18  & 0.171 \\
+    I     & 8     & 64    & 2.3   & 7.5   & 0.95  & 0.92  & 0.874 \\
+    J     & 10    & 72    & 4.3   & 15.5  & 1.78  & 1.91  & 3.400 \\
+    \hline
+    Total & 57    & 565   & 0     & 0     &       &       & 8.759 \\
+    \hline
+    \end{tabular}%
+  \label{tab:addlabel}%
+}
+\end{table}%
+$$Cor={\displaystyle \dfrac{1}{n}\sum_{i=1}^{n}\Biggl(\dfrac{x_{i}-\bar{x}}{dp(X)}\Biggl)\Biggl(\dfrac{y_{i}-\bar{y}}{dp(Y)}\Biggl)}=\dfrac{8.759}{10}=0.8759$$
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\vspace{-0.6cm}
+\begin{block}{}
+\justifying
+Não é difícil provar que o coeficiente de correlação satisfaz:
+$$-1\leq cor(X,Y)\leq 1$$
+\end{block}
+\pause
+\vspace{-0.8cm}
+\begin{block}{}
+\justifying
+{\bf DEF:} Dados $n$ pares de valores $(x_{1}, y_{1}), \cdots, (x_{n}, y_{n}),$ chamaremos de covariância entre as duas variáveis $X$ e $Y$ a igualdade:
+$$cov(X,Y)={\displaystyle \sum_{i=1}^{n}\dfrac{(x_{i}-\bar{x})(y_{i}-\bar{y})}{n}}$$
+\end{block}
+\pause
+\vspace{-0.8cm}
+\begin{block}{}
+\justifying
+Com a definição acima, o coeficiente de correlação pode ser escrito como:
+$$cor(X,Y)=\dfrac{cov(X,Y)}{dp(X)dp(Y)}$$
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+A covariância mede a relação linear entre duas variáveis. A covariância é semelhante à correlação entre duas variáveis, no entanto, elas diferem nas seguintes maneiras:
+\begin{itemize}
+\item Os coeficientes de correlação são padronizados. Assim, um relacionamento linear perfeito resulta em um coeficiente de correlação 1. A correlação mede tanto a força como a direção da relação linear entre duas variáveis.\pause
+\item Os valores de covariância não são padronizados. Como os dados não são padronizadas, é difícil determinar a força da relação entre as variáveis.
+\end{itemize}
+\end{frame}
+
+\section{Associação entre Variáveis Qualitativas e Quantitativas}
+\begin{frame}{}
+\frametitle{Associação entre Variáveis Qualitativas e Quantitativas}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{Figuras/boxplot}
+    \caption{Box plots de salário segundo grau de instrução. \cite{Morettin09}}
+    %\label{figRotulo}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{Figuras/boxplot2}
+    \caption{Box plots de salário segundo região de procedência. \cite{Morettin09}}
+    %\label{figRotulo}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Referências Bibliográficas}
+\bibliography{bibliografia}
 \end{frame}
 
 \end{document}

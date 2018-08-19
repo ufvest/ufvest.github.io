@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  13 AUG 2018 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  18 AUG 2018 23:02
 entering extended mode
 **./Aula3.tex
 (Aula3.tex
@@ -1221,39 +1221,45 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\slashbox\slashbox.sty"
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box79
+\@slashboxb=\box80
+\@slashboxc=\box81
+\@slashboxwd=\count351
+\@slashboxht=\count352
+\@slashsepl=\dimen302
+\@slashsepr=\dimen303
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip79
-\multirow@cntb=\count351
+\multirow@cntb=\count353
 \multirow@dima=\skip80
-\bigstrutjot=\dimen302
+\bigstrutjot=\dimen304
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
-\c@tracingmulticols=\count352
-\mult@box=\box79
-\multicol@leftmargin=\dimen303
-\c@unbalance=\count353
-\c@collectmore=\count354
-\doublecol@number=\count355
-\multicoltolerance=\count356
-\multicolpretolerance=\count357
-\full@width=\dimen304
-\page@free=\dimen305
-\premulticols=\dimen306
-\postmulticols=\dimen307
+\c@tracingmulticols=\count354
+\mult@box=\box82
+\multicol@leftmargin=\dimen305
+\c@unbalance=\count355
+\c@collectmore=\count356
+\doublecol@number=\count357
+\multicoltolerance=\count358
+\multicolpretolerance=\count359
+\full@width=\dimen306
+\page@free=\dimen307
+\premulticols=\dimen308
+\postmulticols=\dimen309
 \multicolsep=\skip81
 \multicolbaselineskip=\skip82
-\partial@page=\box80
-\last@line=\box81
-\maxbalancingoverflow=\dimen308
-\mult@rightbox=\box82
-\mult@grightbox=\box83
-\mult@gfirstbox=\box84
-\mult@firstbox=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
+\partial@page=\box83
+\last@line=\box84
+\maxbalancingoverflow=\dimen310
+\mult@rightbox=\box85
+\mult@grightbox=\box86
+\mult@gfirstbox=\box87
+\mult@firstbox=\box88
 \@tempa=\box89
 \@tempa=\box90
 \@tempa=\box91
@@ -1268,36 +1274,39 @@ Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
 \@tempa=\box100
 \@tempa=\box101
 \@tempa=\box102
-\c@columnbadness=\count358
-\c@finalcolumnbadness=\count359
-\last@try=\dimen309
-\multicolovershoot=\dimen310
-\multicolundershoot=\dimen311
-\mult@nat@firstbox=\box103
-\colbreak@box=\box104
-\mc@col@check@num=\count360
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\c@columnbadness=\count360
+\c@finalcolumnbadness=\count361
+\last@try=\dimen311
+\multicolovershoot=\dimen312
+\multicolundershoot=\dimen313
+\mult@nat@firstbox=\box106
+\colbreak@box=\box107
+\mc@col@check@num=\count362
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip83
 \bibsep=\skip84
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count361
+\c@NAT@ctr=\count363
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count362
+\c@r@tfl@t=\count364
 \rotFPtop=\skip85
 \rotFPbot=\skip86
-\rot@float@box=\box105
+\rot@float@box=\box108
 \rot@mess@toks=\toks51
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\spalign\spalign.sty"
 Package: spalign 2016/10/05 aligns delimited by spaces
-\spalignsystabspace=\dimen312
-\spalign@curcols=\count363
+\spalignsystabspace=\dimen314
+\spalign@curcols=\count365
 \spaligntoks=\toks52
-\spalignmaxcols=\count364
+\spalignmaxcols=\count366
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex")
@@ -1309,15 +1318,15 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box106
+\pgfnodeparttextbox=\box109
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
 sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen313
-\pgf@nodesepend=\dimen314
+\pgf@nodesepstart=\dimen315
+\pgf@nodesepend=\dimen316
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
@@ -1331,8 +1340,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen315
-\pgffor@skip=\dimen316
+\pgffor@iter=\dimen317
+\pgffor@skip=\dimen318
 \pgffor@stack=\toks53
 \pgffor@toks=\toks54
 ))
@@ -1342,31 +1351,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
 code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count365
-\pgfplotmarksize=\dimen317
+\pgf@plot@mark@count=\count367
+\pgfplotmarksize=\dimen319
 )
-\tikz@lastx=\dimen318
-\tikz@lasty=\dimen319
-\tikz@lastxsaved=\dimen320
-\tikz@lastysaved=\dimen321
-\tikzleveldistance=\dimen322
-\tikzsiblingdistance=\dimen323
-\tikz@figbox=\box107
-\tikz@figbox@bg=\box108
-\tikz@tempbox=\box109
-\tikz@tempbox@bg=\box110
-\tikztreelevel=\count366
-\tikznumberofchildren=\count367
-\tikznumberofcurrentchild=\count368
-\tikz@fig@count=\count369
+\tikz@lastx=\dimen320
+\tikz@lasty=\dimen321
+\tikz@lastxsaved=\dimen322
+\tikz@lastysaved=\dimen323
+\tikzleveldistance=\dimen324
+\tikzsiblingdistance=\dimen325
+\tikz@figbox=\box110
+\tikz@figbox@bg=\box111
+\tikz@tempbox=\box112
+\tikz@tempbox@bg=\box113
+\tikztreelevel=\count368
+\tikznumberofchildren=\count369
+\tikznumberofcurrentchild=\count370
+\tikz@fig@count=\count371
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count370
-\pgfmatrixcurrentcolumn=\count371
-\pgf@matrix@numberofcolumns=\count372
+\pgfmatrixcurrentrow=\count372
+\pgfmatrixcurrentcolumn=\count373
+\pgf@matrix@numberofcolumns=\count374
 )
-\tikz@expandcount=\count373
+\tikz@expandcount=\count375
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
@@ -1377,9 +1386,9 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 \t@pgfplots@toka=\toks55
 \t@pgfplots@tokb=\toks56
 \t@pgfplots@tokc=\toks57
-\pgfplots@tmpa=\dimen324
-\c@pgfplots@coordindex=\count374
-\c@pgfplots@scanlineindex=\count375
+\pgfplots@tmpa=\dimen326
+\c@pgfplots@coordindex=\count376
+\c@pgfplots@scanlineindex=\count377
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.
 tex"))
@@ -1395,7 +1404,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 fsupp_pgflibraryfpu.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
 fsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count376
+\c@pgfmathroundto@lastzeros=\count378
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
 fsupp_leq.code.tex"))
@@ -1406,13 +1415,13 @@ ructure.code.tex")
 ructureext.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsarray.
 code.tex"
-\c@pgfplotsarray@tmp=\count377
+\c@pgfplotsarray@tmp=\count379
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsmatrix
 .code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstableshared
 .code.tex"
-\c@pgfplotstable@counta=\count378
+\c@pgfplotstable@counta=\count380
 \t@pgfplotstable@a=\toks58
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsdeque.
@@ -1425,7 +1434,7 @@ e.tex"))
 tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplots.surf
 shading.code.tex"
-\c@pgfplotslibrarysurf@no=\count379
+\c@pgfplotslibrarysurf@no=\count381
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfs
 hading.pgfsys-pdftex.def")))
@@ -1452,16 +1461,16 @@ ex")))
 librarydecorations.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code
 .tex"
-\pgfdecoratedcompleteddistance=\dimen325
-\pgfdecoratedremainingdistance=\dimen326
-\pgfdecoratedinputsegmentcompleteddistance=\dimen327
-\pgfdecoratedinputsegmentremainingdistance=\dimen328
-\pgf@decorate@distancetomove=\dimen329
-\pgf@decorate@repeatstate=\count380
-\pgfdecorationsegmentamplitude=\dimen330
-\pgfdecorationsegmentlength=\dimen331
+\pgfdecoratedcompleteddistance=\dimen327
+\pgfdecoratedremainingdistance=\dimen328
+\pgfdecoratedinputsegmentcompleteddistance=\dimen329
+\pgfdecoratedinputsegmentremainingdistance=\dimen330
+\pgf@decorate@distancetomove=\dimen331
+\pgf@decorate@repeatstate=\count382
+\pgfdecorationsegmentamplitude=\dimen332
+\pgfdecorationsegmentlength=\dimen333
 )
-\tikz@lib@dec@box=\box111
+\tikz@lib@dec@box=\box114
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarydecorations.pathmorphing.code.tex"
@@ -1471,13 +1480,13 @@ ecorations.pathmorphing.code.tex"))
 librarydecorations.pathreplacing.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibraryd
 ecorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count381
-\pgfplots@xmin@reg=\dimen332
-\pgfplots@xmax@reg=\dimen333
-\pgfplots@ymin@reg=\dimen334
-\pgfplots@ymax@reg=\dimen335
-\pgfplots@zmin@reg=\dimen336
-\pgfplots@zmax@reg=\dimen337
+\pgfplots@numplots=\count383
+\pgfplots@xmin@reg=\dimen334
+\pgfplots@xmax@reg=\dimen335
+\pgfplots@ymin@reg=\dimen336
+\pgfplots@ymax@reg=\dimen337
+\pgfplots@zmin@reg=\dimen338
+\pgfplots@zmax@reg=\dimen339
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 libraryplotmarks.code.tex"
@@ -1491,13 +1500,13 @@ Package: colortbl 2018/05/02 v1.0c Color table columns (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
-\col@sep=\dimen338
-\ar@mcellbox=\box112
-\extrarowheight=\dimen339
+\col@sep=\dimen340
+\ar@mcellbox=\box115
+\extrarowheight=\dimen341
 \NC@list=\toks59
 \extratabsurround=\skip87
 \backup@length=\skip88
-\ar@cellbox=\box113
+\ar@cellbox=\box116
 )
 \everycr=\toks60
 \minrowclearance=\skip89
@@ -1533,49 +1542,49 @@ catcodes, docmode, ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrecat.tex"
  Xy-pic is free software: see the User's Guide for details.
 
 Loading kernel: messages; fonts; allocations: state,
-\X@c=\dimen340
-\Y@c=\dimen341
-\U@c=\dimen342
-\D@c=\dimen343
-\L@c=\dimen344
-\R@c=\dimen345
+\X@c=\dimen342
+\Y@c=\dimen343
+\U@c=\dimen344
+\D@c=\dimen345
+\L@c=\dimen346
+\R@c=\dimen347
 \Edge@c=\toks61
-\X@p=\dimen346
-\Y@p=\dimen347
-\U@p=\dimen348
-\D@p=\dimen349
-\L@p=\dimen350
-\R@p=\dimen351
+\X@p=\dimen348
+\Y@p=\dimen349
+\U@p=\dimen350
+\D@p=\dimen351
+\L@p=\dimen352
+\R@p=\dimen353
 \Edge@p=\toks62
-\X@origin=\dimen352
-\Y@origin=\dimen353
-\X@xbase=\dimen354
-\Y@xbase=\dimen355
-\X@ybase=\dimen356
-\Y@ybase=\dimen357
-\X@min=\dimen358
-\Y@min=\dimen359
-\X@max=\dimen360
-\Y@max=\dimen361
-\lastobjectbox@=\box114
-\zerodotbox@=\box115
-\almostz@=\dimen362
+\X@origin=\dimen354
+\Y@origin=\dimen355
+\X@xbase=\dimen356
+\Y@xbase=\dimen357
+\X@ybase=\dimen358
+\Y@ybase=\dimen359
+\X@min=\dimen360
+\Y@min=\dimen361
+\X@max=\dimen362
+\Y@max=\dimen363
+\lastobjectbox@=\box117
+\zerodotbox@=\box118
+\almostz@=\dimen364
  direction,
-\d@X=\dimen363
-\d@Y=\dimen364
-\K@=\count382
-\KK@=\count383
-\Direction=\count384
-\K@dXdY=\dimen365
-\K@dYdX=\dimen366
+\d@X=\dimen365
+\d@Y=\dimen366
+\K@=\count384
+\KK@=\count385
+\Direction=\count386
+\K@dXdY=\dimen367
+\K@dYdX=\dimen368
 \xyread@=\read5
 \xywrite@=\write6
-\csp@=\count385
-\quotPTK@=\dimen367
+\csp@=\count387
+\quotPTK@=\dimen369
 
 utility macros; pictures: \xy, positions,
 \swaptoks@@=\toks63
-\connectobjectbox@@=\box116
+\connectobjectbox@@=\box119
  objects,
 \styletoks@=\toks64
  decorations;
@@ -1587,15 +1596,15 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: All features v.3.8
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycurve.tex"
  Xy-pic option: Curve and Spline extension v.3.12 curve,
-\crv@cnt@=\count386
+\crv@cnt@=\count388
 \crvpts@=\toks65
-\splinebox@=\box117
-\splineval@=\dimen368
-\splinedepth@=\dimen369
-\splinetol@=\dimen370
-\splinelength@=\dimen371
+\splinebox@=\box120
+\splineval@=\dimen370
+\splinedepth@=\dimen371
+\splinetol@=\dimen372
+\splinelength@=\dimen373
  circles,
-\L@=\dimen372
+\L@=\dimen374
  loaded)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyframe.tex"
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
@@ -1605,7 +1614,7 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: More Tips extension v.3.11 loaded) loaded)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyline.tex"
  Xy-pic option: Line styles extension v.3.10
-\xylinethick@=\dimen373
+\xylinethick@=\dimen375
  loaded)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrotate.tex"
  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
@@ -1613,13 +1622,13 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: Colour extension v.3.11 loaded)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xymatrix.tex"
  Xy-pic option: Matrix feature v.3.14
-\Row=\count387
-\Col=\count388
+\Row=\count389
+\Col=\count390
 \queue@=\toks66
 \queue@@=\toks67
-\qcount@=\count389
-\qcount@@=\count390
-\matrixsize@=\count391
+\qcount@=\count391
+\qcount@@=\count392
+\matrixsize@=\count393
  loaded)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyarrow.tex"
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
@@ -1641,18 +1650,18 @@ Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count392
+\BKM@id=\count394
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 53.
+Package hyperref Info: Option `colorlinks' set `true' on input line 54.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerthemeDresden.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerouterthememiniframes.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemewhale.sty"))
-\c@Teorema=\count393
-\c@Proposicao=\count394
-\c@Definicao=\count395
-\c@Corolario=\count396
-\c@Demonstracao=\count397
+\c@Teorema=\count395
+\c@Proposicao=\count396
+\c@Definicao=\count397
+\c@Corolario=\count398
+\c@Demonstracao=\count399
 
 (Aula3.aux)
 \openout1 = `Aula3.aux'.
@@ -1720,16 +1729,16 @@ File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count398
-\scratchdimen=\dimen374
-\scratchbox=\box118
-\nofMPsegments=\count399
-\nofMParguments=\count400
+\scratchcounter=\count400
+\scratchdimen=\dimen376
+\scratchbox=\box121
+\nofMPsegments=\count401
+\nofMParguments=\count402
 \everyMPshowfont=\toks68
-\MPscratchCnt=\count401
-\MPscratchDim=\dimen375
-\MPnumerator=\count402
-\makeMPintoPDFobject=\count403
+\MPscratchCnt=\count403
+\MPscratchDim=\dimen377
+\MPnumerator=\count404
+\makeMPintoPDFobject=\count405
 \everyMPtoPDFconversion=\toks69
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1745,7 +1754,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box119
+\AtBeginShipoutBox=\box122
 Package hyperref Info: Link coloring ON on input line 111.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
@@ -1754,7 +1763,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count404
+\c@section@level=\count406
 )
 LaTeX Info: Redefining \ref on input line 111.
 LaTeX Info: Redefining \pageref on input line 111.
@@ -1844,7 +1853,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count405
+\c@lstlisting=\count407
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
@@ -1878,12 +1887,593 @@ LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
 (Font)              Font shape `T1/aess/m/sl' tried instead on input line 111.
 Package xypdf Info: Line width: 0.57597pt on input line 111.
  (Aula3.nav)
-(Aula3-concordance.tex) [1{C:/Users/fsbma/AppData/Local/MiKTeX/2.9/pdftex/confi
-g/pdftex.map}
+Overfull \hbox (90.35522pt too wide) detected at line 111
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
 
-] (Aula3.toc) [2
+(Aula3-concordance.tex)
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
 
-] [3
+[1{C:/Users/fsbma/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+(Aula3.toc)
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[2
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[3
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[4
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[5
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[6
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[7
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[8
+
+]
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 256.
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <8> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 256.
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <6> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 256.
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[9
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[10
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[11
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[12
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[13
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[14
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[15
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[16
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[17
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[18
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[19
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[20
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[21
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[22
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[23
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[24
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[25
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[26
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[27
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[28
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[29
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[30
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[31
+
+]
+Overfull \vbox (20.69989pt too high) detected at line 455
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[32
+
+]
+Overfull \vbox (20.69989pt too high) detected at line 455
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[33
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[34
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[35
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[36
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[37
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[38
+
+]
+\openout4 = `Aula3.vrb'.
+
+ (Aula3.vrb
+LaTeX Font Info:    Try loading font information for TS1+aess on input line 27.
+
+LaTeX Font Info:    No file TS1aess.fd. on input line 27.
+
+
+LaTeX Font Warning: Font shape `TS1/aess/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textordmasculine' on input line 27.
+
+<Aula3-001.pdf, id=1845, 433.62pt x 433.62pt>
+File: Aula3-001.pdf Graphic file (type pdf)
+<use Aula3-001.pdf>
+Package pdftex.def Info: Aula3-001.pdf  used on input line 32.
+(pdftex.def)             Requested size: 159.333pt x 159.33192pt.
+)
+Overfull \hbox (12.85808pt too wide) in paragraph at lines 4--589
+[][] 
+ []
+
+
+Overfull \vbox (6.42004pt too high) detected at line 589
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[39
+
+ <./Aula3-001.pdf>]
+\openout4 = `Aula3.vrb'.
+
+ (Aula3.vrb
+<Aula3-002.pdf, id=1900, 433.62pt x 433.62pt>
+File: Aula3-002.pdf Graphic file (type pdf)
+<use Aula3-002.pdf>
+Package pdftex.def Info: Aula3-002.pdf  used on input line 32.
+(pdftex.def)             Requested size: 159.333pt x 159.33192pt.
+)
+Overfull \hbox (12.85808pt too wide) in paragraph at lines 4--625
+[][] 
+ []
+
+
+Overfull \vbox (6.42004pt too high) detected at line 625
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[40
+
+ <./Aula3-002.pdf>]
+<Figuras/correlacao.jpg, id=1953, 573.64313pt x 177.66376pt>
+File: Figuras/correlacao.jpg Graphic file (type jpg)
+<use Figuras/correlacao.jpg>
+Package pdftex.def Info: Figuras/correlacao.jpg  used on input line 637.
+(pdftex.def)             Requested size: 286.82086pt x 88.83165pt.
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[41
+
+ <./Figuras/correlacao.jpg>]
+\openout4 = `Aula3.vrb'.
+
+ (Aula3.vrb
+<Aula3-003.pdf, id=2001, 433.62pt x 433.62pt>
+File: Aula3-003.pdf Graphic file (type pdf)
+<use Aula3-003.pdf>
+Package pdftex.def Info: Aula3-003.pdf  used on input line 4.
+(pdftex.def)             Requested size: 239.00558pt x 239.00783pt.
+)
+Overfull \vbox (9.05426pt too high) detected at line 644
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[42
+
+ <./Aula3-003.pdf>]
+\openout4 = `Aula3.vrb'.
+
+ (Aula3.vrb
+<Aula3-004.pdf, id=2054, 433.62pt x 433.62pt>
+File: Aula3-004.pdf Graphic file (type pdf)
+<use Aula3-004.pdf>
+Package pdftex.def Info: Aula3-004.pdf  used on input line 4.
+(pdftex.def)             Requested size: 239.00558pt x 239.00783pt.
+)
+Overfull \vbox (9.05426pt too high) detected at line 651
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[43
+
+ <./Aula3-004.pdf>]
+\openout4 = `Aula3.vrb'.
+
+ (Aula3.vrb
+<Aula3-005.pdf, id=2108, 433.62pt x 433.62pt>
+File: Aula3-005.pdf Graphic file (type pdf)
+<use Aula3-005.pdf>
+Package pdftex.def Info: Aula3-005.pdf  used on input line 4.
+(pdftex.def)             Requested size: 239.00558pt x 239.00783pt.
+)
+Overfull \vbox (9.05426pt too high) detected at line 658
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[44
+
+ <./Aula3-005.pdf>]
+\openout4 = `Aula3.vrb'.
+
+ (Aula3.vrb
+<Aula3-006.pdf, id=2161, 433.62pt x 433.62pt>
+File: Aula3-006.pdf Graphic file (type pdf)
+<use Aula3-006.pdf>
+Package pdftex.def Info: Aula3-006.pdf  used on input line 4.
+(pdftex.def)             Requested size: 239.00558pt x 239.00783pt.
+)
+Overfull \vbox (9.05426pt too high) detected at line 665
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[45
+
+ <./Aula3-006.pdf>]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[46
+
+]
+Overfull \vbox (9.55779pt too high) detected at line 721
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[47
+
+]
+Overfull \vbox (9.55779pt too high) detected at line 721
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[48
+
+]
+Overfull \vbox (9.55779pt too high) detected at line 721
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[49
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[50
+
+]
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[51
+
+]
+<Figuras/boxplot.jpg, id=2490, 496.10344pt x 313.9228pt>
+File: Figuras/boxplot.jpg Graphic file (type jpg)
+<use Figuras/boxplot.jpg>
+Package pdftex.def Info: Figuras/boxplot.jpg  used on input line 741.
+(pdftex.def)             Requested size: 248.0511pt x 156.96101pt.
+
+Overfull \vbox (66.43497pt too high) detected at line 741
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[52
+
+ <./Figuras/boxplot.jpg>]
+<Figuras/boxplot2.jpg, id=2540, 449.42906pt x 275.52937pt>
+File: Figuras/boxplot2.jpg Graphic file (type jpg)
+<use Figuras/boxplot2.jpg>
+Package pdftex.def Info: Figuras/boxplot2.jpg  used on input line 751.
+(pdftex.def)             Requested size: 224.71397pt x 137.76434pt.
+
+Overfull \vbox (7.4361pt too high) detected at line 751
+ []
+
+
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[53
+
+ <./Figuras/boxplot2.jpg>] (Aula3.bbl)
+Overfull \hbox (90.35522pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][][][][][][][][][] [][][][][][][][][] [][][][][][][][][][
+][] [][][] []  
+ []
+
+[54
 
 ]
 \tf@nav=\write7
@@ -1895,27 +2485,40 @@ g/pdftex.map}
 \tf@snm=\write9
 \openout9 = `Aula3.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 758.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 758.
  (Aula3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 758.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 758.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 48443 strings out of 492973
- 1039041 string characters out of 3135932
- 1363613 words of memory out of 12000000
- 51426 multiletter control sequences out of 15000+200000
- 562038 words of font info for 82 fonts, out of 3000000 for 9000
+ 48860 strings out of 492973
+ 1045159 string characters out of 3135932
+ 1423505 words of memory out of 12000000
+ 51678 multiletter control sequences out of 15000+200000
+ 578692 words of font info for 119 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,19n,98p,3248b,807s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Aula3.pdf (3 pages, 51229 bytes).
+ 64i,24n,98p,3248b,813s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\fsbma\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont
+/line10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/ms
+am10.pfb>
+Output written on Aula3.pdf (54 pages, 792156 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 55 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2724 PDF objects out of 2984 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
