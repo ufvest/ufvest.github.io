@@ -32,3 +32,4 @@ description: Página com listas de exercícios.
 
 [Introducao]:https://rawgit.com/maf105/Lista1/master/Lista1.pdf   
 [descritiva1]:https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula1/CompanhiaMB.xlsx
+[medidas]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Exercicios_Bussab_Morettin.pdf
