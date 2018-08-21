@@ -161,29 +161,6 @@ n       &$X_{n1}$&$X_{n2}$&$\cdots$&$X_{nj}$&$\cdots$&$X_{np}$\\
 \end{frame}
 
 \begin{frame}{}
-\frametitle{Introdução}
-\begin{block}{}
-\justifying
-\begin{table}[htp]
-\begin{tabular}{c|c|c|c|c|c|c}
-\hline
-\multirow{2}{*}{Indivíduo}&\multicolumn{6}{c}{Variável}\\
-\cline{2-7}
-      &$X_{1}$&$X_{2}$&$\cdots$&$X_{j}$&$\cdots$&$X_{p}$\\
-\hline
-1       &$X_{11}$&$X_{12}$&$\cdots$&$X_{1j}$&$\cdots$&$X_{1p}$\\
-2       &$X_{21}$&$X_{22}$&$\cdots$&$X_{2j}$&$\cdots$&$X_{2p}$\\
-$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
-i       &$X_{i1}$&$X_{i2}$&$\cdots$&$X_{ij}$&$\cdots$&$X_{ip}$\\
-$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
-n       &$X_{n1}$&$X_{n2}$&$\cdots$&$X_{nj}$&$\cdots$&$X_{np}$\\
-\hline
-\end{tabular}
-\end{table}
-\end{block}
-\end{frame}
-
-\begin{frame}{}
 \frametitle{}
 % latex table generated in R 3.4.0 by xtable 1.8-2 package
 % Mon Jun 05 18:03:42 2017
