@@ -28,8 +28,19 @@ description: Página com listas de exercícios.
 * [dados 6][Regressao1] - 
 * [dados 7][Testes1] - 
 
+<p class="intro">Resposta dos exercícios do Livro Texto:</p>
+
+* [Cap 2][cap2] - Resumo de Dados
+* [Cap 3][cap3] - Medidas -Resumo
+* [Cap 4][cap4] - Análise Bidimensional
+
+
 ---
 
 [Introducao]:https://rawgit.com/maf105/Lista1/master/Lista1.pdf   
 [descritiva1]:https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula1/CompanhiaMB.xlsx
 [medidas]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Exercicios_Bussab_Morettin.pdf
+
+[cap2]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap2.xlsx
+[cap3]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap3.xlsx
+[cap4]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap4.xlsx
