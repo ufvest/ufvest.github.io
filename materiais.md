@@ -8,6 +8,7 @@ title: Materiais
 * [Formulário][formulario]: Fórmulas que serão úteis para a disciplina.
 * [Tabelas][tabelas]: Tabelas de distribuições.
 * [Normas][normas]: Normas adotadas pela IBGE para construção de Tabelas e Gráficos. 
+* [Distribuição de Frequências][distfreq]: Normas para construção de tabelas de distribuição de frequências.
 
 ### Indicações de Leitura
  
@@ -80,3 +81,4 @@ title: Materiais
 [formulario]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/formulario.pdf
 [tabelas]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/tabelasEST.pdf
 [normas]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/normas_tabelasgraficoS.PDF
+[distfreq]:https://rawgit.com/maf105/maf105.github.io/master/Materiais/Dist_freq.pdf
