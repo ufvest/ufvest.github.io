@@ -1,0 +1,5 @@
+\babel@toc {brazil}{}
+\beamer@sectionintoc {1}{Testes $\chi ^{2}$ de Pearson}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Teste de Ader\IeC {\^e}ncia}{8}{0}{1}
+\beamer@subsectionintoc {1}{2}{Teste de Homogeneidade}{15}{0}{1}
+\beamer@subsectionintoc {1}{3}{Teste de Independ\IeC {\^e}ncia}{22}{0}{1}

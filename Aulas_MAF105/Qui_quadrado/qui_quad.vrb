@@ -1,0 +1,17 @@
+\frametitle{}
+\frametitle{Exemplo}
+\begin{block}{}
+\justifying
+Uma companhia de seguros analisou a frequência com que 2.000 segurados (1.000 homens e 1.000 mulheres) usaram hospitais. Os resultados estão na Tabela abaixo. A hipótese a testar é que o uso de hospital independe do sexo do segurado.
+\begin{Schunk}
+\begin{Sinput}
+> chisq.test(M)
+\end{Sinput}
+\begin{Soutput}
+	Pearson's Chi-squared test with Yates' continuity correction
+
+data:  M
+X-squared = 10.976, df = 1, p-value = 0.000923
+\end{Soutput}
+\end{Schunk}
+\end{block}

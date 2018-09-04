@@ -33,6 +33,8 @@ description: Página com listas de exercícios.
 * [Cap 2][cap2] - Resumo de Dados
 * [Cap 3][cap3] - Medidas -Resumo
 * [Cap 4][cap4] - Análise Bidimensional
+* [Morettin][solBussab] - Soluções dos Exercícios do livro do Bussab e Morettin no R.
+
 
 
 ---
@@ -44,3 +46,4 @@ description: Página com listas de exercícios.
 [cap2]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap2.xlsx
 [cap3]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap3.xlsx
 [cap4]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap4.xlsx
+[solBussab]: https://www.ime.usp.br/~pam/scriptsR.html
