@@ -26,8 +26,6 @@ navigation:
    url: /materiais
  - title: Créditos
    url: /creditos
- - title: Créditos
-   url: /creditos
 
 social:
    github: maf105
