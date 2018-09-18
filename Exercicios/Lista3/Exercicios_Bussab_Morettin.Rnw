@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\begin{center}
+{\large MAF 105 - Iniciação à Estatística}\\
+Segundo Semestre de 2018
+\end{center}
+
+\section*{Exercícios do Bussab e Morettin.}
+
+$\newline$
+
+\subsection*{Capítulo 2 — Resumo de Dados}
+
+\begin{itemize}
+\item Páginas 105 e 106 - Exercícios: 1 à 6. 
+\item Página 110 - Exercícios: 7 à 14.
+\item Páginas 115 e 116 - Exercícios: 15 à 22.
+\item Página 121 - Exercícios: 23 à 25.
+\end{itemize}
+
+\subsection*{Capítulo 3 — Medidas -Resumo}
+
+\begin{itemize}
+\item Páginas 40 e 41 - Exercícios: 1 ao 6.
+\item Página 47 - Exercício: 7.
+\item Página 50 - Exercício: 11.
+\item Páginas 56 a 67 - Exercícios: 14, 19, 21, 22, 23, 25, 26, 29, 30, 32, 33, 38 e 40.
+\end{itemize}
+
+\subsection*{Capítulo 4 — Análise Bidimensional}
+
+\begin{itemize}
+\item Páginas 72 a 73 - Exercícios: 1 ao 3.
+\item Página 89 - Exercício: 11.
+\item Páginas 94 a 99 - Exercícios: 18, 19, 24, 25, 29.
+\end{itemize}
+
+\end{document}

@@ -68,7 +68,7 @@
 \newcommand{\bx}{\ensuremath{\bar{x}}}
 \newcommand{\Ho}{\ensuremath{H_{0}}}
 \newcommand{\Hi}{\ensuremath{H_{1}}}
-
+\everymath{\displaystyle}
 
 \apptocmd{\frame}{}{\justifying}{} % Allow optional arguments after frame.
 
@@ -118,9 +118,29 @@
 \tableofcontents
 \end{frame}
 
-\section{Regressão}
+\section{Probabilidade Condicional e Independência}
 \begin{frame}{}
 \frametitle{}
+\begin{block}{}
+\justifying
+Para dois eventos quaisquer $A$ e $B,$ sendo $P(B)>0,$ definimos a probabilidade
+condicional de $A$ dado $B,$ como sendo $$P(A|B)=\dfrac{P(A\cap B)}{P(B)}$$
+Assim, a probabilidade de $A$ muda após o evento $B$ ter acontecido. Isso porque o resultado de $A$ é uma das 
+possibilidades de $B$ ou de $B^{c}.$ 
+\end{block}
+\end{frame}
+
+
+\begin{frame}{}
+\frametitle{Exemplo}
+\begin{block}{}
+\justifying
+Considere-se um baralho de 52 cartas. A probabilidade de ao retirar uma carta sair um rei é $4/52,$ ou $1/13.$ No entanto, se alguém retira uma carta e nos diz que é uma figura, então a probabilidade de a carta retirada ser um rei é $4/12=1/3,$ ou seja, $P(sair um rei|sair uma figura)=1/3.$
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Exemplo}
 \begin{block}{}
 \justifying
 
