@@ -20,7 +20,11 @@ Fonte: Wikipédia
 
 ### Horário das Monitorias
 
+Monitora: Larissa Rodrigues
+
 * Segunda-feira de 15h ás 17h no PVA 1
 * Quinta-feira de 12h ás 13h no PVE 1
 
+Monitora: Luiza Miotto
 
+*A definir
