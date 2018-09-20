@@ -135,16 +135,33 @@ possibilidades de $B$ ou de $B^{c}.$
 \frametitle{Exemplo}
 \begin{block}{}
 \justifying
-Considere-se um baralho de 52 cartas. A probabilidade de ao retirar uma carta sair um rei é $4/52,$ ou $1/13.$ No entanto, se alguém retira uma carta e nos diz que é uma figura, então a probabilidade de a carta retirada ser um rei é $4/12=1/3,$ ou seja, $P(sair um rei|sair uma figura)=1/3.$
+Considere-se um baralho de 52 cartas. A probabilidade de ao retirar uma
+carta sair um rei é $4/52,$ ou $1/13.$ No entanto, se alguém retira uma
+carta e nos diz que é uma figura, então a probabilidade de a carta retirada
+ser um rei é $4/12=1/3,$ ou seja, $P(\textrm{sair um rei}|\textrm{sair uma
+figura})=1/3.$
 \end{block}
 \end{frame}
 
 \begin{frame}{}
 \frametitle{Exemplo}
 \begin{block}{}
-\justifying
-
+\begin{columns}
+        \column{5cm}
+\begin{block}{}
+\pgfdeclareimage[height=6cm,width=5cm]{ex1}{Figuras/ex1}
+\pgfuseimage{ex1}
 \end{block}
+        \column{10cm}
+Retiro sucessivamente 2 bolas, sem reposição. Qual é a probabilidade de:
+\begin{description}
+\item[a)] Ambas pretas?\pause\\
+$P(P_{1}\cap P_{2})=P(P_{1})\times P(P_{2}|P_{1})$
+\item[b)]Segunda ser preta?\pause\\
+$P(P_{2})=P[(P_{1}\cap P_{2})\cap (P_{2}\cap P_{2})]$
+\end{description}
+\end{columns}
+\end{block}     
 \end{frame}
 
 \end{document}

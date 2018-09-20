@@ -3,7 +3,7 @@ layout: default
 title: Monitoria
 ---
 
-    Monitora: LARISSA OLIVEIRA RODRIGUES.
+    Monitoras: LARISSA OLIVEIRA RODRIGUES e LUIZA MIOTTO CARMO.
 
 
 ---
