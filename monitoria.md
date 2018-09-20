@@ -23,8 +23,11 @@ Fonte: Wikipédia
 Monitora: Larissa Rodrigues
 
 * Segunda-feira de 15h ás 17h no PVA 1
-* Quinta-feira de 12h ás 13h no PVE 1
+* Segunda-feira de 11h30min às 13h no laboratório 3
+* Terça-feira de 17h ás 18h30min no laboratório 3
 
 Monitora: Luiza Miotto
 
-*A definir
+* Segunda-feira de 17h às 18h30min no laboratório 3
+* Quinta-feira de 13h às 15h - local a definir
+* Sexta-feira de 11h30min às 13h no laboratório 3
