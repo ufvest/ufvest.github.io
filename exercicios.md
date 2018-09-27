@@ -47,3 +47,4 @@ description: Página com listas de exercícios.
 [cap3]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap3.xlsx
 [cap4]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap4.xlsx
 [solBussab]: https://www.ime.usp.br/~pam/scriptsR.html
+[Probabilidade]: https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista3/Lista3.pdf
