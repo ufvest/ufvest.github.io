@@ -1,0 +1,463 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern} % Fonte Latin Modern
+\usepackage[T1]{fontenc} % Codificação da Saída
+\usepackage[brazil]{babel}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{ifthen}
+\newboolean{firstanswerofthechapter}  
+\usepackage{xcolor}
+\colorlet{lightcyan}{cyan!40!white}
+\usepackage{chngcntr}
+\usepackage{stackengine}
+\usepackage{tasks}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{float}
+\newlength{\longestlabel}
+\settowidth{\longestlabel}{\bfseries viii.}
+%\settasks{counter-format={tsk[r].}, label-format={\bfseries}, label-width=\longestlabel,
+    %item-indent=0pt, label-offset=2pt, column-sep={10pt}}
+		
+% \setcounter{secnumdepth}{0} \setlength{\topmargin}{0cm}
+% \setlength{\headsep}{-2cm} \setlength{\textwidth}{17.5cm}
+% \setlength{\textheight}{23cm} \setlength{\oddsidemargin}{-0.8cm}
+% \setlength{\evensidemargin}{0cm} \setlength{\footskip}{-1.5cm}
+
+\usepackage[left=1.5cm,right=1.5cm,top=2cm,bottom=0.5cm,includefoot]{geometry}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\real}{I\!\!R}               %  real numbers
+\renewcommand{\int}{Z\! \! \! Z}         %  integer numbers
+\newcommand{\ene}{I\! \! N}              %  natural numbers
+\newcommand{\com}{\mathbb{C}}            %  complex numbers
+\newcommand{\id}{{\rm Id}}               %  aplicaci\'on identidad
+\newcommand{\di}{{\rm dim}}              %  dimensi\'on
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newtheorem{definicao}{Definição}
+%\input{tcilatex}
+
+\nonstopmode
+
+\begin{document}
+
+\begin{center}
+\begin{minipage}[s]{4cm}
+\hspace{-1.3cm}\includegraphics[scale=1.0]{Figuras/brasaoufv.eps}
+\end{minipage}
+\begin{minipage}[s]{13cm}
+{\begin{center} {\sc \Large Universidade Federal de Vi\c{c}osa}\\
+{\sc \large Instituto de Ci\^encias Exatas e Tecnológicas}\\
+{\sc \large Campus UFV - Florestal}\\
+\end{center}}
+\end{minipage}\begin{minipage}[s]{2 cm}
+%\includegraphics[width=2 cm]{logoimecc.eps}
+\end{minipage}
+\end{center}
+
+\vspace{-0.3cm}
+
+%\hline \hline \noindent
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+
+\begin{center}
+
+\underline{\underline{{\large{\sc Lista de Iniciação Estatística - Lista 3}}}}
+
+\bigskip
+
+{\large {\bf Prof. Fernando Bastos}}
+%\bigskip
+%
+\end{center}
+
+\begin{description}
+
+\item[{\large 1}] Sejam $A$ e $B$ dois eventos associados a um experimento $E$. Supondo que $p(A) = 0.4$, $p(AUB) = 0.7$ e $p(B) = p$, qual é o valor de $p$ para que se tenha:
+
+\begin{description}
+
+\item[(a)]  { $A$ e $B$ mutuamente exclusivos;}
+
+\item[(b)]  { $A$ e $B$ não mutuamente exclusivos e independentes.}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 2}] Um fazendeiro estima que, quando uma pessoa experiente planta árvores, 90\% sobrevivem, mas quando um leigo as planta, apenas 50\% sobrevivem. Se uma árvore plantada não sobrevive, determine a probabilidade de ela ter sido plantada por um leigo, sabendo-se que $\dfrac{2}{3}$ das árvores são plantadas por leigos.
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 3}] Um dado é lançado e o número da face de cima é observado.
+
+\begin{description}
+
+\item[(a)]  { Se o resultado obtido for par, qual a probabilidade dele ser maior ou igual a 5?}
+
+\item[(b)]  { Se o resultado obtido for maior ou igual a 5, qual a probabilidade dele ser par?}
+
+\item[(c)]  { Se o resultado obtido for ímpar, qual a probabilidade dele ser menor que 3?}
+
+\item[(d)]  { Se o resultado obtido for menor que 3, qual a probabilidade dele ser ímpar?}
+
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 4}] No lançamento de uma moeda três vezes calcular a probabilidade de observar a ocorrência de:
+
+\begin{description}
+
+\item[(a)]  { exatamente duas caras;}
+
+\item[(b)]  { pelo menos duas caras;}
+
+\item[(c)]  { no máximo duas caras.}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 5}] No lançamento de um dado 2 vezes calcular a probabilidade de observar a ocorrência dos pares cuja a soma dos pontos é:
+
+\begin{description}
+
+\item[(a)]  { um número par;}
+
+\item[(b)]  { pelo menos igual a 9;}
+
+\item[(c)]  { no máximo igual a 5;}
+
+\item[(d)]  { maior que 5 e no máximo igual a 9.}
+
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 6}] O centro de meteorologia anunciou que há 0.4 de probabilidade de chuva. João avalia em $\dfrac{3}{5}$ sua probabilidade de passar em uma prova de 
+estatística. Supondo esses eventos independentes, calcule:
+
+\begin{description}
+
+\item[(a)]  { P(chover e passar);}
+
+\item[(b)]  { P(não chover e não passar).}
+
+
+\end{description}
+
+\end{description}
+
+
+\begin{description}
+
+\item[{\large 7}] Um jogo é composto de 4 possíveis resultados: A,B,C e D. Sabe-se que $P(A) = 3P(C)$, $P(B) = 2P(C)$ e que $P(D)
+=  0.10$. Um jogador  ganha R\$ 4,00 cada  vez  que  ocorre  A, ganha R\$ 3,25 cada  vez  que B ocorre, ganha R\$
+10,00 em cada ocorrência de C e perde R\$ 25,00 se ocorre D. Se cada aposta custa R\$ 2,00 e ele consegue jogar
+200 vezes numa noitada, qual o ganho esperado numa noite de apostas?
+
+\end{description}
+
+\newpage
+
+\begin{description}
+
+\item[{\large 8}] Numa indústria, 24\% das ligações ao serviço de atendimento ao consumidor  são  de  reclamações  a  respeito do
+produto. Num dia normal de trabalho qual é a probabilidade de que:
+
+\begin{description}
+
+\item[(a)]  {A primeira reclamação aconteça na $5^{\circ}$ chamada?}
+
+\item[(b)]  {A primeira reclamação aconteça somente após a $8^{\circ}$ chamada?}
+
+%\item[(c)]  {O número médio de chamadas atendidas até que ocorra a primeira reclamação.}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 9}] Seja $X$ v.a. representando o número de carros no estacionamento da Universidade em um dia. A distribuição de
+probabilidade de $X$ é dada abaixo:
+
+$$
+\begin{tabular}{c|ccccc|c}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  x      & 2 & 3 & 4 & 5 & 6 & total \\
+  \hline
+  $f(x)$ & 0.1 & 0.3 & 0.3 & 0.2 & 0.1 & 1 \\
+  \hline
+\end{tabular}
+$$
+
+\begin{description}
+
+\item[(a)]  Calcular $P(X\leq3)$, $P(X\geq 4)$ e $P(3 < X \leq 5)$;
+
+\item[(b)]  Calcular $E(X)$ e $Var(X)$;
+
+\item[(c)]  Encontre a f.d.a. de $X$ e construa seu gráfico;
+
+\item[(d)]  Quais valores de X estão no intervalo de $(\mu-2\sigma;\mu+2\sigma)$;
+
+\item[(e)]  Encontre $E(Y)$ e $Var(Y)$, onde $Y=\dfrac{X}{2}-1$.
+
+\end{description}
+
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 10}] Seja a função dada por  $p(x)=k^{2}(3-|x|)$, $x = -2, -1, 0, 1, 2.$
+
+
+\begin{description}
+
+\item[(a)]  Encontre a constante $k$ para que a $p(x)$ seja uma função de probabilidade;
+
+\item[(b)]  Com o valor de $k$ encontrado, calcule   $P(X\geq 0)$, $P(|X|\leq 1)$ e $P(X=1||X|\leq 1)$;
+
+\item[(c)]  Calcule $E(X)$ e $Var(X)$.
+
+
+\end{description}
+
+\end{description}
+
+
+\begin{description}
+
+\item[{\large 11}] Seja uma v.a. $X$ com f.d.p. dada por $f(x) = \dfrac{1}{\sqrt{x}},$ se $0\leq x \leq k$.
+
+Calcule:
+
+\begin{description}
+
+\item[(a)]  Encontre $k$ para que $f(x)$ seja uma f.d.p.
+
+\item[(b)]  Encontre sua f.d.a. $F(x)$.
+
+\item[(c)]  Calcule a média e a variância de $X$.
+
+\end{description}
+
+\end{description}
+
+
+
+\begin{description}
+
+\item[{\large 12}] Considere uma v.a. $X$ com f.d.p. dada por:
+
+$$f(x)=\dfrac{sen(x)}{2},\ 0\leq x \leq \pi$$
+
+Determine:
+
+\begin{description}
+
+\item[(a)] A função de distribuição acumulada de $X$;
+\item[(b)] As probabilidades $P(0\leq X\leq \dfrac{\pi}{4})$ e $P(\dfrac{\pi}{2}\leq X\leq \dfrac{3\pi}{4})$;
+\item[(c)] Esperança e variância de $X$;
+\item[(d)] Calcule a probabilidade de $X$ petencer ao intervalo $[\mu-2\sigma;\mu+2\sigma ]$, em que $\mu = E(X)$ e $\sigma = DP(X)$;
+\item[(e)] Os valores $k_{1}$ e $k_{2}$, simétricos em torno de $E(X)$, tal que $P(k_{1} \leq X \leq k_{2} ) = 0.95$;
+\item[(f)] Mostre que $f(x)=\sqrt{F(x)-[F(x)]^{2}}$
+
+\end{description}
+
+\end{description}
+
+
+\begin{description}
+
+\item[{\large 13}] Dada a função $f(x)=2 e^{-2x}I_{[0,\infty)}$
+
+
+\begin{description}
+
+\item[(a)] Mostre que $f$ é f.d.p. de alguma v.a. $X$;
+\item[(b)] Calcule a probabilidade de $X>10$.
+
+\end{description}
+
+\end{description}
+
+\newpage
+
+\begin{description}
+
+\item[{\large 14}] Suponha que o tempo de duração de um determinado tipo de bateria seja uma variável aleatória $X$ contínua com função de densidade de probabilidade dada por:
+
+    \begin{center}
+\begin{displaymath}
+f(x)=\left\{
+\begin{array}{ccccc}
+\dfrac{1}{3}e^{-\frac{x}{3}},&\textrm{se}\quad x\geq 0;\\
+&\\
+0,& \textrm{se}\quad x<0;\\
+\end{array}
+\right.
+\end{displaymath}
+\end{center}
+ sendo o tempo medido em anos.
+
+\begin{description}
+
+\item[(a)] É razoável tomar $f$ como função densidade de probabilidade para a variável aleatória $X$?
+\item[(b)] Qual a probabilidade de a bateria durar no máximo um ano?
+\item[(c)] Qual a probabilidade de o tempo de duração da bateria estar compreendido entre 1 e 3 anos?
+\item[(d)] Qual a probabilidade de a bateria durar mais de 3 anos?
+\end{description}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 15}] Para que valores de $k\in \mathbb{R}$, a função abaixo representa uma densidade de probabilidade:
+
+    \begin{center}
+\begin{displaymath}
+f(x)=\left\{
+\begin{array}{ccccc}
+k(1-x^{2}),&\textrm{se}\quad 0\leq x< \dfrac{1}{2};\\
+&\\
+\dfrac{1}{k+1},&\textrm{se}\quad \dfrac{1}{2}\leq x\leq 1;\\
+&\\
+0,& \textrm{caso contrário};\\
+\end{array}
+\right.
+\end{displaymath}
+\end{center}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 16}] Determine $k$ para que a função dada seja uma função densidade de probabilidade:
+
+
+\begin{description}
+
+\item[(a)] $f(x)=kxe^{-x^{2}}$ para $x\geq 0$ e $f(x)=0$ para $x<0$.
+\item[(b)] $f(x)=ke^{-|x-1|}$ para todo $x$ real.
+\item[(c)] $f(x)=kx(x-5)$ para $0\leq x\leq 5$ $f(x)=0$ para $x<0$ ou $x>5$.
+\item[(d)] $f(x)=\dfrac{k}{1+4x^{2}}$ para todo $x$ real.
+\item[(e)] $f(x)=\dfrac{k}{x^{3}}$ para $x\geq 1$ e $f(x)=0$ para $x<1$.
+\end{description}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 17}] Suponha que o salário R\$$X$ de um funcionário de uma fábrica seja uma variável aleatória com função densidade de probabilidade $f(x)=kx^{-2}$ para $x\geq 400$ e $f(x)=0$ para $x<400$.
+
+
+\begin{description}
+
+\item[(a)] Determine $k$ para que $f$ seja uma função densidade de probabilidade.
+\item[(b)] Qual a probabilidade de o salário ser menor que R\$ 1.000,00?
+\item[(c)] Qual a probabilidade de o salário estar compreendido entre R\$ 2.000,00 e R\$ 5.000,00?
+\item[(d)] Se a fábrica tem 3200 funcionários, qual o número esperado de funcionários com salários entre R\$ 2.000,00 e R\$ 5.000,00?
+\end{description}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 18}] Considere a função densidade de probabilidade dada por $f(x)=\dfrac{1}{x^{2}}$ se $x\geq 1$ e $f(x)=0$ se $x<1$. Determine e esboce o gráfico da função de distribuição $F$.
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 19}] Seja $X$ uma v.a.d. que pode assumir qualquer valor do conjunto $\{0,1\}$ e com probabilidades $P(X=0)=P(X=1)=\dfrac{1}{2}$. Esboce o gráfico da função de distribuição da v.a. $X$.
+
+\end{description}
+
+\newpage
+
+\begin{description}
+
+\item[{\large 20}] Determine a função de distribuição da v.a. $X$, sendo sua função densidade de probabilidade dada a seguir:
+
+
+\begin{description}
+
+\item[(a)] $f(x)=\dfrac{1}{5}$ para $0\leq x\leq 5$ e $f(x)=0$ para $x<0$ ou $x>5$.
+\item[(b)] $f(x)=\dfrac{1}{2}e^{-\frac{x}{2}}$ para $x\geq 0$ e $f(x)=0$ para $x<0$.
+\item[(c)] $f(x)=\dfrac{1}{2}e^{-|x|}$ para todo $x$ real.
+\end{description}
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 21}] Seja $X$ uma v.a.d. que pode assumir qualquer valor do conjunto $\{0,1,2\}$ e com probabilidades $P(X=0)=\dfrac{1}{3},\quad P(X=1)=\dfrac{1}{6},\quad P(X=2)=\dfrac{1}{2}$. Esboce o gráfico da função de distribuição da v.a. $X$.
+
+\end{description}
+
+
+\begin{description}
+
+\item[{\large 22}] Seja $X$ a v.a. com função densidade de probabilidade
+
+    \begin{center}
+\begin{displaymath}
+f(x)=\left\{
+\begin{array}{ccccc}
+\dfrac{1}{\beta}e^{-\frac{x}{\beta}},&\textrm{se}\quad x\geq 0 \quad (\beta > 0);\\
+&\\
+0,& \textrm{se}\quad x<0;\\
+\end{array}
+\right.
+\end{displaymath}
+\end{center}
+ Calcule o valor esperado e a variância de $X$.
+
+\end{description}
+
+\begin{description}
+
+\item[{\large 23}] Determine $E(X)$ e $Var(X)$ da v.a. $X$ com função densidade de probabilidade dada por:
+
+
+\begin{description}
+
+\item[(a)] $f(x)=\dfrac{1}{b-a}$ para $a\leq x\leq b$ e $f(x)=0$ para $x<a$ ou $x>b$.
+\item[(b)] $f(x)=\dfrac{3}{(x+1)^{4}}$ para $x\geq 0$ e $f(x)=0$ para $x<0$.
+\item[(c)] $f(x)=xe^{-x}$ para $x\geq 0$ e $f(x)=0$ para $x<0$.
+\end{description}
+
+\end{description}
+
+
+
+
+
+\end{document}
