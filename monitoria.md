@@ -30,4 +30,4 @@ Monitora: Luiza Miotto
 
 * Segunda-feira de 17h às 18h30min no laboratório 3
 * Quinta-feira de 13h às 15h - local a definir
-* Sexta-feira de 11h30min às 13h no laboratório 3
+* Sexta-feira de 11h30min às 13h no laboratório 2
