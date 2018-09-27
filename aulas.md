@@ -14,8 +14,8 @@ description: Página com as aulas da disciplina.
 * [Aula 3][aula3]
 * [Aula 4][aula4]
 * [Aula 5][aula5]
-* [Aula 5][aula6]
-* [Aula 5][aula7]
+* [Aula 6][aula6]
+* [Aula 7][aula7]
 
 ---
 
