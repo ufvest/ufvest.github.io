@@ -1,2 +1,7 @@
 \babel@toc {brazil}{}
-\beamer@sectionintoc {1}{Testes de Hip\IeC {\'o}teses}{3}{0}{1}
+\beamer@sectionintoc {1}{Vari\IeC {\'a}veis Aleat\IeC {\'o}rias}{3}{0}{1}
+\beamer@sectionintoc {2}{Vari\IeC {\'a}veis Aleat\IeC {\'o}rias Discretas}{13}{0}{2}
+\beamer@sectionintoc {3}{Fun\IeC {\c c}\IeC {\~a}o de Probabilidade}{19}{0}{3}
+\beamer@sectionintoc {4}{Variaveis Aleat\IeC {\'o}rias Cont\IeC {\'\i }nuas}{25}{0}{4}
+\beamer@sectionintoc {5}{Fun\IeC {\c c}\IeC {\~a}o Densidade de Probabilidade}{30}{0}{5}
+\beamer@sectionintoc {6}{Fun\IeC {\c c}\IeC {\~a}o de Distribui\IeC {\c c}\IeC {\~a}o Acumulada}{36}{0}{6}

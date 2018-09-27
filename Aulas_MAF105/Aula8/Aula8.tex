@@ -1,0 +1,324 @@
+\documentclass[14pt,aspectratio=1610]{beamer}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+%\UseRawInputEncoding
+\usepackage[T1]{fontenc}
+\usepackage{Sweave}
+\usepackage{animate}
+\usepackage{amsbsy}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[toc,page,title,titletoc]{appendix}
+\usepackage[fixlanguage]{babelbib}
+%\usepackage[pdftex]{color}
+\usepackage{dsfont}
+\usepackage{esvect}
+\usepackage[labelfont=bf]{caption}
+\usepackage{float}
+\usepackage[Glenn]{fncychap}%Sonny %Conny %Lenny %Glenn %Renje %Bjarne %Bjornstrup
+%\usepackage{geometry, calc, color, setspace}%
+%\geometry{a4paper, headsep=1.0cm, footskip=1cm, lmargin=3cm, rmargin=2cm, tmargin=3cm, bmargin=2cm}
+\usepackage{graphicx}
+\usepackage{indentfirst}%Para indentar os parágrafos automáticamente
+\usepackage{lipsum}
+\usepackage{longtable}
+\usepackage{mathtools}
+\usepackage{listings}%Inserir codigo do R no latex
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{natbib}
+\bibliographystyle{abbrvnat3}
+\usepackage[figuresright]{rotating}
+\usepackage{spalign}
+%\usepackage{pgfpages}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{color, colortbl}
+\usepackage{ragged2e}%para justificar o texto dentro de algum ambiente
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+
+
+\usepackage[all]{xy}
+\usepackage{hyperref,bookmark}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=red,
+  filecolor=blue,
+  urlcolor=blue,
+}
+
+\usetheme{Montpellier}
+%\usecolortheme[RGB={193,0,0}]{structure}
+
+%\setbeamertemplate{footline}[frame number]
+%\setbeamertemplate{footline}[text line]{%
+%  \parbox{\linewidth}{\vspace*{-8pt}\hfill\date{}\hfill\insertshortauthor\hfill\insertpagenumber}}
+\beamertemplatenavigationsymbolsempty
+\renewcommand{\vec}[1]{\mbox{\boldmath$#1$}}
+\newtheorem{Teorema}{Teorema}
+\newtheorem{Proposicao}{Proposição}
+\newtheorem{Definicao}{Definição}
+\newtheorem{Corolario}{Corolário}
+\newtheorem{Demonstracao}{Demonstração}
+\newcommand{\bx}{\ensuremath{\bar{x}}}
+\newcommand{\Ho}{\ensuremath{H_{0}}}
+\newcommand{\Hi}{\ensuremath{H_{1}}}
+
+
+\apptocmd{\frame}{}{\justifying}{} % Allow optional arguments after frame.
+
+\title{MAF 105 - Iniciação à Estatística}
+\author{Prof. Fernando de Souza Bastos}
+\institute{Instituto de Ciências Exatas e Tecnológicas\texorpdfstring{\\ Universidade Federal de Viçosa}{}\texorpdfstring{\\ Campus UFV - Florestal}{}}
+\date{2018}
+\newcommand\mytext{Aula de Variáveis Aleatórias}
+\newcommand\mytextt{Fernando de Souza Bastos}
+\makeatletter
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\mytext
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\mytextt
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatother
+
+
+\providecommand{\arcsin}{} \renewcommand{\arcsin}{\hspace{2pt}\textrm{arcsen}}
+\providecommand{\sin}{} \renewcommand{\sin}{\hspace{2pt}\textrm{sen}}
+%\newtheorem{Teorema}{Teorema}
+%\newtheorem{Proposicao}{Proposição}
+%\newtheorem{Definicao}{Definição}
+%\newtheorem{Corolario}{Corolário}
+%\newtheorem{Demonstracao}{Demonstração}
+
+% Layout da pagina
+\hypersetup{pdfpagelayout=SinglePage}
+\begin{document}
+\input{Aula8-concordance}
+
+\frame{\titlepage}
+
+\begin{frame}{}
+\frametitle{\bf Sumário}
+\tableofcontents
+\end{frame}
+
+\section{Variáveis Aleatórias Bidimensionais}
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+No estudo de variáveis aleatórias, até este ponto, considerou-se que o resultado do experimento em questão seria registrado como um único valor x. Todavia, existem casos em que há interesse por dois resultados simultâneos, como por exemplo observar o peso e altura de uma pessoa, o sexo e peso de um recém-nascido, etc. Para tanto, faz-se necessário a seguinte definição:
+
+Sejam $E$ um experimento aleatório, e $\Omega$ o espaço amostral associado a $E$.
+Sejam $X$ e $Y$ duas variáveis aleatórias. Então $(X, Y )$ define uma variável aleatória bidimensional, que pode ser discreta, contínua ou mista.
+\end{block}
+\end{frame}
+
+\section{Distribuição Conjunta de duas variáveis aleatórias}
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Se $(X, Y )$ é uma variével aleatória bidimensional discreta, sua função de
+probabilidade, representada por $P(X = x_{i}, Y = y_{j})$ que associa um valor $p(x_{i}, y_{j})$ a cada
+valor do par $(X, Y )$ deve satisfazer as seguintes condições:
+
+\begin{enumerate}
+\item $P(x_{i}, y_{j})\geq 0, \forall (x_{i}, y_{j});$
+\item $\displaystyle \sum_{i} \sum_{j} P(x_{i}, y_{j}) = 1.$
+\end{enumerate}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{Exemplo}
+\justifying
+\begin{enumerate}
+\item Seja o experimento de se lançar simultaneamente um dado e uma moeda, observando o resultado da face superior de ambos. Teremos então a seguinte
+função de probabilidade, onde:
+$$X= \textrm{face superior do dado,\ e}\ \ Y=\textrm{face superior da moeda}$$
+\end{enumerate}
+\vspace{-0.8cm}
+\begin{table}[h]
+\centering
+\resizebox{0.3\textwidth}{!}{
+\begin{tabular}{ccc}
+  \hline
+  $X\backslash Y$ & cara & coroa \\
+  \hline
+  1 & $1/12$ & $1/12$ \\
+  2 & $1/12$ & $1/12$ \\
+  3 & $1/12$ & $1/12$ \\
+  4 & $1/12$ & $1/12$ \\
+  5 & $1/12$ & $1/12$ \\
+  6 & $1/12$ & $1/12$ \\
+  \hline
+\end{tabular}
+}
+\end{table}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+Se $(X, Y )$ for uma variável aleatória bidimensional contínua, diz-se que
+$f(x, y)$ é uma função densidade de probabilidade conjunta se:
+
+\begin{enumerate}
+\item $f(x, y)\geq 0, \forall\ (x_{i}; y_{j})\in \mathbb{R};$
+\item $\displaystyle \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f(x, y)dxdy = 1.$
+\end{enumerate}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Exemplo}
+\begin{block}{}
+\vspace{-1cm}
+\begin{enumerate}
+\item Sejam $X$ e $Y$ v.a.c. com f.d.p. conjunta dada por:
+\end{enumerate}
+$$
+f(x,y)=\left\{
+\begin{array}{ccc}
+k(2x+y),& \textrm{se}\quad 2\leq x\leq 6,\quad 0\leq y\leq 5;\\
+0,& \textrm{para outros valores de\ }X\ \textrm{e}\ Y.\\
+\end{array}
+\right.
+$$
+Pede-se:
+\begin{description}
+\item[a)] O valor de $k$;
+\item[b)] $P(X\leq 3, 2\leq Y \leq 4)$;
+\item[c)] $P(Y<2)$;
+\item[d)] $P(X>4)$;
+\end{description}
+\end{block}
+\end{frame}
+
+\section{Distribuição Marginal}
+\begin{frame}{Distribuição Marginal}
+\frametitle{}
+\begin{block}{}
+\justifying
+Dada uma variável aleatória bidimensional, e sua distribuição de probabilidade conjunta, pode-se obter a distribuição da variável $X$, sem considerar $Y$ ou vice-versa, 
+que são denominadas distribuições marginais de $X$ e $Y$, respectivamente.
+
+\begin{itemize}
+\item Distribuição marginal de $X$, caso em que $X$ é v.a.d.:
+$$\displaystyle P(X=x_{i})=\sum_{j}p(x_{i},y_{j})$$
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\begin{itemize}
+\item Distribuição marginal de $X$, caso em que $X$ é v.a.c.:
+$$\displaystyle g(x)=\int_{-\infty}^{\infty} f(x,y)dy$$\pause
+\vspace{-0.5cm}
+\item Distribuição marginal de $Y$, caso em que $Y$ é v.a.d.:
+$$\displaystyle P(X=y_{j})=\sum_{i}p(x_{i},y_{j})$$\pause
+\vspace{-0.5cm}
+\item Distribuição marginal de $Y$, caso em que $Y$ é v.a.c.:
+$$\displaystyle h(y)=\int_{-\infty}^{\infty} f(x,y)dx$$
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{Exemplo}
+\begin{block}{}
+No exemplo do lançamento simultâneo de um dado e uma moeda teremos:
+$$X= \textrm{face superior do dado,\ e}\ \ Y=\textrm{face superior da moeda}$$
+\begin{table}[h]
+\centering
+\resizebox{0.4\textwidth}{!}{
+\begin{tabular}{c|cc|c}
+  \hline
+  $X\backslash Y$ & cara & coroa&$P(X=x_{i})$ \\
+  \hline
+  1 & $1/12$ & $1/12$& $1/6$\\
+  2 & $1/12$ & $1/12$& $1/6$\\
+  3 & $1/12$ & $1/12$& $1/6$\\
+  4 & $1/12$ & $1/12$& $1/6$\\
+  5 & $1/12$ & $1/12$& $1/6$\\
+  6 & $1/12$ & $1/12$& $1/6$\\
+  \hline
+$P(Y=y_{j})$ &$1/2$& $1/2$&1\\
+  \hline
+\end{tabular}
+}
+\end{table}
+\end{block}
+\end{frame}
+
+\section{Variáveis Aleatórias Independentes}
+\begin{frame}{}
+\frametitle{Variáveis Aleatórias Independentes}
+\begin{block}{}
+\justifying
+Seja $(X, Y)$ uma variável aleatória bidimendional, então as variáveis $X$ e $Y$
+são independentes se, e somente se, 
+$$P(x_{i}, y_{j}) = P(x_{i}).P (y_{j}),\quad \forall i,j,$$
+
+para variáveis aleatórias discretas, ou 
+
+$$f(x, y) = g(x).h(y),\quad \forall i,j,$$
+
+para variáveis aleatórias contínuas. 
+
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+O exemplo anterior é um caso de v.a. independentes, basta notar que 
+$P(x_{i}, y_{j}) =\dfrac{1}{12}= \dfrac{1}{6}\dfrac{1}{2}=P(x_{i}).P (y_{j}),\quad \forall i,j,$
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+\justifying
+As v.a. $X$ e $Y$ admitem a seguinte distribuição conjunta de probabilidade.
+\begin{center}
+\begin{tabular}{c|ccc|c}
+    $Y\backslash  X$ & 1 & 2 & 3 & P(y) \\
+  \hline
+  4    & 0,2 & 0,15 & b    &   \\
+  5    & a   & 0,15 & 0,15 &   \\
+  \hline
+  P(x) &     &      &      &   \\
+   \end{tabular}
+\end{center}
+
+Encontre $a$ e $b$ para que as v.a. $X$ e $Y$ sejam independentes.
+\end{block}
+\end{frame}
+
+
+\end{document}
