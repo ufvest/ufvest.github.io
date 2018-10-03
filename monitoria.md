@@ -29,5 +29,10 @@ Monitora: Larissa Rodrigues
 Monitora: Luiza Miotto
 
 * Segunda-feira de 17h às 18h30min no laboratório 3
+<<<<<<< HEAD
 * Quinta-feira de 13h às 15h - PVD sala 7
 * Sexta-feira de 11h30min às 13h no laboratório 3
+=======
+* Quinta-feira de 13h às 15h - local a definir
+* Sexta-feira de 11h30min às 13h no laboratório 2
+>>>>>>> 2b124a9028cdabe1dbc621068ddd376ce89eda55
