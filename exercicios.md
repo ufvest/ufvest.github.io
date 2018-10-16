@@ -35,7 +35,9 @@ description: Página com listas de exercícios.
 * [Cap 4][cap4] - Análise Bidimensional
 * [Morettin][solBussab] - Soluções dos Exercícios do livro do Bussab e Morettin no R.
 
+<p class="intro">Planilha para confirmar desejo de fazer a prova substitutiva dia 27/10/2018:</p>
 
+* [Planilha][planilha] - Preencha a planilha com seu nome, matrícula e turma, caso queira fazer a prova substitutiva.
 
 ---
 
@@ -48,3 +50,4 @@ description: Página com listas de exercícios.
 [cap4]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap4.xlsx
 [solBussab]: https://www.ime.usp.br/~pam/scriptsR.html
 [Probabilidade]: https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista3/Lista3.pdf
+[planilha]: https://docs.google.com/spreadsheets/d/1dUG5FB4HraJ_jiP-0GtdTqBTID-SFiV3lBU5gVCQOG8/edit?usp=sharing
