@@ -23,11 +23,11 @@ Fonte: Wikipédia
 Monitora: Larissa Rodrigues
 
 * Segunda-feira de 15h ás 17h no PVA sala 1
-* Segunda-feira de 11h30min às 13h no laboratório 3
-* Terça-feira de 17h ás 18h30min no laboratório 3
+* Segunda-feira de 11h30min às 13h no laboratório 3 do Pavilhão de aulas B (PVB)
+* Terça-feira de 17h ás 18h30min no laboratório 3 do Pavilhão de aulas B (PVB)
 
 Monitora: Luiza Miotto
 
-* Segunda-feira de 17h às 18h30min no laboratório 3
+* Segunda-feira de 17h às 18h30min no laboratório 3 do Pavilhão de aulas B (PVB)
 * Quinta-feira de 13h às 15h no PVD sala 7
-* Sexta-feira de 11h30min às 13h no laboratório 3
+* Sexta-feira de 11h30min às 13h no laboratório 3 do Pavilhão de aulas B (PVB)
