@@ -157,7 +157,7 @@ $$\displaystyle E(X)=\int_{-\infty}^{+\infty}xf(x)dx.$$
 \textbf{Exemplo:} Uma v.a.c. $X$ possui a seguinte f.d.p.:
 
 $$
-F(x)=\left\{
+f(x)=\left\{
 \begin{array}{ccccc}
 0,           & \textrm{se} & x<0     ;\\
 \dfrac{x}{2},& \textrm{se} & 0\leq x\leq 2;\\

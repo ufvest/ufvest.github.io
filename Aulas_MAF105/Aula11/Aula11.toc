@@ -1,0 +1,5 @@
+\babel@toc {brazil}{}
+\beamer@sectionintoc {1}{Distribui\IeC {\c c}\IeC {\~o}es Cont\IeC {\'\i }nuas}{3}{0}{1}
+\beamer@sectionintoc {2}{Distribui\IeC {\c c}\IeC {\~a}o Uniforme}{5}{0}{2}
+\beamer@sectionintoc {3}{Distribui\IeC {\c c}\IeC {\~a}o Normal}{12}{0}{3}
+\beamer@sectionintoc {4}{Uso da Tabela}{27}{0}{4}
