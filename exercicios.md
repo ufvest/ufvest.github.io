@@ -35,9 +35,11 @@ description: Página com listas de exercícios.
 * [Cap 4][cap4] - Análise Bidimensional
 * [Morettin][solBussab] - Soluções dos Exercícios do livro do Bussab e Morettin no R.
 
+<!---
 <p class="intro">Planilha para confirmar desejo de fazer a prova substitutiva dia 27/10/2018:</p>
 
-* [Planilha][planilha] - Preencha a planilha com seu nome, matrícula e turma, caso queira fazer a prova substitutiva.
+[Planilha][planilha] - Preencha a planilha com seu nome, matrícula e turma, caso queira fazer a prova substitutiva.
+-->
 
 ---
 
