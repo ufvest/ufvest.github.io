@@ -31,17 +31,17 @@ description: Página com as aulas da disciplina.
 ---
 
 [maf105-gh]:https://github.com/maf105
-[aula1]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula1/Aula1.pdf
-[aula2]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula2/Aula2.pdf
-[aula3]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula3/Aula3.pdf
-[aula4]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula4/Aula4.pdf
-[aula5]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula5/Aula5.pdf
-[aula6]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula6/Aula6.pdf
-[aula7]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula7/Aula7.pdf
-[aula8]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula8/Aula8.pdf
-[aula9]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula9/Aula9.pdf
-[aula10]:   https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula10/Aula10.pdf
-[aula11]:   https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula11/Aula11.pdf
+[aula1]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula1/Aula1.pdf
+[aula2]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula2/Aula2.pdf
+[aula3]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula3/Aula3.pdf
+[aula4]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula4/Aula4.pdf
+[aula5]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula5/Aula5.pdf
+[aula6]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula6/Aula6.pdf
+[aula7]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula7/Aula7.pdf
+[aula8]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula8/Aula8.pdf
+[aula9]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula9/Aula9.pdf
+[aula10]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula10/Aula10.pdf
+[aula11]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula11/Aula11.pdf
 [aula12]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula12/Aula12.pdf
 [aula13]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula13/Aula13.pdf
 [aula14]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula14/qui_quad.pdf
