@@ -1,0 +1,10 @@
+\frametitle{}
+\frametitle{Exemplo}
+\begin{block}{}
+O gráfico de probabilidade normal dos dados suporta a suposição de que o coeficiente médio de restituição é normalmente distribuído.
+\end{block}
+\vspace{-1.2cm}
+\begin{center}
+\setkeys{Gin}{width=0.5\linewidth}
+\includegraphics{Aula13-plot}
+\end{center}

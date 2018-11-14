@@ -1,0 +1,5 @@
+\babel@toc {brazil}{}
+\beamer@sectionintoc {1}{Testes de Hip\IeC {\'o}teses}{3}{0}{1}
+\beamer@sectionintoc {2}{Tipos de Erros}{21}{0}{2}
+\beamer@sectionintoc {3}{Hip\IeC {\'o}teses Unilaterais e Bilaterais}{45}{0}{3}
+\beamer@sectionintoc {4}{Procedimento geral para Testes de Hip\IeC {\'o}teses}{51}{0}{4}
