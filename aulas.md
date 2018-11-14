@@ -20,6 +20,9 @@ description: Página com as aulas da disciplina.
 * [Aula 9][aula9]
 * [Aula 10][aula10]
 * [Aula 11][aula11]
+* [Aula 12][aula12]
+* [Aula 13][aula13]
+* [Aula 14][aula14]
 
 ---
 
@@ -39,4 +42,6 @@ description: Página com as aulas da disciplina.
 [aula9]:    https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula9/Aula9.pdf
 [aula10]:   https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula10/Aula10.pdf
 [aula11]:   https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula11/Aula11.pdf
-
+[aula12]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula12/Aula12.pdf
+[aula13]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula13/Aula13.pdf
+[aula14]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula14/Aula14.pdf
