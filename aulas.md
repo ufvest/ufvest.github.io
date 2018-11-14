@@ -44,4 +44,4 @@ description: Página com as aulas da disciplina.
 [aula11]:   https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula11/Aula11.pdf
 [aula12]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula12/Aula12.pdf
 [aula13]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula13/Aula13.pdf
-[aula14]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula14/Aula14.pdf
+[aula14]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula14/qui_quad.pdf
