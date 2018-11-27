@@ -1,0 +1,507 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{ifthen}
+\newboolean{firstanswerofthechapter}  
+\usepackage{xcolor}
+\colorlet{lightcyan}{cyan!40!white}
+\usepackage{chngcntr}
+\usepackage{stackengine}
+\usepackage{tasks}
+\usepackage{multirow}
+\usepackage{float}
+\newlength{\longestlabel}
+\settowidth{\longestlabel}{\bfseries viii.}
+%\settasks{counter-format={tsk[r].}, label-format={\bfseries}, label-width=\longestlabel,
+    %item-indent=0pt, label-offset=2pt, column-sep={10pt}}
+		
+\setcounter{secnumdepth}{0} \setlength{\topmargin}{0cm}
+\setlength{\headsep}{-0.3cm} \setlength{\textwidth}{17.5cm}
+\setlength{\textheight}{23cm} \setlength{\oddsidemargin}{-0.8cm}
+\setlength{\evensidemargin}{0cm} \setlength{\footskip}{-1.5cm}
+
+		
+\usepackage[lastexercise,answerdelayed]{exercise}
+%\counterwithin{Exercise}{chapter}
+%\counterwithin{Answer}{chapter}
+%\renewcounter{Exercise}[chapter]
+%\newcommand{\QuestionNB}{\bfseries\arabic{Question}.\ }
+%\renewcommand{\ExerciseName}{Exercício}
+%\renewcommand{\ExerciseHeader}{\noindent\def\stackalignment{l}% code from https://tex.stackexchange.com/a/195118/101651
+    %\stackunder[0pt]{\colorbox{cyan}{\textcolor{white}{\textbf{\LARGE\ExerciseHeaderNB\;\large\ExerciseName}}}}{\textcolor{lightcyan}{\rule{\linewidth}{2pt}}}\medskip}
+\renewcommand{\ExerciseName}{Exercícios}
+\renewcommand{\ExerciseHeader}{\noindent\def\stackalignment{l}% code from https://tex.stackexchange.com/a/195118/101651
+    \stackunder[0pt]{\colorbox{cyan}{\textcolor{white}{\textbf{\large\ExerciseName}}}}{\textcolor{lightcyan}{\rule{\linewidth}{2pt}}}\medskip}
+%\renewcommand{\AnswerName}{Exercises}
+%\renewcommand{\AnswerHeader}{\ifthenelse{\boolean{firstanswerofthechapter}}%
+    %{\bigskip\noindent\textcolor{cyan}{\textbf{CHAPTER \thechapter}}\newline\newline%
+        %\noindent\bfseries\emph{\textcolor{cyan}{\AnswerName\ \ExerciseHeaderNB, page %
+                %\pageref{\AnswerRef}}}\smallskip}
+    %{\noindent\bfseries\emph{\textcolor{cyan}{\AnswerName\ \ExerciseHeaderNB, page \pageref{\AnswerRef}}}\smallskip}}
+%\setlength{\QuestionIndent}{16pt}
+
+\begin{document}
+
+\vspace*{-2cm}
+
+\begin{center}
+\begin{minipage}[s]{2cm}
+\hspace{-1.3cm}\includegraphics[scale=1.0]{Figuras/brasaoufv.eps}
+\end{minipage}
+\begin{minipage}[s]{13cm}
+{\begin{center} {\sc \Large Universidade Federal de Vi\c{c}osa}\\
+{\sc \large Instituto de Ci\^encias Exatas e Tecnológicas}\\
+{\sc \large Campus UFV - Florestal}\\
+\end{center}}
+\end{minipage}\begin{minipage}[s]{2 cm}
+%\includegraphics[width=2 cm]{logoimecc.eps}
+\end{minipage}
+\end{center}
+
+\vspace{-0.3cm}
+
+%\hline \hline \noindent
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+
+\begin{center}
+
+\underline{\underline{{\large{\sc Lista de Iniciação à Estatística - Testes de Hipóteses}}}}
+
+\bigskip
+
+{\large {\bf Prof. Fernando Bastos}}
+%\bigskip
+%
+%%{\sc Data: $19/06/2018$}
+\end{center}
+
+\begin{Exercise}
+
+\Question Trace uma curva normal e sombreie a área desejada obtendo então a informação.
+\begin{tasks}
+\task Área à direita de $Z = 1$
+\task Área à esquerda de $Z = 1$
+\task Área entre $Z = 0$ e $Z = 1,5$
+\task Área entre $Z = -0,56$ e $Z = -0,2$
+\task Área entre $Z = 0,5$ e $Z = 0,5$
+\task Área entre $Z = 0$ e $Z = -2,5$
+\end{tasks} 
+
+\Question Usando a tabela da distribuição normal, determine os valores de $Z$ que correspondem às seguintes áreas:
+\begin{tasks}
+\task Área de 0,0505 à esquerda de Z.
+\task Área de 0,0228 à direita de Z
+\task Área de 0,0228 à esquerda de Z
+\task 0,4772 entre 0 e $z.$
+\end{tasks} 
+
+\Question Consultando a tabela, determine a probabilidade de certo valor padronizado de Z estar entre $Z_{0} = -1,20$ e $Z_{1} = 2,00$. Desenhe o gráfico.
+
+\Question Dado uma variável $X$ com distribuição normal de média 25 e desvio-padrão 2, determine os valores de Z para os seguintes valores $(x):$
+\begin{tasks}
+\task 23
+\task 23,5
+\task 24
+\task 25,2
+\task 25,5
+\end{tasks}
+
+\Question Determine a probabilidade de certo valor padronizado de Z estar entre $Z_{0} = -1,30$ e $Z_{1}=1.5$. Desenhe o gráfico.
+
+\Question Uma população normal tem média 40 e desvio-padrão 3. Determine os valores da população correspondentes aos seguintes de Z:
+\begin{tasks}
+\task 	0,10
+\task 	2,00
+\task 	0,75
+\task 	-3,00
+\task 	-2,53
+\end{tasks}
+
+\newpage
+
+\Question Explique com suas palavras, exemplificando, o significado de:
+\begin{tasks}
+\task teste de hipótese;
+\task Hipótese nula e alternativa;
+\task erros do tipo I e II; 
+\task nível de significância.
+\end{tasks}
+
+\Question Enuncie a hipótese nula e a hipótese alternativa em cada um dos casos a seguir.
+\begin{tasks}
+\task A produção média de certo cereal é de 40 toneladas por hectare. Acredita-se que um novo tipo de adubo aumenta a produção média por hectare.
+\task Um sindicato de empregados de certa categoria deseja verificar se a taxa de desemprego em certo município é maior que a taxa de $12\%$ observada seis meses antes.
+\end{tasks}
+
+\Question O fabricante de certa marca de suco informa que as embalagens de seu produto têm em média 500 ml, com desvio padrão igual a 10 ml. Tendo sido encontradas 
+no mercado algumas embalagens com menos de 500 ml, suspeita-se que a informação do fabricante seja falsa. Para verificar se isto ocorre, um fiscal analisa uma amostra 
+de 200 embalagens escolhidas aleatoriamente no mercado e constata que as mesmas contêm em média 498 ml. Considerando-se um nível de significância de $5\%,$ 
+pode-se afirmar que o fabricante está mentindo? Calcule o valor da prova para esta amostra.
+
+\Question A duração das lâmpadas produzidas por certo fabricante tem distribuição normal com média igual a 1200 horas e desvio padrão igual a 300 horas. O fabricante 
+introduz um novo processo na produção das lâmpadas. Para verificar se o novo processo produz lâmpadas de maior duração, o fabricante observa 100 lâmpadas produzidas 
+pelo novo processo e constata que as mesmas duram em média 1265 horas. Admitindo-se um nível de significância de $5\%,$ pode-se concluir que o novo processo produz 
+lâmpadas com maior duração?
+
+\Question O custo de produção de certo artigo numa localidade tem distribuição normal com média igual a $R\$42,00.$ Desenvolve-se uma política de redução de custos 
+na empresa para melhorar a competitividade do referido produto no mercado. Observando-se os custos de 10 unidades deste produto, obtiveram-se os seguintes valores: 
+34, 41, 36, 41, 29, 32, 38, 35, 33 e 30. Admitindo-se um nível de significância de $5\%,$ pode-se afirmar que o custo do produto considerado diminuiu? 
+
+\Question O controle de qualidade das peças produzidas por certa fábrica exige que o diâmetro médio das mesmas seja 57 mm. Para verificar se o processo de produção 
+está sob controle, observam-se os diâmetros de 10 peças, constatando-se os seguintes valores em mm: 56,5; 56,6; 57,3; 56,9; 57,1; 56,7; 57,1; 56,8; 57,1; 57,0. 
+Admitindo-se um nível de significância de $5\%,$ pode-se concluir que o processo de produção está sob controle?
+
+\Question Numa localidade, $32\%$ dos consumidores consomem determinado produto. Foi lançado no mercado da localidade um produto concorrente. Uma pesquisa 
+realizada com 500 consumidores escolhidos ao acaso revelou que 145 dentre estes consomem o antigo produto. Pode-se concluir, num nível de significância de $2\%,$ que 
+a preferência pelo produto antigo diminuiu com a entrada do concorrente no mercado? Calcule o valor da prova para esta amostra. 
+
+\Question Sabe-se que $6\%$ das unidades de certo produto são substituídas gratuitamente por apresentar defeitos de fabricação. Para reduzir este percentual, o 
+fabricante investiu na melhoria da qualidade do produto. Consta-se que 12 dentre 400 unidades vendidas tiveram que ser substituídas gratuitamente por apresentar defeitos 
+de fabricação. Pode-se concluir, num nível de significância de $3\%,$ que a qualidade do produto melhorou?
+
+\Question Suponha que o tempo necessário para que estudantes completem uma prova tenha distribuição normal com média 90 minutos e desvio padrão 15 minutos.
+\begin{tasks}
+\task Qual é a probabilidade do estudante terminar a prova em menos de 80 minutos?
+\task Em mais de 120 minutos? 
+\task Entre 75 e 85 minutos?
+\task Qual é o tempo necessário para que $98\%$ dos estudantes terminem a prova?
+\end{tasks}
+
+\newpage
+
+\Question Uma v.a. $X$ tem distribuição normal, com média $100$ e desvio padrão $10.$
+\begin{tasks}
+\task Qual a $P(90 < X < 110)$?
+\task Se $\bar{X}$ for a média de uma amostra de 16 elementos retirados dessa população, calcule $P(90 < \bar{X} < 110)$.
+\task Represente, num único gráfico, as distribuições de $X$ e $\bar{X}$.
+\task Que tamanho deveria ter a amostra para que $P(90 < \bar{X}< 110) = 0,95$?
+\end{tasks}
+
+\Question Nas situações abaixo, escolha como hipótese nula, $H_0$, aquela que para você leva a um erro tipo I mais importante. Descreva quais os dois erros em 
+cada caso.
+\begin{tasks}
+\task O trabalho de um operador de radar é detectar aeronaves inimigas. Quando surge alguma coisa estranha na tela, ele deve decidir entre as hipotéses:\\
+1. está começando um ataque;\\
+2. tudo bem, apenas uma leve interferência.
+\task Num júri, um indivíduo está sendo julgado por um crime. As hipóteses sujeitas ao júri são:\\
+1. o acusado é inocente;\\
+2. o acusado é culpado.
+\task Um pesquisador acredita que descobriu uma vacina contra resfriado. Ele irá conduzir uma pesquisa de laboratório para verificar a veracidade da afirmação. De acordo 
+com o resultado, ele lançará ou não a vacina no mercado. As hipóteses que pode testar são:\\
+1. a vacina é eficaz;\\
+2. a vacina não é eficaz.
+\end{tasks}
+
+\Question Uma fábrica de automóveis anuncia que seus carros consomem, em média, 11 litros por 100 km, com desvio padrão de 0,8 litros. Uma revista resolve testar essa 
+afirmação e analisa 35 automóveis dessa marca, obtendo 11,3 litros por 100 km como consumo médio (considerar distribução normal). O que a revista pode concluir 
+sobre o anúncio da fábrica, no nível de 10\%?
+
+\Question Duas máquinas, A e B, são usadas para empacotar pó de café. A experiência passada garante que o desvio padrão para ambas é de 10 g. Porém, suspeita-se 
+que elas têm médias diferentes. Para verificar, sortearam-se duas amostras: uma com 25 pacotes da máquina A e outra com 16 pacotes da máquina B. As médias foram, 
+respectivamente, $\bar x_A = 502,74g$ e $\bar x_B = 496,60 g$.  Com esses números, e com o nível de $5\%$, qual seria a coclusão do teste $H_0: \mu_A = \mu_B$?
+
+\Question Uma fábrica de embalagens para produtos químicos está estudando dois processos para combater a corrosão de suas latas especiais. Para verificar o efeito dos 
+tratamentos, foram usadas amostras cujos resultados estão no quadro abaixo (em porcentagem de corrosão eliminada). Qual seria a conclusão sobre os dois tratamentos?
+
+\begin{tabular}{cccc}\\ \hline
+Método & Amostra & Média & Desvio Padrão \\ \hline
+A & 15 & 48 & 10 \\
+B & 12 & 52 & 15 \\ \hline
+\end{tabular}
+
+\Question \item Para investigar a influência da opção profissional sobre o salário inicial de recém-formados, investigaram-se dois grupos de profissionais: um de liberais em geral 
+e outro de formandos em Administração de Empresas. Com os resultados abaixo, expressos em salários mínimos, quais seriam suas conclusões?
+
+\begin{tabular}{ccccccccc}\\ \hline
+Liberais & 6,6 & 10,3 & 10,8 & 12,9 & 9,2 & 12,3 & 7,0 &  \\ \hline
+Administradores & 8,1 & 9,8 & 8,7 & 10,0 & 10,2 & 8,2 & 8,7 & 10,1 \\ \hline
+\end{tabular}
+
+\newpage
+
+\Question Os dados abaixo referem-se a medidas de determinada variável em 19 pessoas antes e depois de uma cirurgia. Verifique se as medidas pré e pós-operatórias 
+apresentam a mesma média. Que suposições você faria para resolver o problema?
+
+\begin{tabular}{c|c|c|c|c|c} \hline
+ Pessoas & Pré & Pós & Pessoas & Pré & Pós \\ \hline
+ 1 & 50,0 & 42,0 & 10 & 40,0 & 50,0 \\
+ 2 & 50,0 & 42,0 & 11 & 50,0 & 48,0 \\
+ 3 & 50,0 & 78,0 & 12 & 75,0 & 52,0 \\
+ 4 & 87,5 & 33,0 & 13 & 92,5 & 74,0 \\
+ 5 & 32,5 & 96,0 & 14 & 38,0 & 47,5 \\
+ 6 & 35,0 & 82,0 & 15 & 46,5 & 49,0 \\
+ 7 & 40,0 & 44,0 & 16 & 50,0 & 58,0 \\
+ 8 & 45,0 & 31,0 & 17 & 30,0 & 42,0 \\
+ 9 & 62,5 & 87,0 & 18 & 35,0 & 60,0 \\
+ 10 &  &  & 19 & 39,4 & 28,0 \\ \hline
+\end{tabular}
+
+\Question Uma empresa deseja estudar o efeito de uma pausa de dez minutos para um cafezinho sobre a produtividade de seus trabalhadores. Para isso, sorteou seis operários, 
+e contou o número de peças produzidas durante uma semana sem intervalo e uma semana com intervalo. Os resultados sugerem se há ou não melhora na produtividade? 
+Caso haja melhora, qual deve ser o acréscimo médio de produção para todos os trabalhadores da fábrica?
+
+\begin{tabular}{ccccccc}\hline
+ Operário & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline
+ Sem intervalo & 23 & 35 & 29 & 33 & 43 & 32 \\
+ Com intervalo & 28 & 38 & 29 & 37 & 42 & 30 \\ \hline
+\end{tabular}
+
+\Question Num levantamento feito com os operários da indústria mecânica, chegou-se aos seguintes números: salário médio = 3,64 salários mínimos e desvio padrão = 0,85 
+salário mínimo. Suspeita-se que os salários de subclasse formada pelos torneiros mecânicos são diferentes dos salários do conjunto todo, tanto na média como na variância. 
+Que conclusões você obteria se uma amostra de 25 torneiros apresentasse salário médio igual a 4,22 salários mínimos e desvio padrão igual a 1,25 salário mínimo?
+
+\Question Um partido afirma que a porcentagem de votos masculinos a seu favor será de 10 \% a mais do que a porcentagem de votos femininos. Numa pesquisa feita entre 
+400 homens, 170 votariam no partido, enquanto entre 625 mulheres, 194 lhe seriam favoráveis. A afirmação do partido é verdadeira ou não?
+
+\Question De 400 moradores sorteados de uma grande cidade industrial, 300 são favoráveis a um projeto governamental, e de uma amostra de 160 moradores de uma cidade 
+cuja principal atividade é o turismo, 120 são contra.
+\begin{tasks}
+\task Você diria que a diferença de opiniões nas duas cidades é estatisticamente significante?
+\end{tasks}
+
+\Question Para verificar o grau de adesão de uma nova cola para vidros, preparam-se dois tipos de montagem: cruzado (A), onde a cola é posta em forma de X, e quadrado (B), 
+onde a cola é posta apenas nas quatro bordas. Os resultados da resistência para as duas amostras de 10 cada estão abaixo. Que tipo de conclusão poderia ser tirada?
+
+\begin{tabular}{c|c|c|c|c|c|c|c|c|c|c} \hline
+Método A & 16 & 14 & 19 & 18 & 19 & 20 & 15 & 18 & 17 & 18 \\ \hline
+Método B & 13 & 19 & 14 & 17 & 21 & 24 & 10 & 14 & 13 & 15 \\ \hline
+\end{tabular}
+
+\Question Em um estudo para comparar os efeitos de duas dietas, A e B, sobre o crescimento, 6 ratos foram submetidos à dieta A, e 9 ratos à dieta B. Após 5 semanas, os ganhos em peso foram:
+
+\begin{tabular}{c|c|c|c|c|c|c|c|c|c} \hline
+Dieta A & 15 & 18 & 12 & 11 & 14 & 15 &  & &  \\ \hline
+Dieta B & 11 & 11 & 12 & 16 & 12 & 13 & 8 & 10 & 13  \\ \hline
+\end{tabular}
+\begin{tasks}
+\task Admitindo que temos duas amostras independentes de populações normais, teste a hipótese de que não há diferença entre as duas dietas, contra a alternativa que a 
+dieta A é mais eficaz, usando o teste $t$ de Student, no nível de $\alpha = 0,01$.
+\end{tasks}
+
+\newpage
+
+\Question Suponha que o tempo necessário para atendimento de clientes em uma central de atendimento telefônico siga uma distribuição normal de média de 8 minutos 
+e desvio padrão de 2 minutos.
+\begin{tasks}
+\task Qual é a probabilidade de que um atendimento dure menos de 5 minutos?
+\task E  mais do que 9,5 minutos?
+\task E entre 7 e 10 minutos?
+\task $75\%$ das chamadas telefônicas requerem pelo menos quanto tempo de atendimento?
+\end{tasks}
+
+\Question A distribuição dos pesos de coelhos criados numa granja pode muito bem ser representada por uma distribuição Normal, com média 5 kg e desvio padrão 0,9 kg. 
+Um abatedouro comprará 5000 coelhos e pretende classificá-los de acordo com o peso do seguinte modo: $15\%$ dos mais leves como pequenos, os $50\%$ seguintes 
+como médios, os $20\%$ seguintes como grandes e os $15\%$ mais pesados como extras. Quais os limites de peso para cada classificação?
+
+\Question Uma enchedora automática de refrigerantes está regulada para que o volume médio de líquido em cada garrafa seja de $1000 cm^{3}$ e desvio padrão de $10 m^{3}$. 
+Admita que o volume siga uma distribuição normal.
+\begin{tasks}
+\task Qual é a porcentagem de garrafas em que o volume de líquido é menor que $990 cm^{3}$?
+\task Qual é a porcentagem de garrafas em que o volume de líquido não se desvia da média em mais do que dois desvios padrões?
+\end{tasks}
+
+\Question Uma empresa produz televisores de 2 tipos, tipo A (comum) e tipo B (luxo), e garante a restituição da quantia paga se qualquer televisor apresentar defeito 
+grave no prazo de seis meses. O tempo para ocorrência de algum defeito grave nos televisores tem distribuição normal sendo que, no tipo A, com média de 10 meses 
+e desvio padrão de 2 meses e no tipo B, com média de 11 meses e desvio padrão de 3 meses. Os televisores de tipo A e B são produzidos com lucro  de 1200 u.m. e 
+2100 u.m. respectivamente e, caso haja restituição, com prejuízo de 2500 u.m. e 7000 u.m. Respectivamente.
+\begin{tasks}
+\task Calcule as probabilidades de haver restituição nos televisores do tipo A e do tipo B.
+\task Calcule o lucro médio para os televisores do tipo A e para os televisores do tipo B.
+\task Baseando-se nos lucros médios, a empresa deveria incentivar as vendas dos aparelhos do tipo A ou do tipo B?
+\end{tasks}
+
+\Question Um estudo comparou dois métodos (A e B) para ensinar matemática a alunos do primeiro grau. Após 10 semanas, o desempenho dos alunos foi 
+avaliado em um teste. Teste a hipótese de que o método A resulta num melhor desempenho médio, ao nível $\alpha=5\%$, com base nos resultados da tabela a seguir:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cccc}
+\hline \hline
+\multirow{2}{*}{Método}&Número   &Média      &Desvio padrão\\
+                                       &de alunos&das notas&das notas        \\
+\hline\hline
+                                     A& 10           &8.15        &1.15                 \\
+                                     B&   8           &7.31        &1.94                 \\
+\hline \hline
+\end{tabular}
+\end{table}
+
+\Question A lei trabalhista estabelece que o pagamento diário mínimo deve ser de $13,20$ U.M. (unidades monetárias). Assuma distribuição normal com desvio 
+padrão igual a 2,0 U.M. Uma amostra aleatória de 40 trabalhadores de uma firma revelou média diária de 12,20 U.M .Esta firma deve ser acusada de estar 
+infringindo a lei? Conclua a $1\%$ de probabilidade.
+
+\Question A tabela a seguir mostra a frequência de acidentes automobilísticos por ano, de acordo som a faixa etária (idade) do motorista, para motoristas com 
+idade inferior a $25$ anos. Teste a hipótese de que o número de acidentes independe da idade, a $5\%$ de probabilidade. Isto é, teste a hipótese de que o número 
+anual de acidentes se distribui proporcionalmente nas faixas etárias.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cccccc}
+\hline \hline
+\multicolumn{6}{c}{$\%$ de motoristas em cada faixa etária}\\
+\hline\hline
+$\%$ de motoristas& 10                &20              &20 & 25 & 25                 \\
+idade (anos)            &15-16           &17-18        &19-20 & 21-22 & 23-24                 \\
+\hline
+número de acidentes &8 & 15 & 13 & 11 & 8 \\
+\hline \hline
+\end{tabular}
+\end{table}
+
+\Question Uma indústria farmacêutica conduziu um estudo para avaliar o tempo médio em dias para recuperação dos efeitos da gripe. O estudo comparou o tempo 
+de indivíduos que tomaram $500$ mg diárias de vitamina C, contra  indivíduos que não tomaram vitamina C (nenhum suplemento). Com base nos dados a seguir, 
+conclua e interprete a $5\%$ de probabilidade.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccc}
+\hline \hline
+                                      &\multicolumn{2}{c}{Tratamento}\\
+																			\cline{2-3}
+                                      &Nenhum suplemento&$500$mg Vit. C        \\
+\hline\hline
+Tamanho da amostra& 12           &12      \\
+Tempo médio            & 7,4           &5,8     \\
+Variâncias                   & 2,9          &2,4     \\
+\hline \hline
+\end{tabular}
+\end{table}
+
+\Question Um pesquisa de opinião entrevistou $50$ pessoas em dois distritos. O objetivo era verificar se a distribuição das opiniões era homogênea nos dois distritos. 
+Com base nos dados da tabela, teste a hipótese de homogeneidade de opiniões usando $\alpha=5\%.$
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccc}
+\hline \hline
+                                      &\multicolumn{3}{c}{Opinião}&            \\
+																			\cline{2-4}
+                                      &Sim&Indeciso&Não             & Total  \\
+\hline\hline
+Distrito A           & 20           &9 & 21 & 50      \\
+Distrito B           & 26           &3 & 21 & 50     \\
+\hline
+Total                  & 46           &12 &42&100    \\
+\hline \hline
+\end{tabular}
+\end{table}
+
+\Question Uma associação comercial afirma que o número médio de dias de trabalho perdidos anualmente, devido a problemas de saúde, é igual a 60. Uma extensa 
+campanha educacional visando a conscientizar os trabalhadores quanto a importância de uma alimentação balanceada, higiene pessoal, prática de esportes 
+etc, foi conduzida com o intuito de melhorar este quadro. Um ano após esta campanha, um estudo com $30$ trabalhadores forneceu média igual a $55$ dias. Assuma 
+que o número de dias de trabalho perdidos anualmente é normalmente distribuído com variância $\sigma^{2}=275$. Pede-se:
+\begin{tasks}
+\task Pode-se afirmar que a campanha foi eficaz ao nível de $\alpha=1\%$ de probabilidade?
+\task Para qual nível de significância se pode afirmar que a campanha educacional foi eficaz?
+\end{tasks}
+
+\Question Um gerente comercial acredita que um número excessivo de horas estejam sendo desperdiçadas em contatos comerciais, via telefone, entre os seus 
+vendedores e os clientes em potencial. Ele deseja no máximo quinze horas por semana por vendedor. Este gerente comercial contratou uma empresa especializada 
+para treinar seus vendedores. Após este treinamento, uma amostra de $36$ vendedores revelou média igual a $17h$ por semana por vendedor. O que pode ser concluído 
+quanto a eficácia do treinamento? Assuma $\sigma^{2}=9$ e utilize $\alpha=5\%.$
+
+\Question Com base em dados obtidos de $400$ mulheres, apresentados na tabela abaixo, pode-se concluir que o nível educacional e a adaptação à vida conjugal 
+são independentes? Conclua a $5\%$ de probabilidade.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccc}
+\hline \hline
+                                      &\multicolumn{4}{c}{Adaptação}\\
+																			\cline{2-5}
+Nível educacional&ruim&razoável&boa&muito boa\\
+\hline\hline
+         Universidade& 18  &29 & 70 & 115      \\
+$2^{\circ}$ grau     & 17  &28 & 30 &    41     \\
+$3^{\circ}$ grau     & 11  &10 & 11 &    20     \\
+\hline
+\end{tabular}
+\end{table}
+
+\Question Uma cooperativa de produtores possui uma máquina de encher vasilhame com um litro de leite. Para assegurar que em média cada vasilhame não terá 
+leite a mais e nem a menos, o responsável pelo controle de qualidade amostra, semanalmente, $75$ vasilhames enchidos pela máquina. Se uma amostra fornecer 
+$63,97$ litros e desvio padrão $s=0,25$ litros, deve-se parar a máquina para regulagem ou continuar a produção? Qual deve ser o procedimento adotado a $\alpha=5\%$ 
+de probabilidade?
+
+\Question A renda média de famílias com $4$ pessoas na região sudeste do Brasil, no ano de $1975$, era de $5$ U.M. Economistas acreditam que atualmente a renda 
+média é maior. Pede-se,
+\begin{tasks}
+\task Quais seriam as hipóteses estatísticas $(H_{0} e H_{a}),$ para se tentar provar que atualmente a renda média é maior do que em 1975?
+\task Quais são as informações necessárias para se realizar um \textbf{teste Z}?
+\task Quais são as informações necessárias para se realizar um \textbf{teste t}?
+\task Explique os dois possíveis erros (erro tipo I e erro tipo II) de decisão que podem ocorrer neste exemplo?
+\end{tasks}
+
+\Question Assuma que o consumo mensal per capita de determinado produto tem distribuição normal com desvio padrão igual a $5$ kg. Com a atual crise (do dólar, 
+do apagão, do futebol...várias opções!) o departamento de vendas da fábrica decidiu que irá retirar o produto do mercado, caso o consumo médio $(\mu)$ per capita 
+seja inferior a $10 kg.$ Se uma pesquisa de mercado, com uma amostra de $100$ indivíduos, revelar consumo médio mensal per capita de $9$ kg, pede-se: Qual deve 
+ser a afirmação, ao nível de significância de $1,5\%$?
+
+\Question No quadro abaixo estão as opiniões, com respeito ao desempenho e a potência do motor, de proprietários de veículos de um determinado fabricante. 
+As opiniões foram classificadas pela idade do proprietário.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccc}
+\hline \hline
+                                      &\multicolumn{2}{c}{Opinião}\\
+																			\cline{2-3}
+Idade&Ruim&Bom\\
+\hline\hline
+Jovem       & 30  &20      \\
+Experiente& 20  &30     \\
+\hline
+\end{tabular}
+\end{table}
+
+O que pode ser afirmado quanto à seguinte hipótese de nulidade? 
+
+$H_{0}:$ Idade e opinião são independentes.
+
+\Question Para comparar duas marcas de pará-choques, montaram-se seis de cada marca em $12$ carros compactos, fazendo-se cada carro colidir com um muro 
+de concreto, a uma velocidade de $40$ km$\backslash$h. Registraram-se os seguintes custos de reparo:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccccccc}
+\hline \hline
+Pára-choque&\multicolumn{6}{c}{Custo (R\$)}&Média & Variância\\
+\hline
+A       & 320  &310 & 380 & 360 & 320 & 345 & 339,17 & 744,17      \\
+B       & 305  &290 & 340 & 315 & 280 & 305 & 305,80 & 434,17     \\
+\hline \hline
+\end{tabular}
+\end{table}
+
+Teste $(\alpha=5\%)$ a hipótese de igualdade entre os custos médios de reparo dos pará-choques.
+
+\Question Se um dado não é viciado cada uma das seis faces ocorre com igual probabilidade. Um determinado dado foi lançado $720$ vezes, obtendo-se:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c|ccccccc}
+\hline \hline
+Face                               &1     &2      & 3   & 4     & 5      & 6     &Total\\
+\hline
+Frequência observada & 129 &107 & 98 & 132 & 136 & 118 & 720 \\
+\hline \hline
+\end{tabular}
+\end{table}
+O dado será considerado viciado para qual nível de significância? Explique sua resposta. 
+
+\Question O tempo médio, por operário, para executar uma tarefa, tem sido $100$ minutos. Introduziu-se uma modificação para diminuir esse tempo, e, após certo período, 
+sorteou-se uma amostra de $16$ operários, medindo-se o tempo de execução de cada um. O tempo médio da amostra foi $85$ minutos, e o desvio padrão foi $12$ minutos. 
+Estes resultados trazem evidências estatísticas da melhora desejada, considerando $\alpha=5\%$? Apresente as suposições teóricas usadas para resolver problema.
+
+    \end{Exercise}
+
+\end{document}
