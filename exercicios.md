@@ -16,7 +16,7 @@ description: Página com listas de exercícios.
 * [Lista 4][Variaveis] - Lista sobre Variáveis aleatórias (discretas e continuas).
 * [Lista 5][Distribuicoes] - Lista sobre Distribuições (discretas e continuas).
 * [Lista 6][Regressao] - Lista sobre regressão linear.
-* [Lista 7][Testes] - Lista sobre Testes de hipóteses.
+* [Lista 7][Lista7] - Lista sobre Testes de hipóteses.
 
 <p class="intro">Bancos de dados utilizados na disciplina e na resolução dos exercícios:</p>
 
@@ -52,4 +52,4 @@ description: Página com listas de exercícios.
 [cap4]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap4.xlsx
 [solBussab]: https://www.ime.usp.br/~pam/scriptsR.html
 [Probabilidade]: https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista3/Lista3.pdf
-[Lista4]:   https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista4/Lista4.pdf
+[Lista7]:   https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista4/Lista4.pdf
