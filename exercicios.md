@@ -52,4 +52,4 @@ description: Página com listas de exercícios.
 [cap4]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap4.xlsx
 [solBussab]: https://www.ime.usp.br/~pam/scriptsR.html
 [Probabilidade]: https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista3/Lista3.pdf
-[Lista7]:   https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista4/Lista4.pdf
+[Lista7]: https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista4/Lista4.pdf
