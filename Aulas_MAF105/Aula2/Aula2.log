@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  11 AUG 2018 01:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  22 FEB 2019 11:13
 entering extended mode
 **./Aula2.tex
 (Aula2.tex
@@ -684,7 +684,7 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(C:/PROGRA~1/R/R-34~1.3/share/texmf/tex/latex\Sweave.sty
+(C:/PROGRA~1/R/R-3.5.1/share/texmf/tex/latex\Sweave.sty
 Package: Sweave 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -1946,8 +1946,8 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 252.
  ) 
 Here is how much of TeX's memory you used:
  48647 strings out of 492973
- 1043796 string characters out of 3135932
- 1370293 words of memory out of 12000000
+ 1043793 string characters out of 3135932
+ 1370294 words of memory out of 12000000
  51583 multiletter control sequences out of 15000+200000
  564657 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1963,7 +1963,7 @@ nts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/doublestroke/dsrom10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/doublestroke/dsrom12.pfb>
-Output written on Aula2.pdf (14 pages, 305445 bytes).
+Output written on Aula2.pdf (14 pages, 305463 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)
