@@ -330,5 +330,5 @@ title: Cronograma da Disciplina
 
 ---
 
-[UFV-gh]:https://rawgit.com/maf105/maf105.github.io/master/Cronogramas/Calendario-S2-2018.pdf
-[MAF105]:https://rawgit.com/maf105/maf105.github.io/master/Cronogramas/Cronograma_MAF105_Excel.pdf
+[UFV-gh]:https://rawgit.com/maf105/maf105.github.io/master/Cronogramas/Calendario_UFV.pdf
+[MAF105]:https://rawgit.com/maf105/maf105.github.io/master/Cronogramas/MAF105_2019.pdf
