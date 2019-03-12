@@ -5,7 +5,7 @@ date:   2018-08-07
 description: Página com as aulas da disciplina.
 ---
 
-<p class="intro">Segundo Semestre de 2018.</p>
+<p class="intro">Primeiro Semestre de 2019.</p>
 
 ---
 
