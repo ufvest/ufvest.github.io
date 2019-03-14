@@ -2,7 +2,7 @@
 \beamer@sectionintoc {1}{Preliminares}{3}{0}{1}
 \beamer@sectionintoc {2}{Resumo de Dados}{48}{0}{2}
 \beamer@sectionintoc {3}{Representa\IeC {\c c}\IeC {\~a}o gr\IeC {\'a}fica}{78}{0}{3}
-\beamer@sectionintoc {4}{Medidas de Posi\IeC {\c c}\IeC {\~a}o}{91}{0}{4}
-\beamer@sectionintoc {5}{Medidas de Dispers\IeC {\~a}o}{99}{0}{5}
-\beamer@sectionintoc {6}{Medidas Complementares}{104}{0}{6}
-\beamer@sectionintoc {7}{Assimetrias e Transforma\IeC {\c c}\IeC {\~o}es}{116}{0}{7}
+\beamer@sectionintoc {4}{Medidas de Posi\IeC {\c c}\IeC {\~a}o}{92}{0}{4}
+\beamer@sectionintoc {5}{Medidas de Dispers\IeC {\~a}o}{100}{0}{5}
+\beamer@sectionintoc {6}{Medidas Complementares}{105}{0}{6}
+\beamer@sectionintoc {7}{Assimetrias e Transforma\IeC {\c c}\IeC {\~o}es}{117}{0}{7}

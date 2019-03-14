@@ -794,13 +794,35 @@ em que uma das dimensões é proporcional à magnitude a ser representada $(n_{i
 \begin{frame}{}
 \frametitle{}
 \begin{block}{}
-\justifying
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.5]{Fig3}
-    \caption{Gráfico em barras para a variável $Y:$ grau de instrução (\cite{Morettin09}).}
-    \label{Fig3_ex}
-  \end{figure}
+\begin{center}
+\setkeys{Gin}{width=0.5\linewidth}
+<<bp, echo=FALSE, out.width=".3\\textwidth", pdfcrop=TRUE, fig.width=4,fig.height=3,include=TRUE,fig=TRUE>>=
+#load(url(description = "https://www.ime.usp.br/~pam/dados.RData"))
+tab2_1<-read.table("CompanhiaMB.csv", dec=",", sep=";",h=TRUE)
+#head(tab2_1)
+x <- xtabs(~grau_instrucao, data=tab2_1)
+bp<- barplot(
+  table(tab2_1$grau_instrucao),
+  ylab="Frequência",
+  cex.names=0.7,
+  names.arg = c("Fundamental","Médio", "Superior"),
+  col="darkgrey",
+  border=NA,
+  #main="Figura 2.2: Gráfico em barras para a variável Y: grau de instrução.",
+  axes=TRUE,
+  ylim=c(0,20)
+  )
+## Acrescenta texto ao gráfico que está aberto.
+text(x=c(bp), y=x, labels=x, pos=3)
+@
+\end{center}
+% \justifying
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.5]{Fig3}
+%     \caption{Gráfico em barras para a variável $Y:$ grau de instrução (\cite{Morettin09}).}
+%     \label{Fig3_ex}
+%   \end{figure}
 \end{block}
 \end{frame}
 
@@ -818,13 +840,33 @@ correspondem às partes de maneira proporcional. A próxima Figura mostra esse t
 \begin{frame}{}
 \frametitle{}
 \begin{block}{}
-\justifying
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.5]{Fig4}
-    \caption{Gráfico em setores para a variável $Y:$ grau de instrução (\cite{Morettin09}).}
-    \label{Fig4_ex}
-  \end{figure}
+% \justifying
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.5]{Fig4}
+%     \caption{Gráfico em setores para a variável $Y:$ grau de instrução (\cite{Morettin09}).}
+%     \label{Fig4_ex}
+%   \end{figure}
+
+\begin{center}
+\setkeys{Gin}{width=0.5\linewidth}
+<<pizza, echo=FALSE, out.width=".3\\textwidth", pdfcrop=TRUE, fig.width=4,fig.height=3,include=TRUE,fig=TRUE>>=
+ni<-table(tab2_1$grau_instrucao) # Calcula a tabela de frequências absolutas e armazena o resultado em 'mytab'
+fi<-prop.table(ni) # Tabela de frequências relativas (f_i)
+p_fi<-100*prop.table(ni) # Porcentagem (100 f_i)
+
+# Adiciona linhas de total
+ni<-c(ni,sum(ni)) 
+fi<-c(fi,sum(fi))
+p_fi<-c(p_fi,sum(p_fi))
+names(ni)[4]<-"Total"
+tab2_2<-cbind(ni,fi=round(fi,digits=2),p_fi=round(p_fi,digits=2))
+labs<-paste(1:3,"(",tab2_2[1:3,1],";",round(tab2_2[1:3,3],1),"%)",sep="")
+pie(table(tab2_1$grau_instrucao),labels=labs)
+#title("Figura 2.3: Gráfico em setores para a variável Y: grau de instrução")
+legend(-1.1,-0.8,legend=c("1=Fundamental, 2=Médio, 3=Superior"),border=NA,box.col=NA)
+@
+\end{center}
 \end{block}
 \end{frame}
 
@@ -852,13 +894,32 @@ usar tanto a frequência absoluta, $f_{i},$ como a relativa, $f_{ri}.$
 \begin{frame}{}
 \frametitle{}
 \begin{block}{}
-\justifying
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.5]{Fig5}
-    \caption{Histograma da variável $S:$ Salários (\cite{Morettin09}).}
-    \label{Fig5_ex}
-  \end{figure}
+% \justifying
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.5]{Fig5}
+%     \caption{Histograma da variável $S:$ Salários (\cite{Morettin09}).}
+%     \label{Fig5_ex}
+%   \end{figure}
+\begin{center}
+\setkeys{Gin}{width=0.5\linewidth}
+<<hist, echo=FALSE, out.width=".3\\textwidth", pdfcrop=TRUE, fig.width=4,fig.height=3,include=TRUE,fig=TRUE>>=
+fig27<-hist(tab2_1$salario, breaks = seq(4,24,by=4),right=FALSE,plot=F)
+aux<-with(fig27, 100 * density* diff(breaks)[1])
+labs <- paste(round(aux), "%", sep="")
+#quebras de linha apenas ilustrativas para facilitar a leitura
+plot(fig27, 
+     freq = FALSE, labels = labs, 
+     ylab="Densidade de Frequência",
+     xlab="Salário",
+     col="darkgrey",
+     border="white",
+     #labels=T,
+     #main="Figura 2.7: Histograma da variável S: salários",
+     xlim=c(0,24), xaxp=c(0,24,6),
+     ylim=c(0,.1))
+@
+\end{center}
 \end{block}
 \end{frame}
 
@@ -887,13 +948,31 @@ variável $Z,$ número de filhos dos empregados casados.
 \begin{frame}{}
 \frametitle{}
 \begin{block}{}
-\justifying
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.5]{Fig6}
-    \caption{Histograma da variável $Z:$ número de filhos (\cite{Morettin09}).}
-    \label{Fig6_ex}
-  \end{figure}
+% \justifying
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.5]{Fig6}
+%     \caption{Histograma da variável $Z:$ número de filhos (\cite{Morettin09}).}
+%     \label{Fig6_ex}
+%   \end{figure}
+
+\begin{center}
+\setkeys{Gin}{width=0.5\linewidth}
+<<hist2, echo=FALSE, out.width=".3\\textwidth", pdfcrop=TRUE, fig.width=4,fig.height=3,include=TRUE,fig=TRUE>>=
+fig28<-hist(tab2_1$n_filhos, right=F, breaks=seq(-.5,5.5,1),plot=F)
+aux<-with(fig28, 100 * density* diff(breaks)[1])
+labs <- paste(round(aux), "%", sep="")
+#quebras de linha apenas ilustrativas para facilitar a leitura
+plot(fig28,
+  ylab="Densidade de Frequência",
+  xlab="Número de Filhos",
+  col="darkgrey",
+  border="white",
+  bty="n",yaxt="n",ylim=c(0,8),
+  #main="Figura 2.8: Histograma da variável Z: número de filhos"
+  labels=labs)
+@
+\end{center}
 \end{block}
 \end{frame}
 
@@ -903,6 +982,42 @@ variável $Z,$ número de filhos dos empregados casados.
 \begin{block}{}
 \justifying
 Caso utilizemos as frequências acumuladas ou frequências acumuladas relativas para construir o histograma teríamos um histograma conhecido como {\bf ogiva} ou {\bf ogiva percentual}, respectivamente.
+\end{block}
+\end{frame}
+
+\begin{frame}{}
+\frametitle{}
+\begin{block}{}
+% \justifying
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.5]{Fig6}
+%     \caption{Histograma da variável $Z:$ número de filhos (\cite{Morettin09}).}
+%     \label{Fig6_ex}
+%   \end{figure}
+
+\begin{center}
+\setkeys{Gin}{width=0.5\linewidth}
+<<ogiva, echo=FALSE, out.width=".3\\textwidth", pdfcrop=TRUE, fig.width=4,fig.height=3,include=TRUE,fig=TRUE>>=
+count <- c(800,430,500,320,321,543)
+xVariable <- c('Florestal', 'Juatuba', 'BH', 'Itauna', 'Divinopolis', 'Lajinha')
+myDf <- data.frame(count=count,
+                   UKCity=xVariable,
+                   stringsAsFactors = FALSE)
+myDf <- myDf[order(myDf$count, decreasing=TRUE), ]
+myDf$UKCity <- factor(myDf$UKCity, levels=myDf$UKCity)
+myDf$cumulative <- cumsum(myDf$count)
+library(ggplot2)
+ggplot(myDf, aes(x=myDf$UKCity)) +
+  geom_bar(aes(y=myDf$count), fill='blue', stat="identity") +
+  geom_point(aes(y=myDf$cumulative), color = rgb(0, 1, 0), pch=16, size=1) +
+  geom_path(aes(y=myDf$cumulative, group=1), colour="slateblue1", lty=3, size=0.9) +
+  theme(axis.text.x = element_text(angle=90, vjust=0.6)) +
+  labs(title = "Pareto Plot", subtitle = "Produced by Fernando Bastos", x = 'Cidades', y =
+         'Frequência')
+
+@
+\end{center}
 \end{block}
 \end{frame}
 
