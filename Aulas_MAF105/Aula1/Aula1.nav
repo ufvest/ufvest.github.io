@@ -190,28 +190,26 @@
 \headcommand {\beamer@framepages {114}{114}}
 \headcommand {\slideentry {6}{0}{11}{115/115}{}{0}}
 \headcommand {\beamer@framepages {115}{115}}
-\headcommand {\slideentry {6}{0}{12}{116/116}{}{0}}
+\headcommand {\beamer@sectionpages {105}{115}}
+\headcommand {\beamer@subsectionpages {105}{115}}
+\headcommand {\sectionentry {7}{Assimetrias e Transforma\IeC {\c c}\IeC {\~o}es}{116}{Assimetrias e Transforma\IeC {\c c}\IeC {\~o}es}{0}}
+\headcommand {\slideentry {7}{0}{1}{116/116}{}{0}}
 \headcommand {\beamer@framepages {116}{116}}
-\headcommand {\beamer@sectionpages {105}{116}}
-\headcommand {\beamer@subsectionpages {105}{116}}
-\headcommand {\sectionentry {7}{Assimetrias e Transforma\IeC {\c c}\IeC {\~o}es}{117}{Assimetrias e Transforma\IeC {\c c}\IeC {\~o}es}{0}}
-\headcommand {\slideentry {7}{0}{1}{117/117}{}{0}}
+\headcommand {\slideentry {7}{0}{2}{117/117}{}{0}}
 \headcommand {\beamer@framepages {117}{117}}
-\headcommand {\slideentry {7}{0}{2}{118/118}{}{0}}
+\headcommand {\slideentry {7}{0}{3}{118/118}{}{0}}
 \headcommand {\beamer@framepages {118}{118}}
-\headcommand {\slideentry {7}{0}{3}{119/119}{}{0}}
+\headcommand {\slideentry {7}{0}{4}{119/119}{}{0}}
 \headcommand {\beamer@framepages {119}{119}}
-\headcommand {\slideentry {7}{0}{4}{120/120}{}{0}}
+\headcommand {\slideentry {7}{0}{5}{120/120}{}{0}}
 \headcommand {\beamer@framepages {120}{120}}
-\headcommand {\slideentry {7}{0}{5}{121/121}{}{0}}
+\headcommand {\beamer@sectionpages {116}{120}}
+\headcommand {\beamer@subsectionpages {116}{120}}
+\headcommand {\sectionentry {8}{Refer\^encias}{121}{Refer\^encias}{0}}
+\headcommand {\slideentry {8}{0}{0}{121/121}{}{0}}
 \headcommand {\beamer@framepages {121}{121}}
-\headcommand {\beamer@sectionpages {117}{121}}
-\headcommand {\beamer@subsectionpages {117}{121}}
-\headcommand {\sectionentry {8}{Refer\^encias}{122}{Refer\^encias}{0}}
-\headcommand {\slideentry {8}{0}{0}{122/122}{}{0}}
-\headcommand {\beamer@framepages {122}{122}}
-\headcommand {\beamer@partpages {1}{122}}
-\headcommand {\beamer@subsectionpages {117}{122}}
-\headcommand {\beamer@sectionpages {117}{122}}
-\headcommand {\beamer@documentpages {122}}
-\headcommand {\gdef \inserttotalframenumber {94}}
+\headcommand {\beamer@partpages {1}{121}}
+\headcommand {\beamer@subsectionpages {116}{121}}
+\headcommand {\beamer@sectionpages {116}{121}}
+\headcommand {\beamer@documentpages {121}}
+\headcommand {\gdef \inserttotalframenumber {93}}
