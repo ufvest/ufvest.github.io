@@ -3,7 +3,7 @@ layout: default
 title: Monitoria
 ---
 
-    Monitoras: LARISSA OLIVEIRA RODRIGUES e LUIZA MIOTTO CARMO.
+    Monitoras: LARISSA OLIVEIRA RODRIGUES.
 
 
 ---
@@ -22,12 +22,8 @@ Fonte: Wikipédia
 
 Monitora: Larissa Rodrigues
 
-* Segunda-feira de 15h ás 17h no PVA sala 1
-* Segunda-feira de 11h30min às 13h no laboratório 3 do Pavilhão de aulas B (PVB)
-* Terça-feira de 17h ás 18h30min no laboratório 3 do Pavilhão de aulas B (PVB)
+* Segunda-feira de 13h ás 15h
+* Quarta-feira de 15h ás 17h
+* Quinta-feira de 15h ás 17h
+* Quinta-feira de 18h30 às 20h10 para MAF 160 - Elementos de Estatística
 
-Monitora: Luiza Miotto
-
-* Segunda-feira de 17h às 18h30min no laboratório 3 do Pavilhão de aulas B (PVB)
-* Quinta-feira de 13h às 15h no PVD sala 7
-* Sexta-feira de 11h30min às 13h no laboratório 3 do Pavilhão de aulas B (PVB)
