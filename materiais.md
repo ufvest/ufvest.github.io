@@ -67,7 +67,7 @@ title: Materiais
 * [Gesem](https://stats4good.github.io/gesem/)
 * [Veraz](https://stats4good.github.io/veraz/)
 * [Stats4Good](https://stats4good.github.io/)
-
+* [AtivEstat](https://www.ime.usp.br/ativestat)
 
 ### Outras páginas de interesse
 

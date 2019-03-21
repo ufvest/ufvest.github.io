@@ -18,6 +18,7 @@ Meu sonho é formar profissionais socialmente conscientes, com iniciativa de aç
 * [Paulo Justiniano](http://www.leg.ufpr.br/~paulojus/)
 * [Walmes Zeviane](http://www.leg.ufpr.br/~walmes/home/)
 * [Caio Lucidius Naberezny](https://www.ime.unicamp.br/~cnaber/)
+* [Marcos N. Magalhães](https://www.ime.usp.br/~marcos/)
 
 ### Referências Bibliográficas 
 
