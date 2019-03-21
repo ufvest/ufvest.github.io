@@ -8,17 +8,16 @@
 
 \begin{center}
 {\large MAF 105 - Iniciação à Estatística}\\
-Segundo Semestre de 2018
 \end{center}
 
 \section*{Exercícios do Bussab e Morettin.}
 
 $\newline$
 
-\subsection*{Capítulo 2 — Resumo de Dados}
+\subsection*{Capítulo 16 — Regressão Linear Simples}
 
 \begin{itemize}
-\item Página 22 - Exercícios: 4, 6 e 7. 
+\item Página 454 - Exercícios: 1 ao 4. 
 \item Página 26 - Exercícios: 9, 11, 16, 18.
 \end{itemize}
 
@@ -39,17 +38,18 @@ $\newline$
 \item Páginas 94 a 99 - Exercícios: 18, 19, 24, 25, 29.
 \end{itemize}
 
-\begin{Schunk}
-\begin{Soutput}
-  Var Esp Resp
-1  V1  E1    8
-2  V2  E1   10
-3  V3  E1   12
-4  V1  E2    6
-5  V2  E2    8
-6  V3  E2   10
-\end{Soutput}
-\end{Schunk}
+% << >>=
+% df2 <- data.frame(Var = c("V1", "V2","V3","V1","V2","V3"),
+%                   Esp=rep(c("E1", "E2"),each=3),
+%                   Resp=c(8, 10, 12, 6, 8, 10) )
+% head(df2)
+% library(ggplot2)
+% # Line plot with multiple groups
+% ggplot(data=df2, aes(x=Var, y=Resp, group=Esp)) +
+%   geom_line(aes(linetype=Esp))+
+%   geom_point()+
+%   theme(legend.position="top")+ylab("Altura de Plantas (cm)")
+% @
 
 
 \end{document}

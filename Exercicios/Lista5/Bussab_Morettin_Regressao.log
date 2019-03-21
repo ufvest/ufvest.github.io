@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  14 NOV 2018 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  20 MAR 2019 22:25
 entering extended mode
 **./Bussab_Morettin_Regressao.tex
 (Bussab_Morettin_Regressao.tex
@@ -20,7 +20,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:/PROGRA~1/R/R-3.5.1/share/texmf/tex/latex\Sweave.sty
+(C:/PROGRA~1/R/R-3.5.2/share/texmf/tex/latex\Sweave.sty
 Package: Sweave 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -330,44 +330,40 @@ G,.JBIG2,.JB2,.eps]
 )
 (Bussab_Morettin_Regressao-concordance.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
+(Font)              <5> on input line 15.
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 21.
-(C:/PROGRA~1/R/R-3.5.1/share/texmf/tex/latex\ts1aer.fd
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 20.
+(C:/PROGRA~1/R/R-3.5.2/share/texmf/tex/latex\ts1aer.fd
 File: ts1aer.fd 
 )
 LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10> not available
-(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 21.
-LaTeX Font Info:    Try loading font information for T1+aett on input line 43.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [1
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 20.
+ [1
 
 {C:/Users/fsbma/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Bussab_Mor
 ettin_Regressao.aux) ) 
 Here is how much of TeX's memory you used:
- 2705 strings out of 492973
- 38520 string characters out of 3135932
- 94713 words of memory out of 12000000
- 6527 multiletter control sequences out of 15000+200000
- 18586 words of font info for 41 fonts, out of 3000000 for 9000
+ 2680 strings out of 492973
+ 38104 string characters out of 3135932
+ 93713 words of memory out of 12000000
+ 6508 multiletter control sequences out of 15000+200000
+ 17739 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,4n,25p,294b,180s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,4n,25p,294b,152s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\fsbma\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
 \jknappen\ec\dpi600\tcrm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Bussab_Morettin_Regressao.pdf (1 page, 54979 bytes).
+2.pfb>
+Output written on Bussab_Morettin_Regressao.pdf (1 page, 42788 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
+ 24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  5 words of extra memory for PDF output out of 10000 (max. 10000000)
 
