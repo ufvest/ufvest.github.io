@@ -42,7 +42,7 @@ title: Materiais
 * [RSA Animate](https://www.youtube.com/watch?v=zDZFcDGpL4U)
 * [Gapminder](https://www.youtube.com/watch?v=ax7yGMuH1iE&feature=related)
 * [Peter Donelly](https://www.ted.com/talks/peter_donnelly_shows_how_stats_fool_juries?language=pt-br)
-
+* [USP](https://www.ime.usp.br/~marcos/seminarios.html)
 ### Páginas com assuntos relacionados a disciplina
 
 * [StatLect](https://www.statlect.com/asymptotic-theory/law-of-large-numbers)
