@@ -22,8 +22,8 @@ Fonte: Wikipédia
 
 Monitora: Larissa Rodrigues
 
-* Segunda-feira de 13h ás 15h
-* Quarta-feira de 15h ás 17h
-* Quinta-feira de 15h ás 17h
+* Segunda-feira de 13h ás 15h no PVD 1
+* Quarta-feira de 15h ás 17h no PVC 5
+* Quinta-feira de 15h ás 17h no PVE 5
 * Quinta-feira de 18h30 às 20h10 para MAF 160 - Elementos de Estatística
 
