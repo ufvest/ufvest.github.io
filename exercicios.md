@@ -20,7 +20,23 @@ description: Página com listas de exercícios.
 
 <p class="intro">Bancos de dados utilizados na disciplina e na resolução dos exercícios:</p>
 
-* [Companhia MB][descritiva1] - Banco de dados para aula de distribuição de frequência, histograma e outros.
+Formato .xlsx
+
+* [Companhia MB1][descritiva1] - Banco de dados para aula de distribuição de frequência, histograma e outros.
+
+Formato .xls
+
+* [Companhia MB2][descritiva2] - Banco de dados para aula de distribuição de frequência, histograma e outros.
+
+Formato .csv
+
+* [Companhia MB3][descritiva3] - Banco de dados para aula de distribuição de frequência, histograma e outros.
+
+Formato .txt
+
+* [Companhia MB4][descritiva4] - Banco de dados para aula de distribuição de frequência, histograma e outros.
+
+
 * [dados 2][Medidas1] - 
 * [dados 3][Probabilidade1] - 
 * [dados 4][Variaveis1] - 
@@ -45,6 +61,13 @@ description: Página com listas de exercícios.
 
 [Introducao]:https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista1/Lista1.pdf   
 [descritiva1]:https://rawgit.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula1/CompanhiaMB.xlsx
+
+[descritiva2]:https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Curso_R/Dados/CompanhiaMB_clear2.xls
+[descritiva3]:https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Curso_R/Dados/CompanhiaMB_clear3.csv
+[descritiva4]:https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Curso_R/Dados/CompanhiaMB_clear.txt
+
+
+
 [medidas]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Exercicios_Bussab_Morettin.pdf
 
 [cap2]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap2.xlsx
