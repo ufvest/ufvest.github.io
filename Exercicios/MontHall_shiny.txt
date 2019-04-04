@@ -1,0 +1,5 @@
+﻿http://petersonbiology.com/shiny/montyHallSimulator/
+
+https://ricardosc.shinyapps.io/MontyHallGame/
+
+https://ricardosc.shinyapps.io/MontyHallSim/

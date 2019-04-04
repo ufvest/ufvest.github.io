@@ -76,7 +76,7 @@
 \title{MAF 105 - Iniciação à Estatística}
 \author{Prof. Fernando de Souza Bastos}
 \institute{Instituto de Ciências Exatas e Tecnológicas\texorpdfstring{\\ Universidade Federal de Viçosa}{}\texorpdfstring{\\ Campus UFV - Florestal}{}}
-\date{2018}
+\date[\today]{}
 \newcommand\mytext{Aula 1}
 \newcommand\mytextt{Fernando de Souza Bastos}
 \makeatletter
@@ -90,10 +90,11 @@
   \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
     \usebeamerfont{title in head/foot}\mytextt
   \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
-    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
-    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
-  \end{beamercolorbox}}%
+  % \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+  %   \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+  %   \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  % \end{beamercolorbox}
+  }%
   \vskip0pt%
 }
 \makeatother
@@ -235,7 +236,7 @@ $$\Omega=\{\omega_{1},\omega_{2},\cdots,\omega_{n},\cdots\}$$
 \begin{block}{}
 \justifying
 Lançamos uma moeda duas vezes. Se C indicar cara e R indicar coroa,
-então um espaço amostral será $$\Omega=\{\omega_{1},\omega_{2},\omega_{3},\omega_{4},\},$$
+então um espaço amostral será $$\Omega=\{\omega_{1},\omega_{2},\omega_{3},\omega_{4},\}$$
 em que $\omega_{1}=(C,C), \omega_{2}=(C,R),\omega_{3}=(R,C), \omega_{4}=(R,R).$ 
 % É razoável supor que cada ponto $\omega_{i}$ tenha probabilidade 1/4, se a moeda for perfeitamente simétrica e homogênea. Se designarmos por A o evento que consiste na obtenção de faces iguais nos dois lançamentos, então:
 % $$P(A)=P(\{\omega_{1},\omega_{4}\})=1/4+1/4=1/2.$$
@@ -511,7 +512,7 @@ Matemática Aplicada (A)& 15 &15&  30\\
 \justifying
 Escolhendo um aluno ao acaso (e considerando que cada aluno tem a mesma probabilidade de ser selecionado), definem-se os seguintes eventos:
 \begin{itemize}
-\item M: estudante da Matemáatica Pura
+\item M: estudante da Matemática Pura
 \item A: estudante da Matemática Aplicada
 \item E: estudante da Estatística
 \item C: estudante da Computação
