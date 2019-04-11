@@ -829,7 +829,8 @@ knitr::include_graphics("Figuras/Programacao21.gif")
 ### Distribuições de Frequência
 
 ```{r,echo=TRUE}
-tab2_1 <- read.table("Dados/CompanhiaMB_clear3.csv",dec = ",",sep = ";",header = TRUE)
+url <- url("https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Curso_R/Dados/CompanhiaMB_clear3.csv")
+tab2_1 <- read.table(url,dec = ",",sep = ";",header = TRUE)
 ni<-table(tab2_1$Grau) # Calcula a tabela de frequências absolutas e armazena o resultado em 'mytab'
 fi<-prop.table(ni) # Tabela de frequências relativas (f_i)
 p_fi<-100*prop.table(ni) # Porcentagem (100 f_i)
