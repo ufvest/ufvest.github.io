@@ -872,10 +872,9 @@ ni<-table(cut(tab2_1$Salario, breaks = seq(4,24,by=4),right=FALSE)) # Frequencia
 tab2_4 <- rbind(ni, p_fi = 100*prop.table(ni)) # Frequencias relativas em %
 #quebras de linha apenas ilustrativas para facilitar a leitura
 tab2_4 <- as.data.frame(
-          t(cbind(
-                  tab2_4,
-                  c(sum(tab2_4[1,]),sum(tab2_4[2,])
-          ))),row.names =c(colnames(tab2_4),"Total")) #Construcao da tabela
+  t(cbind(
+    tab2_4,c(sum(tab2_4[1,]),sum(tab2_4[2,])) #Esta linha foi add somente para manter os nomes das colunas
+             )),row.names =c(colnames(tab2_4),"Total")) #Construcao da tabela
 tab2_4<-transform(tab2_4,p_fi=round(p_fi,digits=2))
 tab2_4
 ```
