@@ -4,4 +4,4 @@
 \beamer@sectionintoc {3}{Fun\IeC {\c c}\IeC {\~a}o de Probabilidade}{19}{0}{3}
 \beamer@sectionintoc {4}{Variaveis Aleat\IeC {\'o}rias Cont\IeC {\'\i }nuas}{25}{0}{4}
 \beamer@sectionintoc {5}{Fun\IeC {\c c}\IeC {\~a}o Densidade de Probabilidade}{30}{0}{5}
-\beamer@sectionintoc {6}{Fun\IeC {\c c}\IeC {\~a}o de Distribui\IeC {\c c}\IeC {\~a}o Acumulada}{36}{0}{6}
+\beamer@sectionintoc {6}{Fun\IeC {\c c}\IeC {\~a}o de Distribui\IeC {\c c}\IeC {\~a}o Acumulada}{35}{0}{6}
