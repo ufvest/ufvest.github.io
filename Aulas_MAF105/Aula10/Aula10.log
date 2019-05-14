@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  17 OCT 2018 09:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  13 MAY 2019 21:52
 entering extended mode
 **./Aula10.tex
 (Aula10.tex
@@ -684,7 +684,7 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(C:/PROGRA~1/R/R-34~1.3/share/texmf/tex/latex\Sweave.sty
+(C:/PROGRA~1/R/R-3.5.2/share/texmf/tex/latex\Sweave.sty
 Package: Sweave 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -1658,28 +1658,28 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 53.
 (Aula10.aux)
 \openout1 = `Aula10.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 112.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Try loading font information for T1+aess on input line 111.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 112.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aess.fd"
@@ -1747,7 +1747,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box119
-Package hyperref Info: Link coloring ON on input line 111.
+Package hyperref Info: Link coloring ON on input line 112.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1757,51 +1757,51 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count404
 )
-LaTeX Info: Redefining \ref on input line 111.
-LaTeX Info: Redefining \pageref on input line 111.
-LaTeX Info: Redefining \nameref on input line 111.
+LaTeX Info: Redefining \ref on input line 112.
+LaTeX Info: Redefining \pageref on input line 112.
+LaTeX Info: Redefining \nameref on input line 112.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 111.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 112.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 111.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 112.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/aer/m/n on input line 111.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 111.
+(Font)                  OT1/cmss/m/n --> T1/aer/m/n on input line 112.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 111.
+(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 111.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 111.
+(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 112.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/aess/m/n on input line 111.
+(Font)                  OT1/cmss/m/n --> T1/aess/m/n on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/aess/m/n on input line 111.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 111.
+(Font)                  OT1/cmss/bx/n --> T1/aess/m/n on input line 112.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/aess/m/it on input line 111.
+(Font)                  OT1/cmr/m/it --> T1/aess/m/it on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/aess/m/it on input line 111.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 111.
+(Font)                  OT1/cmr/bx/it --> T1/aess/m/it on input line 112.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 111.
+(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 111.
+(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 112.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 111.
+(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 112.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 111.
+(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/aer/bx/n on input line 111.
+(Font)                  OT1/cmss/bx/n --> T1/aer/bx/n on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/aess/bx/n --> T1/aess/bx/n on input line 111.
+(Font)                  T1/aess/bx/n --> T1/aess/bx/n on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 111.
+(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 111.
+(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 112.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/aett/m/n --> T1/aett/bx/n on input line 111.
+(Font)                  T1/aett/m/n --> T1/aett/bx/n on input line 112.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
 English.dict"
@@ -1851,33 +1851,33 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 111.
+ on input line 112.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 111.
-LaTeX Font Info:    Try loading font information for U+msa on input line 111.
+LaTeX Info: Redefining \selectfont on input line 112.
+LaTeX Font Info:    Try loading font information for U+msa on input line 112.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 111.
+LaTeX Font Info:    Try loading font information for U+msb on input line 112.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+esvect on input line 111
+LaTeX Font Info:    Try loading font information for U+esvect on input line 112
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\esvect\uesvect.fd"
 File: uesvect.fd 
 )
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <14.4> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 111.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 112.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 111.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 112.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 111.
-Package xypdf Info: Line width: 0.57597pt on input line 111.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 112.
+Package xypdf Info: Line width: 0.57597pt on input line 112.
  (Aula10.nav)
 (Aula10-concordance.tex) [1
 
@@ -1894,7 +1894,7 @@ Package xypdf Info: Line width: 0.57597pt on input line 111.
 <Figuras/Uniforme.jpg, id=67, 563.85657pt x 225.84375pt>
 File: Figuras/Uniforme.jpg Graphic file (type jpg)
 <use Figuras/Uniforme.jpg>
-Package pdftex.def Info: Figuras/Uniforme.jpg  used on input line 174.
+Package pdftex.def Info: Figuras/Uniforme.jpg  used on input line 175.
 (pdftex.def)             Requested size: 281.9276pt x 112.92159pt.
  [6
 
@@ -1925,7 +1925,7 @@ Package pdftex.def Info: Figuras/Uniforme.jpg  used on input line 174.
 <Figuras/Bernoulli.jpg, id=136, 551.05875pt x 199.49532pt>
 File: Figuras/Bernoulli.jpg Graphic file (type jpg)
 <use Figuras/Bernoulli.jpg>
-Package pdftex.def Info: Figuras/Bernoulli.jpg  used on input line 281.
+Package pdftex.def Info: Figuras/Bernoulli.jpg  used on input line 282.
 (pdftex.def)             Requested size: 275.52869pt x 99.7474pt.
  [18
 
@@ -1947,24 +1947,12 @@ Package pdftex.def Info: Figuras/Bernoulli.jpg  used on input line 281.
 
 ] [27
 
-]
-Overfull \hbox (82.7286pt too wide) detected at line 396
-\T1/aess/m/sl/14.4 P\OT1/cmss/m/n/14.4 (\T1/aess/m/sl/14.4 N \OMS/cmsy/m/n/14.4
-  \T1/aess/m/n/14.4 2\OT1/cmss/m/n/14.4 ) = \T1/aess/m/sl/14.4 P\OT1/cmss/m/n/
-14.4 (\T1/aess/m/sl/14.4 N \OT1/cmss/m/n/14.4 = \T1/aess/m/n/14.4 0\OT1/cmss/m/
-n/14.4 ) + \T1/aess/m/sl/14.4 P\OT1/cmss/m/n/14.4 (\T1/aess/m/sl/14.4 N \OT1/cm
-ss/m/n/14.4 = \T1/aess/m/n/14.4 1\OT1/cmss/m/n/14.4 ) + \T1/aess/m/sl/14.4 P\OT
-1/cmss/m/n/14.4 (\T1/aess/m/sl/14.4 N \OT1/cmss/m/n/14.4 = \T1/aess/m/n/14.4 2\
-OT1/cmss/m/n/14.4 ) = [] [](\T1/aess/m/n/14.4 1 \OT1/cmss/m/n/14.4 + \T1/aess/m
-/n/14.4 20 \OT1/cmss/m/n/14.4 + \T1/aess/m/n/14.4 200\OT1/cmss/m/n/14.4 ) = \T1
-/aess/m/n/14.4 221 [] []\OML/cmm/m/it/14.4 :
- []
-
-[28
+] [28
 
 ] [29
 
-] (Aula10.bbl) [30
+] (Aula10.bbl)
+[30
 
 ]
 \tf@nav=\write7
@@ -1976,17 +1964,17 @@ OT1/cmss/m/n/14.4 ) = [] [](\T1/aess/m/n/14.4 1 \OT1/cmss/m/n/14.4 + \T1/aess/m
 \tf@snm=\write9
 \openout9 = `Aula10.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
  (Aula10.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 414.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 414.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 418.
  ) 
 Here is how much of TeX's memory you used:
- 48728 strings out of 492973
- 1043821 string characters out of 3135932
- 1369151 words of memory out of 12000000
- 51619 multiletter control sequences out of 15000+200000
+ 48721 strings out of 492973
+ 1043590 string characters out of 3135932
+ 1369009 words of memory out of 12000000
+ 51612 multiletter control sequences out of 15000+200000
  574300 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,15n,98p,3249b,921s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2000,7 +1988,7 @@ nts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 /cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Aula10.pdf (30 pages, 248500 bytes).
+Output written on Aula10.pdf (30 pages, 246352 bytes).
 PDF statistics:
  277 PDF objects out of 1000 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)

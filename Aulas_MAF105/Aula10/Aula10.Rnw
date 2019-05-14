@@ -75,7 +75,7 @@
 \title{MAF 105 - Iniciação à Estatística}
 \author{Prof. Fernando de Souza Bastos}
 \institute{Instituto de Ciências Exatas e Tecnológicas\texorpdfstring{\\ Universidade Federal de Viçosa}{}\texorpdfstring{\\ Campus UFV - Florestal}{}}
-\date{2018}
+\date[\today]{}
 \newcommand\mytext{Aula 1}
 \newcommand\mytextt{Fernando de Souza Bastos}
 \makeatletter
@@ -89,10 +89,11 @@
   \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
     \usebeamerfont{title in head/foot}\mytextt
   \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
-    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
-    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
-  \end{beamercolorbox}}%
+  % \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+  %   \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+  %   \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  % \end{beamercolorbox}
+  }%
   \vskip0pt%
 }
 \makeatother
@@ -125,7 +126,7 @@
 \justifying
 Algumas variáveis aleatórias adaptam-se muito bem a uma série de problemas
 práticos. Portanto, um estudo pormenorizado dessas variáveis é de grande importância
-para a construção de modelos probabilísticos para situações reais e a conseqüente
+para a construção de modelos probabilísticos para si\-tua\-ções reais e a conseqüente
 estimação de seus parâmetros. Para algumas dessas distribuições existem tabelas que
 facilitam o cálculo de probabilidades, em função de seus parâmetros. Nesta seção
 iremos estudar alguns desses modelos, procurando enfatizar as condições em que eles
@@ -206,7 +207,7 @@ característica. Por exemplo:
 \item uma peça é escolhida ao acaso de um lote contendo 500 peças: essa peça é
 defeituosa ou não;\pause
 \item uma pessoa escolhida ao acaso dentre 1.000 é ou não do sexo masculino;\pause
-\item uma pessoa é escolhida ao acaso entre os moradores de uma cidade e verificase
+\item uma pessoa é escolhida ao acaso entre os moradores de uma cidade e verifica-se
 se ela é favorável ou não a um projeto municipal.
 \end{enumerate}
 \end{block}
@@ -342,7 +343,7 @@ V(X)&=np(1-p)
 Dizemos que uma v.a. $N$ tem uma distribuição de Poisson com parâmetro
 $\lambda > 0$ se,
 
-$$P(N=k)=\dfrac{\exp{-\lambda}\lambda^{k}}{k!},\ k=0,1,2,\cdots,$$
+$$P(N=k)=\dfrac{\exp{(-\lambda)}\lambda^{k}}{k!},\ k=0,1,2,\cdots,$$
 
 Neste caso, $E(N)=Var(N)=\lambda;$ Logo, $\lambda$ representa o número médio de eventos ocorrendo no intervalo considerado.
 
@@ -377,7 +378,7 @@ $N=$``Número de chamadas por minuto"
 
 Notemos que $\lambda=E(N)=5,$ portanto:
 
-$$P(N=0)=\dfrac{5^{0}\exp{-5}}{0!}=0,0067.$$
+$$P(N=0)=\dfrac{5^{0}\exp{(-5)}}{0!}=0,0067.$$
 
 \end{block}
 \end{frame}
@@ -389,8 +390,11 @@ $$P(N=0)=\dfrac{5^{0}\exp{-5}}{0!}=0,0067.$$
 \justifying
 Por outro lado, se quisermos a probabilidade de obter no máximo duas chamadas
 em quatro minutos, teremos $\lambda=20$ chamadas em quatro minutos, logo
-
-$$P(N\leq 2)=P(N=0)+P(N=1)+P(N=2)=\exp{-20}(1+20+200)=221\exp{-20}.$$
+\begin{align*}
+P(N\leq 2)&=P(N=0)+P(N=1)+P(N=2)\\
+&=\exp{(-20)}(1+20+200)\\
+&=221\exp{(-20)}
+\end{align*}
 
 \end{block}
 \end{frame}
