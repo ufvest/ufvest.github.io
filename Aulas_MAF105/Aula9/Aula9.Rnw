@@ -261,15 +261,15 @@ $$\rho(X,Y)=\dfrac{cov(X,Y)}{\sigma_{X}\sigma_{Y}}=E\left[\left(\dfrac{X-E(X)}{\
 \end{block}
 \end{frame}
 
-\begin{frame}{}
-\frametitle{}
-\begin{block}{}
-\justifying
-
-Teste
-
-\end{block}
-\end{frame}
+% \begin{frame}{}
+% \frametitle{}
+% \begin{block}{}
+% \justifying
+% 
+% Teste
+% 
+% \end{block}
+% \end{frame}
 % 
 % \begin{frame}{}
 % \frametitle{}
