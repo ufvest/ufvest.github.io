@@ -5,8 +5,8 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Morettin e Bussab(2009)]{Morettin09}
-P.~Morettin e W.~Bussab.
+\bibitem[Morettin and Bussab(2009)]{Morettin09}
+P.~Morettin and W.~Bussab.
 \newblock \emph{Estat\'istica b\'asica}.
 \newblock Editora Saraiva, S\~ao Paulo, 6 edition, 2009.
 

@@ -30,7 +30,7 @@
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{natbib}
-\bibliographystyle{abbrvnat3}
+\bibliographystyle{abbrvnat}
 \usepackage[figuresright]{rotating}
 \usepackage{spalign}
 %\usepackage{pgfpages}
@@ -75,7 +75,7 @@
 \title{MAF 105 - Iniciação à Estatística}
 \author{Prof. Fernando de Souza Bastos}
 \institute{Instituto de Ciências Exatas e Tecnológicas\texorpdfstring{\\ Universidade Federal de Viçosa}{}\texorpdfstring{\\ Campus UFV - Florestal}{}}
-\date{2018}
+\date[\today]{}
 \newcommand\mytext{Aula 1}
 \newcommand\mytextt{Fernando de Souza Bastos}
 \makeatletter
@@ -89,10 +89,11 @@
   \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
     \usebeamerfont{title in head/foot}\mytextt
   \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
-    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
-    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
-  \end{beamercolorbox}}%
+  % \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+  %   \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+  %   \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  % \end{beamercolorbox}
+  }%
   \vskip0pt%
 }
 \makeatother
@@ -477,7 +478,41 @@ nao_usaram_hospital    900      850
 Uma companhia de seguros analisou a frequência com que 2.000 segurados (1.000 homens e 1.000 mulheres) usaram hospitais. Os resultados estão na Tabela abaixo. A hipótese a testar é que o uso de hospital independe do sexo do segurado.
 \begin{Schunk}
 \begin{Sinput}
-> chisq.test(M)
+> Xsq <- chisq.test(M, correct = FALSE)
+> Xsq
+\end{Sinput}
+\begin{Soutput}
+	Pearson's Chi-squared test
+
+data:  M
+X-squared = 11.429, df = 1, p-value = 0.0007232
+\end{Soutput}
+\begin{Sinput}
+> Xsq$observed   # observed counts (same as M)
+\end{Sinput}
+\begin{Soutput}
+                    homens mulheres
+usaram_hospital        100      150
+nao_usaram_hospital    900      850
+\end{Soutput}
+\begin{Sinput}
+> Xsq$expected   # expected counts under the null
+\end{Sinput}
+\begin{Soutput}
+                    homens mulheres
+usaram_hospital        125      125
+nao_usaram_hospital    875      875
+\end{Soutput}
+\begin{Sinput}
+> Xquad <- (((100-125)^2)/125)+(((150-125)^2)/125)+(((900-875)^2)/875)+(((850-875)^2)/875)
+> Xquad
+\end{Sinput}
+\begin{Soutput}
+[1] 11.42857
+\end{Soutput}
+\begin{Sinput}
+> Xsq <- chisq.test(M, correct = TRUE)
+> Xsq
 \end{Sinput}
 \begin{Soutput}
 	Pearson's Chi-squared test with Yates' continuity correction
