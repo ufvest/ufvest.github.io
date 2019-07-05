@@ -42,7 +42,7 @@ title: Cronograma da Disciplina
 
 <tr>
 <td valign="center" align="center"> Exame Final<BR> e <BR> Substitutiva</td>  
-          <td valign="center" align="center">  Dia 09 de Julho- Quinta.<BR>(Toda a Matéria)</td>
+          <td valign="center" align="center">  Dia 09 de Julho- Terça.<BR>(Toda a Matéria)</td>
 <td valign="center" align="center">100 pontos</td>
 </tr>
   
