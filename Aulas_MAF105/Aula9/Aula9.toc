@@ -1,3 +1,0 @@
-\babel@toc {brazil}{}
-\beamer@sectionintoc {1}{Valor M\IeC {\'e}dio de uma Vari\IeC {\'a}vel Aleat\IeC {\'o}ria}{3}{0}{1}
-\beamer@sectionintoc {2}{Vari\IeC {\^a}ncia e Covari\IeC {\^a}ncia}{13}{0}{2}

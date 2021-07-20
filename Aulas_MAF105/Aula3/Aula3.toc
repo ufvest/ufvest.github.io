@@ -1,6 +1,0 @@
-\babel@toc {brazil}{}
-\beamer@sectionintoc {1}{An\IeC {\'a}lise Bidimensional}{3}{0}{1}
-\beamer@sectionintoc {2}{Vari\IeC {\'a}veis Qualitativas}{8}{0}{2}
-\beamer@sectionintoc {3}{Associa\IeC {\c c}\IeC {\~a}o entre Vari\IeC {\'a}veis Qualitativas}{26}{0}{3}
-\beamer@sectionintoc {4}{Associa\IeC {\c c}\IeC {\~a}o entre Vari\IeC {\'a}veis Quantitativas}{38}{0}{4}
-\beamer@sectionintoc {5}{Associa\IeC {\c c}\IeC {\~a}o entre Vari\IeC {\'a}veis Qualitativas e Quantitativas}{51}{0}{5}

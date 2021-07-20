@@ -1,5 +1,0 @@
-\babel@toc {brazil}{}
-\beamer@sectionintoc {1}{Vari\IeC {\'a}veis Aleat\IeC {\'o}rias Bidimensionais}{3}{0}{1}
-\beamer@sectionintoc {2}{Distribui\IeC {\c c}\IeC {\~a}o Conjunta de duas vari\IeC {\'a}veis aleat\IeC {\'o}rias}{4}{0}{2}
-\beamer@sectionintoc {3}{Distribui\IeC {\c c}\IeC {\~a}o Marginal}{8}{0}{3}
-\beamer@sectionintoc {4}{Vari\IeC {\'a}veis Aleat\IeC {\'o}rias Independentes}{13}{0}{4}

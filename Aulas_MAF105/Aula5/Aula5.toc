@@ -1,3 +1,0 @@
-\babel@toc {brazil}{}
-\beamer@sectionintoc {1}{T\IeC {\'e}cnicas de contagem}{3}{0}{1}
-\beamer@sectionintoc {2}{Princ\IeC {\'\i }pio Fundamental da Contagem}{6}{0}{2}
