@@ -5,10 +5,10 @@ date:   2018-08-07
 description: Página com as aulas da disciplina.
 ---
 
-<p class="intro">Primeiro Semestre de 2019.</p>
+<p class="intro">Período Especial Remoto 3.</p>
 
 ---
-
+<!--
 * [Aula 1][aula1] 
 * [Somatorios][aula2] 
 * [Aula 3][aula3]
@@ -48,3 +48,4 @@ description: Página com as aulas da disciplina.
 [aula13]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula13/Aula13.pdf
 [aula14]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula14/qui_quad.pdf
 [aulaR]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Curso_R/Aula1_Slidy.html
+-->
