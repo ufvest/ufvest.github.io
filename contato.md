@@ -9,7 +9,11 @@ title: Página de Contatos
 
 Há um canal no WhatsApp, local para apresentação de assuntos relacionados a disciplina, para a divulgação de projetos, para divulgação de links relacionados a disciplina e para informações sobre a atualização deste site. É extremamente importante que todos os alunos participem!
 
-[WhatsApp](https://chat.whatsapp.com/DipNHriQRRo9hCinV6Syuu)
+[WhatsApp - MAF 105 (Turma 1)](https://chat.whatsapp.com/DipNHriQRRo9hCinV6Syuu)
+
+[WhatsApp - MAF 105 (Turma 2)](https://chat.whatsapp.com/C3Q6UAhP5IAHr5DRi5EOgd)
+
+[WhatsApp - MAF 160](https://chat.whatsapp.com/DxleL3zm9rxKnxICqzrvTx)
 
 ---
 
