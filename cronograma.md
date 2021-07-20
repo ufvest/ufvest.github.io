@@ -45,10 +45,10 @@ title: Cronograma da Disciplina
           <td valign="center" align="center">  Dia 09 de Julho- Terça.<BR>(Toda a Matéria)</td>
 <td valign="center" align="center">100 pontos</td>
 </tr>
--->  
+  
 </TABLE>
 </CENTER></DIV>
-
+-->
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
 
