@@ -51,9 +51,15 @@ description: Página com as aulas da disciplina.
 [aula5]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula5/Aula5.pdf
 [aula6]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula6/Aula6.pdf
 [aula7]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula7/Aula7.pdf
-[aulaR]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Curso_R/Aula1_Slidy.html
-<!--
+
 [aula8]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula8/Aula8.pdf
+
+[aulaR]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Curso_R/Aula1_Slidy.html
+
+
+
+<!--
+
 [aula9]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula9/Aula9.pdf
 [aula10]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula10/Aula10.pdf
 [aula11]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula11/Aula11.pdf
