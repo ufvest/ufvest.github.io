@@ -20,6 +20,16 @@ description: Página com as aulas da disciplina.
 * [Aula 9][aula9]
 * [Aula 10][aula10]
 * [Aula 11][aula11]
+* [Aula 12][aula12]
+* [Aula 13][aula13]
+* [Aula 14][aula14]
+* [Aula 15][aula15]
+* [Aula 16][aula16]
+* [Aula 17][aula17]
+* [Aula 18][aula18]
+* [Aula 19][aula19]
+* [Aula 20][aula20]
+* [Aula 21][aula21]
 * [Aula R][aulaR]
 
 <!--
@@ -52,6 +62,16 @@ description: Página com as aulas da disciplina.
 [aula9]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula9/Aula9.pdf
 [aula10]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula10/Aula10.pdf
 [aula11]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula11/Aula11.pdf
+[aula12]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula12/Aula12.pdf
+[aula13]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula13/Aula13.pdf
+[aula14]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula14/Aula14.pdf
+[aula15]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula4/Aula4.pdf
+[aula16]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula16/Aula16.pdf
+[aula17]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula17/Aula17.pdf
+[aula18]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula18/Aula18.pdf
+[aula19]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula19/Aula19.pdf
+[aula20]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula20/Aula20.pdf
+[aula21]:    https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Aula21/Aula21.pdf
 
 [aulaR]:   https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Curso_R/Aula1_Slidy.html
 
