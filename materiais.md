@@ -79,6 +79,6 @@ title: Materiais
 ---
 
 [formulario]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/formulario.pdf
-[tabelas]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/tabelasEST.pdf
+[tabelas]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/Tabelas.pdf
 [normas]: https://rawgit.com/maf105/maf105.github.io/master/Materiais/normas_tabelasgraficoS.PDF
 [distfreq]:https://rawgit.com/maf105/maf105.github.io/master/Materiais/Dist_freq.pdf
