@@ -277,14 +277,14 @@ title: Cronograma da Disciplina
 </TABLE>
 </CENTER></DIV>
 
-<p class="intro">Período Remoto 3.</p>
+<p class="intro">Primeiro Semestre de 2022.</p>
 
 ---
 
-* [Cronograma da disciplina][MAF105] 
+* [Programa Analítico da disciplina][MAF160] 
 * [Cronograma da UFV][UFV-gh].
 
 ---
 
-[UFV-gh]:https://rawgit.com/maf105/maf105.github.io/master/Cronogramas/Calendario_UFV.pdf
-[MAF105]:https://rawgit.com/maf105/maf105.github.io/master/Cronogramas/2021/MAF105_2021.pdf
+[UFV-gh]:https://www2.dti.ufv.br/noticias/files/anexos/1634730812.pdf
+[MAF105]:https://www3.dti.ufv.br/dti/catalogo/programa-analitico/26334
