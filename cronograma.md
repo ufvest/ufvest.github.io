@@ -3,7 +3,7 @@ layout: default
 title: Cronograma da Disciplina
 ---
 
-<h1 class="pageTitle">Iniciação à Estatística</h1>
+<h1 class="pageTitle">Elementos de Estatística</h1>
 <!--
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
@@ -53,7 +53,7 @@ title: Cronograma da Disciplina
 <TABLE border="1" cellpadding="5" cellspacing="0">
 
 <tr>
-    <th colspan="5" align="center">Cronograma do Período Especial Remoto 3 - MAF 105</th>
+    <th colspan="5" align="center">Cronograma do Primeiro Semestre de 2022 - MAF 160</th>
 </tr>
 
 <tr>		
