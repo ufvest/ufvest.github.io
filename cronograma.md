@@ -3,7 +3,7 @@ layout: default
 title: Cronograma da Disciplina
 ---
 
-<h1 class="pageTitle">Elementos de Estatística</h1>
+<h1 class="pageTitle">Iniciação à Estatística</h1>
 <!--
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
@@ -266,8 +266,9 @@ title: Cronograma da Disciplina
 <td valign="center" align="center">	29	<BR></td>
 <td valign="center" align="center">	2	<BR></td>
 </tr>		
-<tr>		
-	
+		
+
+</tr>		
 		
 		
 		
