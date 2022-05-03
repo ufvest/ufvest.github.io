@@ -54,7 +54,7 @@ title: Cronograma da Disciplina
 
 <tr>
     <th colspan="5" align="center">Cronograma do Primeiro Semestre de 2022 - MAF 160</th>
-</tr>
+
 
 <tr>		
 <th valign="center" align="center">	Data	<BR></th>
