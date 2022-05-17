@@ -87,7 +87,7 @@ title: Cronograma da Disciplina
 <tr>		
 <td valign="center" align="center">	12/05/2022	<BR></td>
 <td valign="center" align="center">	Quinta	<BR></td>
-<td valign="center" align="center">	Coeficiente de correlação de Pearson, coeficiente de determinação e diagrama de dispersão	<BR></td>
+<td valign="center" align="center">	Apresentação gráfica e tabular, Medidas de posição e de dispersão.	<BR></td>
 <td valign="center" align="center">	4	<BR></td>
 <td valign="center" align="center">	2	<BR></td>
 </tr>		
@@ -108,14 +108,14 @@ title: Cronograma da Disciplina
 <tr>		
 <td valign="center" align="center">	24/05/2022	<BR></td>
 <td valign="center" align="center">	Terça	<BR></td>
-<td valign="center" align="center">	Aula prática: Excel, Latex, R	<BR></td>
+<td valign="center" align="center">	Apresentação gráfica e tabular, Medidas de posição e de dispersão.	<BR></td>
 <td valign="center" align="center">	7	<BR></td>
 <td valign="center" align="center">	2	<BR></td>
 </tr>		
 <tr>		
 <td valign="center" align="center">	26/05/2022	<BR></td>
 <td valign="center" align="center">	Quinta	<BR></td>
-<td valign="center" align="center">	Aula de exercícios	<BR></td>
+<td valign="center" align="center">	Apresentação gráfica e tabular, Medidas de posição e de dispersão.	<BR></td>
 <td valign="center" align="center">	8	<BR></td>
 <td valign="center" align="center">	2	<BR></td>
 </tr>		
@@ -266,9 +266,8 @@ title: Cronograma da Disciplina
 <td valign="center" align="center">	29	<BR></td>
 <td valign="center" align="center">	2	<BR></td>
 </tr>		
+<tr>		
 		
-
-</tr>		
 		
 		
 		
