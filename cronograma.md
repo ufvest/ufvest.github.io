@@ -280,10 +280,10 @@ title: Cronograma EST 105
 
 ---
 
-* [Programa Analítico da disciplina][EST105] 
-* [Cronograma da UFV][UFV-gh].
+* [Cronograma da disciplina EST 105][EST105] 
+* [Cronograma da disciplina EST 106][EST106].
 
 ---
 
-[UFV-gh]:https://www.soc.ufv.br/wp-content/uploads/Resolução-Cepe-16-2021-ALTERADA-b.pdf
-[EST105]:https://www3.dti.ufv.br/dti/catalogo/programa-analitico/38471
+[EST106]:https://raw.githack.com/ufvest/ufvest.github.io/master/cronograma106.md
+[EST105]:https://raw.githack.com/ufvest/ufvest.github.io/master/cronograma105.md
