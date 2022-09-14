@@ -24,7 +24,7 @@ description: Página com as aulas da disciplina.
 
 ---
 
-[EST105-gh]:https://github.com/EST105
+[EST105-gh]:https://github.com/ufvest/ufvest.github.io/tree/master/Aulas_EST105
 [aula1]:    https://raw.githack.com/EST105/EST105.github.io/master/Aulas_EST105/Aula1.pdf
 [aula2]:    https://raw.githack.com/EST105/EST105.github.io/master/Aulas_EST105/Aula2.pdf
 [aula3]:    https://raw.githack.com/EST105/EST105.github.io/master/Aulas_EST105/Aula3.pdf

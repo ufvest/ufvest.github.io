@@ -37,7 +37,7 @@ description: Página com as aulas da disciplina.
 
 ---
 
-[EST106-gh]:https://github.com/EST106
+[EST106-gh]:https://github.com/ufvest/ufvest.github.io/tree/master/Aulas_EST106
 [aula1]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula1.pdf
 [aula2]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula2.pdf
 [aula3]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula3.pdf
