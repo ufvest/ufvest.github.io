@@ -40,12 +40,7 @@ title: Cronograma EST 105
     <th colspan="3" align="center">Resultado = Soma da Nota Obtida nas 3 provas</th>
 </tr>
 
-<tr>
-<td valign="center" align="center"> Exame Final<BR> e <BR> Substitutiva</td>  
-          <td valign="center" align="center">  Dia 09 de Julho- Terça.<BR>(Toda a Matéria)</td>
-<td valign="center" align="center">100 pontos</td>
-</tr>
-  
+
 </TABLE>
 </CENTER></DIV>
 
