@@ -25,8 +25,8 @@ description: Página com as aulas da disciplina.
 ---
 
 [EST105-gh]:https://github.com/ufvest/ufvest.github.io/tree/master/Aulas_EST105
-[aula1]:    https://raw.githack.com/EST105/EST105.github.io/master/Aulas_EST105/Aula1.pdf
-[aula2]:    https://raw.githack.com/EST105/EST105.github.io/master/Aulas_EST105/Aula2.pdf
-[aula3]:    https://raw.githack.com/EST105/EST105.github.io/master/Aulas_EST105/Aula3.pdf
+[aula1]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST105/Aula1.pdf
+[aula2]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST105/Aula2.pdf
+[aula3]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST105/Aula3.pdf
 
-[aulaR]:   https://raw.githack.com/EST105/EST105.github.io/master/Aulas_EST105/Curso_R/Aula1_Slidy.html
+[aulaR]:   https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST105/Curso_R/Aula1_Slidy.html

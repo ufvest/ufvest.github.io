@@ -37,22 +37,22 @@ description: Página com as aulas da disciplina.
 ---
 
 [EST106-gh]:https://github.com/ufvest/ufvest.github.io/tree/master/Aulas_EST106
-[aula1]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula1.pdf
-[aula2]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula2.pdf
-[aula3]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula3.pdf
-[aula4]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula4.pdf
-[aula5]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula5.pdf
-[aula6]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula6.pdf
-[aula7]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula7.pdf
-[aula8]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula8.pdf
-[aula9]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula9.pdf
-[aula10]:   https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula10.pdf
-[aula11]:   https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula11.pdf
-[aula12]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula12.pdf
-[aula13]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula13.pdf
-[aula14]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula14.pdf
-[aula15]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula15.pdf
-[aula16]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula16.pdf
-[aula17]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula17.pdf
-[aula18]:    https://raw.githack.com/EST106/EST106.github.io/master/Aulas_EST106/Aula18.pdf
+[aula1]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula1.pdf
+[aula2]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula2.pdf
+[aula3]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula3.pdf
+[aula4]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula4.pdf
+[aula5]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula5.pdf
+[aula6]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula6.pdf
+[aula7]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula7.pdf
+[aula8]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula8.pdf
+[aula9]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula9.pdf
+[aula10]:   https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula10.pdf
+[aula11]:   https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula11.pdf
+[aula12]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula12.pdf
+[aula13]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula13.pdf
+[aula14]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula14.pdf
+[aula15]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula15.pdf
+[aula16]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula16.pdf
+[aula17]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula17.pdf
+[aula18]:    https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST106/Aula18.pdf
 
