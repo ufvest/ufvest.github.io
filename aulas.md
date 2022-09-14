@@ -3,25 +3,7 @@ layout: default
 title:  "Aulas"
 date:   2018-08-07
 description: Página com as aulas da disciplina.
-table{
-  font-family:Arial;
-  border-collapse: separate;
-  border-spacing: 10px;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-thead th:nth-of-type(odd),tfoot th:nth-of-type(odd){
-  width:200px;
-  height:50px;
-  background-color:#e13737;
-  color:white;
-  text-align:center;
-  margin-top: 30px;
-  font-family: 'Arial Black', Gadget, sans-serif;
-  line-height: 50px;
-}
-td{width:100px;}
+
 ---
 
 <p class="intro">Período Especial Remoto 3.</p>
@@ -29,63 +11,25 @@ td{width:100px;}
 ---
 
 
-<table>
-  <colgroup>
-    <col><col><col><col><col>
-  </colgroup>
-  <thead>
+<table align="center">
+<tr>
+<td>
+<table border="1">
     <tr>
-      <th colspan="2">EST 105</th>
-      <th colspan="1"></th>
-      <th colspan="2">EST 106</th>
+    <td>Test 1</td>
     </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <th colspan="2">EST 105</th>
-      <th colspan="1"></th>
-      <th colspan="2">EST 106</th>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td><b>test1</b></td>
-      <td><!--test1-->test1</td>
-      
-      <td></td>
-      
-      <td><b>test1</b></td>
-      <td><!--test1-->test1</td>
-    </tr>
-    <tr>
-      <td><b>test2</b></td>
-      <td><!--test2-->test2</td>
-      
-      <td></td>
-      
-      <td><b>test2</b></td>
-      <td><!--test2-->+</td>
-    </tr>
-    <tr>
-      <td><b>test3</b></td>
-      <td><!--test3-->test3</td>
-      
-      <td></td>
-      
-      <td><b>test3</b></td>
-      <td><!--test3-->test3</td>
-    </tr>
-    <tr>
-      <td><b>test4</b></td>
-      <td><!--test4-->test test test test test test test test test test test test test test test test</td>
-      
-      <td></td>
-      
-      <td><b>test4</b></td>
-      <td><!--test4-->test test </td>
-    </tr>        
-  </tbody>
 </table>
+</td>
+<td>
+<table border="1">
+    <tr>
+    <td>test 2</td>
+    </tr>
+</table>
+</td>
+</tr>
+</table>
+
 
 
 
