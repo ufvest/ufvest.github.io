@@ -40,6 +40,23 @@ title: Cronograma EST 105
     <th colspan="3" align="center">Resultado = Soma da Nota Obtida nas 3 provas</th>
 </tr>
 
+<tr>
+<td valign="center" align="center"> Substitutiva 1</td>  
+          <td valign="center" align="center">  Dia 03 de Outubro- Segunda.<BR>(12:00 às 14:00)</td>
+<td valign="center" align="center">30 pontos</td>
+</tr>
+
+<tr>
+<td valign="center" align="center"> Substitutiva 2</td>  
+          <td valign="center" align="center">  Dia 11 de Novembro- Sexta.<BR>(12:00 às 14:00)</td>
+<td valign="center" align="center">30 pontos</td>
+</tr>
+
+<tr>
+<td valign="center" align="center"> Substitutiva 3</td>  
+          <td valign="center" align="center">  Dia 16 de Dezembro- Sexta.<BR>(12:00 às 14:00)</td>
+<td valign="center" align="center">40 pontos</td>
+</tr>
 
 </TABLE>
 </CENTER></DIV>
@@ -254,11 +271,9 @@ title: Cronograma EST 105
 <td valign="center" align="center">	28	<BR></td>
 <td valign="center" align="center">	2	<BR></td>
 </tr>		
-
-	
-
 </TABLE>
 </CENTER></DIV>
+
 
 <p class="intro">Segundo Semestre de 2022.</p>
 
