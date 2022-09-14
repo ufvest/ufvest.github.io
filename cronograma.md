@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cronograma da Disciplina
+title: Cronograma da Disciplina 2
 ---
 
 <h1 class="pageTitle">Iniciação à Estatística</h1>
