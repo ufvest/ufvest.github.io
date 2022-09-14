@@ -5,8 +5,7 @@ date:   202-09-14
 description: Página com as aulas da disciplina.
 
 ---
-
-<p class="intro">Estatística 1</p>
+<h1 class="pageTitle">Estatística 1</h1>
 <p class="intro">EST 106</p>
 
 

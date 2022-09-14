@@ -6,7 +6,7 @@ description: Página com as aulas da disciplina.
 
 ---
 
-<p class="intro">Iniciação à Estatística</p>
+<h1 class="pageTitle">Iniciação à Estatística</h1>
 <p class="intro">EST 105</p>
 
 
