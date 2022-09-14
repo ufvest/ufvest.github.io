@@ -3,8 +3,6 @@ layout: default
 title:  "Aulas"
 date:   2018-08-07
 description: Página com as aulas da disciplina.
----
-
 table{
   font-family:Arial;
   border-collapse: separate;
@@ -24,6 +22,7 @@ thead th:nth-of-type(odd),tfoot th:nth-of-type(odd){
   line-height: 50px;
 }
 td{width:100px;}
+---
 
 <p class="intro">Período Especial Remoto 3.</p>
 
@@ -36,16 +35,16 @@ td{width:100px;}
   </colgroup>
   <thead>
     <tr>
-      <th colspan="2">GENE_A</th>
+      <th colspan="2">EST 105</th>
       <th colspan="1"></th>
-      <th colspan="2">GENE_B</th>
+      <th colspan="2">EST 106</th>
     </tr>
   </thead>
   <tfoot>
     <tr>
-      <th colspan="2">GENE_C</th>
+      <th colspan="2">EST 105</th>
       <th colspan="1"></th>
-      <th colspan="2">GENE_D</th>
+      <th colspan="2">EST 106</th>
     </tr>
   </tfoot>
   <tbody>
