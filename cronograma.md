@@ -3,7 +3,7 @@ layout: default
 title: Cronograma da Disciplina 2
 ---
 
-<h1 class="pageTitle">Iniciação à Estatística</h1>
+<h1 class="pageTitle">Iniciação à Estatística 2</h1>
 <!--
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
