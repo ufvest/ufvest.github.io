@@ -285,5 +285,5 @@ title: Cronograma EST 105
 
 ---
 
-[UFV-gh]:https://www2.dti.ufv.br/noticias/files/anexos/1634730812.pdf
-[MAF105]:https://www3.dti.ufv.br/dti/catalogo/programa-analitico/26334
+[UFV-gh]:https://www.soc.ufv.br/wp-content/uploads/Resolução-Cepe-16-2021-ALTERADA-b.pdf
+[EST105]:https://www3.dti.ufv.br/dti/catalogo/programa-analitico/38471
