@@ -3,8 +3,8 @@ layout: default
 title: Cronograma EST 105
 ---
 
-<h1 class="pageTitle">Iniciação à Estatística 2</h1>
-<!--
+<h1 class="pageTitle">Iniciação à Estatística</h1>
+
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
 
@@ -20,24 +20,24 @@ title: Cronograma EST 105
 
 <tr>
 <td valign="center" align="center"> 1ª Prova<BR></td>  
-          <td valign="center" align="center">  Dia 25 de Abril - Quinta.<BR> (Ver Cronograma)</td>
-<td valign="center" align="center">100 pontos</td>
+          <td valign="center" align="center">  Dia 24 de Setembro - Sábado.<BR> (Ver Cronograma)</td>
+<td valign="center" align="center">30 pontos</td>
 </tr>
 
 <tr>
 <td valign="center" align="center"> 2ª Prova<BR></td>  
-          <td valign="center" align="center">  Dia 30 de Maio - Quinta.<BR> (Ver Cronograma)</td>
-<td valign="center" align="center">100 pontos</td>
+          <td valign="center" align="center">  Dia 05 de Novembro - Sábado.<BR> (Ver Cronograma)</td>
+<td valign="center" align="center">30 pontos</td>
 </tr>
 
 <tr>
 <td valign="center" align="center"> 3ª Prova<BR></td>  
-          <td valign="center" align="center">  Dia 04 de Julho - Quinta.<BR>(Ver Cronograma)</td>
-<td valign="center" align="center">100 pontos</td>
+          <td valign="center" align="center">  Dia 09 de Dezembro - Sexta.<BR>(Ver Cronograma)</td>
+<td valign="center" align="center">40 pontos</td>
 </tr>
 
 <tr>
-    <th colspan="3" align="center">Resultado = Média das 3 provas</th>
+    <th colspan="3" align="center">Resultado = Soma da Nota Obtida nas 3 provas</th>
 </tr>
 
 <tr>
@@ -48,7 +48,7 @@ title: Cronograma EST 105
   
 </TABLE>
 </CENTER></DIV>
--->
+
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
 
