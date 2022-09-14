@@ -6,7 +6,7 @@ title: Cronograma EST 105
 <h1 class="pageTitle">Iniciação à Estatística</h1>
 
 <DIV align="center"><CENTER>
-<TABLE border="1" cellpadding="5" cellspacing="0">
+<TABLE border="1" cellpadding="3" cellspacing="0">
 
 <tr>
     <th colspan="3" align="center">Avaliações</th>
@@ -60,6 +60,7 @@ title: Cronograma EST 105
 
 </TABLE>
 </CENTER></DIV>
+
 
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
