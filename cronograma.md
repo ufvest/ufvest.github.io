@@ -285,5 +285,5 @@ title: Cronograma EST 105
 
 ---
 
-[EST106]:https://raw.githack.com/ufvest/ufvest.github.io/master/cronograma106.md
-[EST105]:https://raw.githack.com/ufvest/ufvest.github.io/master/cronograma105.md
+[EST106]:https://ufvest.github.io/cronograma106/
+[EST105]:https://ufvest.github.io/cronograma105/
