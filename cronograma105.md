@@ -4,6 +4,7 @@ title: Cronograma EST 105
 ---
 
 <h1 class="pageTitle">Iniciação à Estatística</h1>
+<h2 class="pageTitle">EST 105</h2>
 
 <DIV align="center"><CENTER>
 <TABLE border="1" cellpadding="5" cellspacing="0">
