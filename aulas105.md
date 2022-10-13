@@ -15,7 +15,17 @@ description: Página com as aulas da disciplina.
 * [Aula 1][aula1] 
 * [Aula 2][aula2]
 * [Aula 3][aula3]
-
+* [Aula 4][aula4] 
+* [Aula 5][aula5]
+* [Aula 6][aula6]
+* [Aula 7][aula7] 
+* [Aula 8][aula8]
+* [Aula 9][aula9]
+* [Aula 10][aula10] 
+* [Aula 11][aula11]
+* [Aula 12][aula12]
+* [Aula 13][aula13] 
+* [Aula 14][aula14]
 
 
 ---
