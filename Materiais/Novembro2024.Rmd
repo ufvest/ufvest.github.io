@@ -2,7 +2,7 @@
 title: "Exercício"
 author: "Fernando Bastos"
 date: "2024-11-20"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
