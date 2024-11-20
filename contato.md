@@ -7,7 +7,11 @@ title: Página de Contatos
 
 ---
 
+Mande e-mails, via formulário PVANet Moodle!
+
+<!--
 Há um canal no WhatsApp, local para apresentação de assuntos relacionados a disciplina, para a divulgação de projetos, para divulgação de links relacionados a disciplina e para informações sobre a atualização deste site. É extremamente importante que todos os alunos participem! O endereço está no PVAnet Moodle
+
 
 ---
 
@@ -24,4 +28,4 @@ Mande e-mails, via formulário abaixo, direto para o e-mail da disciplina. Não 
     <textarea name="message" id="Messagem" cols="30" rows="10" class="full-width"></textarea><br>
     <input type="submit" value="Enviar" class="button">
 </form>
-
+-->

@@ -1,0 +1,45 @@
+---
+output:
+  html_document:
+    df_print: paged
+classoption: landscape
+geometry: left=1cm,right=1cm,top=1cm,bottom=1cm
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r pressure, echo=FALSE, warning=FALSE}
+library(data.table)
+library(kableExtra)
+library(knitr)
+library(DT)
+library(xtable)
+library(tableHTML)
+df <- fread("CompanhiaMB.csv")
+xt <- xtable(df[1:36,])
+tableHTML(xt, widths = c(rep(200, 8)), rownames = FALSE)%>%
+  #add some css odd rows to keep zebra colouring. You can choose any colour you like
+  add_css_row(list('background-color', 'lightgray'), rows = even(1:nrow(xt))) %>%
+add_css_table(css = list('text-align', 'center'))
+
+#htmlTable::htmlTable(xt, rnames = FALSE, 
+#                     col.rgroup = c("none", "#F7F7F7"), align = "ccccccccc",
+#                    align.header = "ccccccccc", width = "100%")
+#(xtable(df, align = c("l", rep("p{1.5in}", 8))))
+#print.xtable(xt,type="html",align=c(
+#               "p{0.1 ,\\textwidth}|",
+#               "p{0.1 ,\\textwidth}|",
+#               "R{0.15, \\textwidth}|",
+#               "R{0.2 , \\textwidth}|",
+#               "R{0.1 , \\textwidth}|",
+#               "R{0.05, \\textwidth}|",
+#               "p{0.05, \\textwidth}|",
+#               "R{0.1 , \\textwidth}|",
+#               "p{0.15 \\textwidth}|"))
+
+#landscape(knitr::kable(head(df, n = 36)))
+
+```
+
