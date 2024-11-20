@@ -57,7 +57,7 @@ title: Cronograma EST 105
     <th colspan="5" align="center">Cronograma do Primeiro Semestre de 2022</th>
 =======
 <h1 class="pageTitle">Segundo Semestre de 2022</h1>
->>>>>>> 241a553004daa303ffb8a10df5c17e8b53e5a6ea
+
 
 
 <p class="intro">Cronogramas.</p>
