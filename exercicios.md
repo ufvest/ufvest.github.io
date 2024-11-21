@@ -76,4 +76,4 @@ Formato .txt
 [solBussab]: https://www.ime.usp.br/~pam/scriptsR.html
 [Probabilidade]: https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista3/Lista3.pdf
 [Lista7]: https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista4/Teste_Hipotese.pdf
-[solucao]: 
+[solucao]: https://raw.githack.com/ufvest/ufvest.github.io/refs/heads/master/blog_posts/20-11-2024/Exercicio2024.html
