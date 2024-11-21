@@ -73,7 +73,7 @@ Formato .txt
 [cap2]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap2.xlsx
 [cap3]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap3.xlsx
 [cap4]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap4.xlsx
-[solBussab]: https://www.ime.usp.br/~pam/scriptsR.html
-[Probabilidade]: https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista3/Lista3.pdf
-[Lista7]: https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista4/Teste_Hipotese.pdf
-[solucao]: https://raw.githack.com/ufvest/ufvest.github.io/refs/heads/master/blog_posts/20-11-2024/Exercicio2024.html
+[solBussab]:https://www.ime.usp.br/~pam/scriptsR.html
+[Probabilidade]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista3/Lista3.pdf
+[Lista7]:https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista4/Teste_Hipotese.pdf
+[Solucao]:https://raw.githack.com/ufvest/ufvest.github.io/refs/heads/master/blog_posts/20-11-2024/Exercicio2024.html
