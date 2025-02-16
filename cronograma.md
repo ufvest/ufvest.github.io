@@ -3,7 +3,7 @@ layout: default
 title: Cronograma EST 105
 ---
 
-<h1 class="pageTitle">Segundo Semestre de 2022</h1>
+<h1 class="pageTitle">Primeiro Semestre de 2022</h1>
 
 
 <p class="intro">Cronogramas.</p>
