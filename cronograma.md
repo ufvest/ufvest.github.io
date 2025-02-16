@@ -4,7 +4,7 @@ title: Cronograma EST 105
 ---
 
 
-<h1 class="pageTitle">Primeiro Semestre de 2022</h1>
+<h1 class="pageTitle">Primeiro Semestre de 2025</h1>
 
 
 <h1 class="pageTitle">Iniciação à Estatística</h1>
