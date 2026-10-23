@@ -1288,7 +1288,7 @@ Inspecione o objeto que recebeu os dados importados para garantir que não houve
 <div id="section-55" class="slide section level1">
 <h1></h1>
 <h3 id="distribuicoes-de-frequencia">Distribuições de Frequência</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">url &lt;-<span class="st"> </span><span class="kw">url</span>(<span class="st">&quot;https://raw.githack.com/maf105/maf105.github.io/master/Aulas_MAF105/Curso_R/Dados/CompanhiaMB_clear3.csv&quot;</span>)
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">url &lt;-<span class="st"> </span><span class="kw">url</span>(<span class="st">&quot;https://ufvest.github.io/Aulas_EST105/Curso_R/Dados/CompanhiaMB_clear3.csv&quot;</span>)
 tab2_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">read.table</span>(url,<span class="dt">dec =</span> <span class="st">&quot;,&quot;</span>,<span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>,<span class="dt">header =</span> <span class="ot">TRUE</span>)
 ni&lt;-<span class="kw">table</span>(tab2_<span class="dv">1</span><span class="op">$</span>Grau) <span class="co"># Calcula a tabela de frequências absolutas e armazena o resultado em 'mytab'</span>
 fi&lt;-<span class="kw">prop.table</span>(ni) <span class="co"># Tabela de frequências relativas (f_i)</span>
