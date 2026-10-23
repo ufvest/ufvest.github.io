@@ -60,20 +60,20 @@ Formato .txt
 
 ---
 
-[Introducao]:https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista1/Lista1.pdf   
-[descritiva1]:https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST105/Curso_R/Dados/CompanhiaMB_clear.xlsx
-[descritiva2]:https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST105/Curso_R/Dados/CompanhiaMB_clear2.xls
-[descritiva3]:https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST105/Curso_R/Dados/CompanhiaMB_clear3.csv
-[descritiva4]:https://raw.githack.com/ufvest/ufvest.github.io/master/Aulas_EST105/Curso_R/Dados/CompanhiaMB_clear.txt
+[Introducao]:/Exercicios/Lista1/Lista1.pdf   
+[descritiva1]:/Aulas_EST105/Curso_R/Dados/CompanhiaMB_clear.xlsx
+[descritiva2]:/Aulas_EST105/Curso_R/Dados/CompanhiaMB_clear2.xls
+[descritiva3]:/Aulas_EST105/Curso_R/Dados/CompanhiaMB_clear3.csv
+[descritiva4]:/Aulas_EST105/Curso_R/Dados/CompanhiaMB_clear.txt
 
 
 
-[medidas]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Exercicios_Bussab_Morettin.pdf
+[medidas]:/Exercicios/Lista2/Exercicios_Bussab_Morettin.pdf
 
-[cap2]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap2.xlsx
-[cap3]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap3.xlsx
-[cap4]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista2/Cap4.xlsx
+[cap2]:/Exercicios/Lista2/Cap2.xlsx
+[cap3]:/Exercicios/Lista2/Cap3.xlsx
+[cap4]:/Exercicios/Lista2/Cap4.xlsx
 [solBussab]:https://www.ime.usp.br/~pam/scriptsR.html
-[Probabilidade]:https://rawgit.com/maf105/maf105.github.io/master/Exercicios/Lista3/Lista3.pdf
-[Lista7]:https://raw.githack.com/maf105/maf105.github.io/master/Exercicios/Lista4/Teste_Hipotese.pdf
-[Solucao]:https://raw.githack.com/ufvest/ufvest.github.io/refs/heads/master/blog_posts/20-11-2024/Exercicio2024.html
+[Probabilidade]:/Exercicios/Lista3/Lista3.pdf
+[Lista7]:/Exercicios/Lista4/Teste_Hipotese.pdf
+[Solucao]:/blog_posts/20-11-2024/Exercicio2024.html
